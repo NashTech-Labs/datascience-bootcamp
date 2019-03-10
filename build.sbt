@@ -1,4 +1,4 @@
-name := "Examples"
+name := "Training"
 
 version := "0.1"
 
