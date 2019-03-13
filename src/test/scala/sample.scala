@@ -21,11 +21,6 @@ class ExampleSuite extends TestCase {
     assertEquals("1","1")
   }
 
-  @Test
-  def testtwo :Unit = {
-    assertEquals(Sample.human401(1),"1I am a monkey")
-  }
-
   override def tearDown(): Unit = {
     println("End")
     super.tearDown()
