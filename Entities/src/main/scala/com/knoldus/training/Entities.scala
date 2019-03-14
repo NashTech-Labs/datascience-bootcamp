@@ -44,7 +44,8 @@ object Entities {
 
     val homeDir=sys.env("HOME")
     val projectDir=homeDir + "/dev/project/TrainingSprints/TrainingSprint3/Entities"
-    val path=projectDir + "/data"
+    //val path=projectDir + "/data"
+    val path=projectDir+"/SmallerData"
 
     val rdd=sc.wholeTextFiles(path)
     println(rdd.count)
@@ -57,7 +58,7 @@ object Entities {
     createTables(session)
     addEntitiesToDatabase(entities, session)
 
-    session.close()
+    session.closeAsync()
   }
 
   /*
@@ -146,7 +147,7 @@ PRIMARY KEY (subject_uri, predicate_uri, object_value)
   @tailrec
   def tokensToEntities(result: Array[(String, String)], tokens: List[CoreLabel], n: Int): Array[(String, String)] = {
     if (n==tokens.size()) { result }
-    else { tokensToEntities( result:+(tokens.get(n).toString, tokens.get(n).get(classOf[CoreAnnotations.NamedEntityTagAnnotation])), tokens, n+1 ) }
+    else { tokensToEntities( result:+(tokens.get(n).toString.replaceFirst("-\\d+$", ""), tokens.get(n).get(classOf[CoreAnnotations.NamedEntityTagAnnotation])), tokens, n+1 ) }
   }
 
   def getEntities(text: String): Array[(String, String)] = {
