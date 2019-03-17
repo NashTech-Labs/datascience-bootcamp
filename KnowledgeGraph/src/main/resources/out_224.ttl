@@ -1,0 +1,24 @@
+
+<http://www.knoldus.com/Clinton> a <http://www.knoldus.com/President>;
+  <http://xmlns.com/foaf/0.1/based_near> <http://www.knoldus.com/China> .
+
+<http://www.knoldus.com/Floyd_Abrams> a <http://www.knoldus.com/lawyer> .
+
+<http://www.knoldus.com/Giuliani> a <http://www.knoldus.com/Mayor> .
+
+<http://www.knoldus.com/James_Fallows> a <http://www.knoldus.com/editor-in-chief> .
+
+<http://www.knoldus.com/Mort_Zuckerman> a <http://www.knoldus.com/owner> .
+
+<http://www.knoldus.com/Neil_Eggleston> a <http://www.knoldus.com/lawyer> .
+
+<http://www.knoldus.com/Netanyahu> a <http://www.knoldus.com/Prime_Minister> .
+
+<http://www.knoldus.com/Peter_Arnett> a <http://www.knoldus.com/correspondent> .
+
+<http://www.knoldus.com/Robert_Scheer> a <http://www.knoldus.com/columnist> .
+
+<http://www.knoldus.com/Today> <http://xmlns.com/foaf/0.1/based_near> <http://www.knoldus.com/Jerusalem>,
+    <http://www.knoldus.com/USA> .
+
+<http://www.knoldus.com/Trent_Lott> a <http://www.knoldus.com/Leader> .

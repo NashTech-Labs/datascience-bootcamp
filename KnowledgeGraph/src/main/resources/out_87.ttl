@@ -1,0 +1,35 @@
+
+<http://www.knoldus.com/Afonso_Henriques> a <http://www.knoldus.com/Count> .
+
+<http://www.knoldus.com/Carlos> a <http://www.knoldus.com/King> .
+
+<http://www.knoldus.com/Carol_Abrams> a <http://www.knoldus.com/spokeswoman> .
+
+<http://www.knoldus.com/Dan_Quayle> a <http://www.knoldus.com/Vice_President> .
+
+<http://www.knoldus.com/Henry> a <http://www.knoldus.com/Prince> .
+
+<http://www.knoldus.com/Inner_City_Law_Center> <http://xmlns.com/foaf/0.1/based_near>
+    <http://www.knoldus.com/Los_Angeles> .
+
+<http://www.knoldus.com/Julius_Thompson> <http://xmlns.com/foaf/0.1/age> <http://www.knoldus.com/45> .
+
+<http://www.knoldus.com/Lisa_Levsen> <http://xmlns.com/foaf/0.1/age> <http://www.knoldus.com/33> .
+
+<http://www.knoldus.com/Lorraine_A._Bennick> a <http://www.knoldus.com/writer> .
+
+<http://www.knoldus.com/Luis_Filipe> a <http://www.knoldus.com/Prince> .
+
+<http://www.knoldus.com/Mazzariello> <http://xmlns.com/foaf/0.1/age> <http://www.knoldus.com/42> .
+
+<http://www.knoldus.com/Michael_Mazzariello> a <http://www.knoldus.com/prosecutor> .
+
+<http://www.knoldus.com/Neal_Dubovitz> a <http://www.knoldus.com/executive_director> .
+
+<http://www.knoldus.com/Neal_Dudovitz> a <http://www.knoldus.com/director>, <http://www.knoldus.com/executive_director> .
+
+<http://www.knoldus.com/Oscar_Carmona> a <http://www.knoldus.com/General> .
+
+<http://www.knoldus.com/Phil_Gramm> a <http://www.knoldus.com/Senator> .
+
+<http://www.knoldus.com/Rebecca_Yee> a <http://www.knoldus.com/attorney> .
