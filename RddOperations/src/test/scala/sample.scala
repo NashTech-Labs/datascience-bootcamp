@@ -188,10 +188,10 @@ class ExampleSuite extends TestCase {
 
   @Test 
   def testFilterExample(): Unit = {
-    val l=List( (1, "JFK"), (2, "CGEM") )
+    val l=List( (1, "JFK"), (2, "JFKUSA") )
     val rdd=sc.parallelize(l)
     val filtered=Transformations.filterExample(rdd).collect.toList
-    val expected=List((2, "CGEM"))
+    val expected=List((2, "JFKUSA"))
     assertEquals(filtered, expected)
   }
 
@@ -479,7 +479,7 @@ class ExampleSuite extends TestCase {
   def testRepartitionAndSortWithinPartitions(): Unit = {
     val l=List((7, 2), (1, 1), (3, 4), (9, 5), (2, 5), (4, 3), (5, 8))
     val rdd=sc.parallelize(l)
-    val sorted=Transformations.repartitionAndSortWithingPartitionsExample(rdd).collect.toList
+    val sorted=Transformations.repartitionAndSortWithinPartitionsExample(rdd).collect.toList
     val expected=List((1, 1), (2, 5), (3, 4), (4, 3), (5, 8), (7,2), (9,5))
     assertEquals(sorted, expected)
   }

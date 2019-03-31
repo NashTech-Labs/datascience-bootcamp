@@ -233,7 +233,7 @@ object Info {
 
   def strToDouble(word: String): Double = {
     if (word.trim=="") { 0.0 }
-    else { println("word= "+word); word.trim.toDouble }
+    else { word.trim.toDouble }
   }
 
 }

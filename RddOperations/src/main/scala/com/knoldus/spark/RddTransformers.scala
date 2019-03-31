@@ -32,7 +32,7 @@ object Transformations {
     rdd.map( x => (x(0).toInt, x(5)) )
   }
 
-  def getGdelRdd(rdd: RDD[String]): RDD[GDELT] = {
+  def getGdeltRdd(rdd: RDD[String]): RDD[GDELT] = {
     val rddSplit=splitDelimeter(rdd)
     rddSplit.map( x => Info.stringArrayToGdelt(x) )
   }
@@ -51,7 +51,7 @@ object Transformations {
 
 
   def cartesianExample(rdd: RDD[(Int, String)], sc: SparkContext): RDD[((Int, String), (Int, String))] = {
-    val rdd2=sc.parallelize(rdd.take(10))//.sortBy( x => x._1 )
+    val rdd2=sc.parallelize(rdd.take(10))
     val car=rdd2.cartesian(rdd2)
     car
   }
@@ -104,7 +104,7 @@ object Transformations {
   }
 
   def filterExample(rdd: RDD[(Int, String)]): RDD[(Int, String)] = {
-    rdd.filter( x => x._2.length==4 )
+    rdd.filter( x => x._2.length==6 )
   }
 
   def filterByRangeExample(rdd: RDD[(Int, String)]): RDD[(Int, String)] = {
@@ -213,6 +213,13 @@ object Transformations {
     rdd.partitionBy(rangePartitioner)
   }
 
+  def partition2ByExample(rdd1: RDD[(Int, GDELT)], rdd2: RDD[(Int, GDELT)]): (RDD[(Int, GDELT)], RDD[(Int, GDELT)]) = {
+    val rangePartitioner=new RangePartitioner(100, rdd1)
+    val partitioned1=rdd1.partitionBy(rangePartitioner)
+    val partitioned2=rdd2.partitionBy(rangePartitioner)
+    (partitioned1, partitioned2)
+  }
+
   def partitionsExample(rdd: RDD[GDELT]): Array[Partition] = {
     rdd.partitions
   }
@@ -237,9 +244,16 @@ object Transformations {
     rdd.repartition(3)
   }
 
-  def repartitionAndSortWithingPartitionsExample(rdd: RDD[(Int, Int)]): RDD[(Int, Int)] = {
+  def repartitionAndSortWithinPartitionsExample(rdd: RDD[(Int, Int)]): RDD[(Int, Int)] = {
     val partitioner=new RangePartitioner(2, rdd)
     rdd.repartitionAndSortWithinPartitions(partitioner)
+  }
+
+  def repartition2AndSortWithinPartitionsExample(rdd1: RDD[(Int, GDELT)], rdd2: RDD[(Int, GDELT)]): (RDD[(Int, GDELT)], RDD[(Int, GDELT)]) = {
+    val partitioner=new RangePartitioner(100, rdd1)
+    val partitioned1=rdd1.repartitionAndSortWithinPartitions(partitioner)
+    val partitioned2=rdd2.repartitionAndSortWithinPartitions(partitioner)
+    (partitioned1, partitioned2)
   }
 
   def rightOuterJoinExample(rdd1: RDD[(Int, GDELT)], rdd2: RDD[(Int, GDELT)]): RDD[(Int, (Option[GDELT], GDELT))] = {
@@ -291,6 +305,10 @@ object Transformations {
     rdd.map( x => x.numArticles ).sum
   }
 
+  def switchKeyValue(rdd: RDD[(GDELT, Long)]): RDD[(Int, GDELT)] = {
+    rdd.map( x => (x._2.toInt, x._1) )
+  }
+
   def takeExample(rdd: RDD[GDELT], n: Int): Array[GDELT] = {
     rdd.take(n)
   }
@@ -329,6 +347,11 @@ object Transformations {
 
   def zipExample(rdd1: RDD[Int], rdd2: RDD[GDELT]): RDD[(Int, GDELT)] = {
     rdd1.zip(rdd2)
+  }
+
+  def zipAndSwitchKeyValue(rdd: RDD[GDELT]): RDD[(Int, GDELT)] = {
+    val zipped=zipWithIndexExample(rdd)
+    switchKeyValue(zipped)
   }
 
   def iterTest(aiter: Iterator[GDELT], biter: Iterator[GDELT]): Iterator[String] = {
