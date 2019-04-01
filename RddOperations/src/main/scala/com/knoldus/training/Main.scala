@@ -98,9 +98,9 @@ object Main {
     val collectedMap=Transformations.collectAsMapExample(yearActor)
     println("collectedMap= " + collectedMap)
 
-    println
-    val combined=Transformations.combineByKeyExample(yearActor).collect.toList
-    println("combined= " + combined)
+    //println
+    //val combined=Transformations.combineByKeyExample(yearActor).collect.toList
+    //println("combined= " + combined)
     
     println
     println("context= " + rdd.context)
@@ -116,9 +116,9 @@ object Main {
     val countedByKey=Transformations.countByKeyExample(yearActor)
     println("countedByKey= " + countedByKey)
 
-    println
-    val countedByValue=Transformations.countByValueExample(yearActor)
-    println("countedByValue= " + countedByValue)
+    //println
+    //val countedByValue=Transformations.countByValueExample(yearActor)
+    //println("countedByValue= " + countedByValue)
 
     println
     val dependencies=Transformations.dependenciesExample(yearActor)
