@@ -1,0 +1,22 @@
+@(postUrl: Call, form: Form[MenuForm.MenuData])(implicit request: MessagesRequestHeader)
+
+@main("menu") {
+
+<h1>Menu</h1>
+
+    Welcome @{request.getQueryString("name")}
+
+    @helper.form(postUrl) {
+
+        @helper.inputText(form("Cheese Burger $2"))
+
+        @helper.inputText(form("Double Double $4"))
+
+        @helper.inputText(form("Fries $1"))
+
+        @helper.inputText(form("Milk Shake $3"))
+
+        <button>Order</button>
+    }
+
+}

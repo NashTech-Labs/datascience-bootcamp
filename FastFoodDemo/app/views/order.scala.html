@@ -1,0 +1,23 @@
+@(orderForm: MenuForm.MenuData)(implicit request: MessagesRequestHeader)
+
+@main("Order") {
+
+        <h1>You ordered</h1>
+
+
+        @{orderForm.cheeseBurger} Cheese Burgers<br>
+        @{orderForm.doubleDouble} Double Doubles<br>
+        @{orderForm.fries} Fries<br>
+        @{orderForm.milkShake} Milk Shakes<br>
+
+        <br>
+
+        Total $@{orderForm.cheeseBurger*2 + orderForm.doubleDouble*4 + orderForm.fries + orderForm.milkShake*3}
+
+        <br><br>
+
+        You will get your order in approximately never
+
+
+}
+

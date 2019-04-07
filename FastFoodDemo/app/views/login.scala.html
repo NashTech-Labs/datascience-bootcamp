@@ -1,0 +1,21 @@
+
+
+
+@(postUrl: Call, form: Form[LoginForm.Data])(implicit request: MessagesRequestHeader)
+
+@main("login") {
+
+<h1>Login</h1>
+
+
+@helper.form(postUrl) {
+
+    @helper.CSRF.formField
+
+    @helper.inputText(form("name"))
+
+    @helper.inputText(form("password"))
+
+    <button>Login</button>
+    }
+}
