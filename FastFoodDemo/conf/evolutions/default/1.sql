@@ -22,6 +22,14 @@ create table food_orders (
   constraint pk_food_orders primary key(id)
 );
 
+
+create table food_items (
+  id                        bigint not null auto_increment,
+  food_item                 varchar(255) not null,
+  price                     bigint not null,
+  constraint pk_food_items primary key(id)
+);
+
 # --- !Downs
 
 drop table users;

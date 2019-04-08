@@ -1,0 +1,22 @@
+@(listOrders: List[Order])(implicit request: MessagesRequestHeader)
+
+@main("List") {
+
+<h1>You ordered</h1>
+
+    <table>
+        <tr>
+            <td>Item</td>
+            <td>Quantity</td>
+            <td>Price</td>
+        </tr>
+    @for(order <- listOrders) {
+        <tr>
+            <td>@order.item</td>
+            <td>@order.quantity</td>
+            <td>$@order.price</td>
+        </tr>
+    }
+    </table>
+
+}

@@ -47,15 +47,21 @@ class OrderRepository @Inject()(dbapi:DBApi)(implicit ec: DatabaseExecutionConte
     }
   }
 
-  def insert(order: MenuData, orderId: Int): Future[Option[Long]] = Future {
+  def insert(order: MenuData, orderId: Int, userId: Option[String]): Future[Option[Long]] = Future {
+    val name= userId match { case Some(userIdStr) => userIdStr; case _ => " "}
     db.withConnection { implicit connection =>
-      SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, 'jouko', 'cheese_burger', '2', ${order.cheeseBurger}) ".executeInsert()
-      SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, 'jouko', 'double_double', '4', ${order.doubleDouble}) ".executeInsert()
-      SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, 'jouko', 'fries', '1', ${order.fries}) ".executeInsert()
-      SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, 'jouko', 'milk_shake', '3', ${order.milkShake}) ".executeInsert()
+      SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, $name, 'cheese_burger', '2', ${order.cheeseBurger}) ".executeInsert()
+      SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, $name, 'double_double', '4', ${order.doubleDouble}) ".executeInsert()
+      SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, $name, 'fries', '1', ${order.fries}) ".executeInsert()
+      SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, $name, 'milk_shake', '3', ${order.milkShake}) ".executeInsert()
     }
   }(ec)
 
-
+  def getOrders(userId: Option[String]): Future[List[Order]] = Future {
+    val name= userId match { case Some(userIdStr) => userIdStr; case _ => " "}
+    db.withConnection { implicit connection =>
+      SQL"select * from food_orders where user_id=$name".as(simple.*)
+    }
+  }(ec)
 
 }
