@@ -33,21 +33,7 @@ class ListController @Inject()(userService: UserRepository, orderService: OrderR
 
   }
 
-  /*
-  def list = Action.async { implicit request =>
-    val name=request.session.get("USERNAME")
-    val pass=request.session.get("PASS")
-    val check = (name, pass) match {
-      case (Some(nameStr), Some(passStr))  => userService.checkUser2(nameStr, passStr)
-      case _ => 0
-    }
 
-    name match {
-      case Some(nameStr) =>  orderService.getOrders(nameStr).map{ listOrders => Ok(views.html.list(listOrders))}
-      case _ => Ok(views.html.index())
-    }
-  }
-  */
 }
 
 

@@ -11,19 +11,6 @@ import play.api.db.DBApi
 
 import scala.concurrent.Future
 
-
-//#Bad schema but easier to implement for now
-//create table orders (
-//id                      bigint not null,
-//user_id                 varchar(255) not null,
-//cheese_burger           bigint not null,
-//double_double           bigint not null,
-//fries                   bigint not null,
-//milk_shake              bigint not null,
-//constraint pk_orders primary key(id)
-//);
-
-//case class Order(id: Long, user_id: String, cheese_burger: Long, double_double: Long, fries: Long, milk_shake: Long)
 case class Order(id: Long, food_order_id: Long, user_id: String, item: String, price: Long, quantity: Long)
 
 object Order {

@@ -3,14 +3,15 @@ package controllers
 import java.security.MessageDigest
 
 import javax.inject.Inject
-import models.UserRepository
+import models.{FoodRepository, OrderRepository, UserRepository}
 import play.api.data._
 import play.api.i18n._
 import play.api.mvc._
 
 import scala.concurrent.ExecutionContext
+import scala.concurrent.Future
 
-class AuthController @Inject()(userService: UserRepository, cc: MessagesControllerComponents)(implicit ec: ExecutionContext) extends MessagesAbstractController(cc) {
+class AuthController @Inject()(securityService: Security, userService: UserRepository, foodService: FoodRepository, cc: MessagesControllerComponents)(implicit ec: ExecutionContext) extends MessagesAbstractController(cc) {
   import LoginForm._
   import MenuForm._
 
@@ -20,25 +21,26 @@ class AuthController @Inject()(userService: UserRepository, cc: MessagesControll
     Ok(views.html.index())
   }
 
+  def getSha(str: String): String= {
+    MessageDigest.getInstance("SHA-256")
+      .digest(str.getBytes("UTF-8")).map("%02x".format(_)).mkString
+  }
+
+
+
   def auth() = Action.async { implicit request =>
     val failFunc=null
 
     val successFunc= { form: Data=>
       {
-        val shaStr=MessageDigest.getInstance("SHA-256").digest(form.password
-          .getBytes("UTF-8")).map("%02x".format(_)).mkString
-        userService.checkUser(form.name, shaStr).map { check =>
-          println(shaStr)
-          if (check==Some(1)) {
-            Ok(views.html.menu(postUrl, menuForm)).withSession("USERNAME" -> form.name, "PASS" -> shaStr)
-          }
-          else { Ok(views.html.index()) }
-        }
+        val shaStr=getSha(form.password)
+        //val foodForm=foodService.getFoodForm()
+        val result=Ok(views.html.menu(postUrl, menuForm)).withSession("USERNAME" -> form.name, "PASS" -> shaStr)
+        securityService.security(form.name, shaStr, result)
       }
     }
 
     loginForm.bindFromRequest.fold(failFunc, successFunc)
-
   }
 
 

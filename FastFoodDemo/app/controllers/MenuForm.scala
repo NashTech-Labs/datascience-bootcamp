@@ -16,4 +16,14 @@ object MenuForm {
       "Milk Shake $3" -> number(min = 0)
     )(MenuData.apply)(MenuData.unapply)
   )
+  /*
+  val foodItemsList=List("Cheese Burger", "Double Double")
+  val foodItems=tuple("Cheese Buger" -> number, "Double Double" -> number, "Fries" -> number)
+  val foodItems=tuple(foodItemsList.map( x => x) )
+
+  val menuFormTupe = Form(
+    //foodItems.map{ foodItem => foodItem -> number(min = 0) }
+    foodItems
+  )
+  */
 }
