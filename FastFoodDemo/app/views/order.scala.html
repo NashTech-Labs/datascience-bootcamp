@@ -1,4 +1,4 @@
-@(orderForm: MenuForm.MenuData)(implicit request: MessagesRequestHeader)
+@(orderForm: MenuForm.MenuData)(implicit messages: Messages)
 
 @main("Order") {
 
@@ -24,7 +24,7 @@
 
         <br><br>
 
-        <a href="@routes.ListController.list">See all of your orders</a>
+        <a href="@routes.ListController.list()">See all of your orders</a>
 
 
 

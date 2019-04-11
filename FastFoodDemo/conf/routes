@@ -16,6 +16,6 @@ POST    /auth                       controllers.AuthController.auth
 
 GET     /menu                       controllers.MenuController.menu
 
-GET    /order                       controllers.OrderController.order
+GET     /order                      controllers.OrderController.order
 
-GET     /list                       controllers.ListController.list
+GET     /list                       controllers.ListController.list(foodItem: String ?= "", minQuantity: Int ?= 0)

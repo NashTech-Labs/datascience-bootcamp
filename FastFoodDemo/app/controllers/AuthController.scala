@@ -34,9 +34,8 @@ class AuthController @Inject()(securityService: Security, userService: UserRepos
     val successFunc= { form: Data=>
       {
         val shaStr=getSha(form.password)
-        //val foodForm=foodService.getFoodForm()
         val result=Ok(views.html.menu(postUrl, menuForm)).withSession("USERNAME" -> form.name, "PASS" -> shaStr)
-        securityService.security(form.name, shaStr, result)
+        securityService.security(Some(form.name), Some(shaStr), result)
       }
     }
 

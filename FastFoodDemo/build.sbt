@@ -18,6 +18,8 @@ libraryDependencies += "com.h2database" % "h2" % "1.4.197"
 
 libraryDependencies += "org.playframework.anorm"  %% "anorm" % "2.6.2"
 
+libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.21"
+
 scalacOptions ++= Seq(
     "-feature",
     "-deprecation",

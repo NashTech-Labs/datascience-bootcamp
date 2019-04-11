@@ -3,11 +3,13 @@ package models
 
 import java.util.Date
 
+import akka.stream.actor.ActorPublisherMessage.Request
 import javax.inject.Inject
 import anorm.SqlParser.{get, scalar}
 import anorm._
 import controllers.LoginForm.Data
 import play.api.db.DBApi
+import play.api.mvc.RequestHeader
 
 import scala.concurrent.Future
 
@@ -32,7 +34,7 @@ class UserRepository @Inject()(dbapi:DBApi)(implicit ec: DatabaseExecutionContex
   }
 
   private val simpleInt = {
-    get[Long]("auth_count") map { case x => x }
+    get[Int]("auth_count") map { case x => x }
   }
 
   def findByName(name: String): Future[Option[User]] = Future {
@@ -41,15 +43,25 @@ class UserRepository @Inject()(dbapi:DBApi)(implicit ec: DatabaseExecutionContex
     }
   }(ec)
 
-  def checkUser(name: String, pass: String): Future[Option[Long]] = Future {
+  def checkUser(name: String, pass: String): Future[Option[Int]] = Future {
     db.withConnection { implicit connection =>
       SQL"select count(*) as auth_count from users where name = $name and pass = $pass".as(simpleInt.singleOpt)
     }
   }(ec)
 
-  def checkUser2(name: String, pass: String): Option[Long] = {
+  def checkUser2(name: String, pass: String): Option[Int] = {
     db.withConnection { implicit connection =>
       SQL"select count(*) as auth_count from users where name = $name and pass = $pass".as(simpleInt.singleOpt)
     }
+  }
+
+  def checkUser(request: RequestHeader): Option[Int] = {
+    val name=request.session.get("USERNAME")
+    val pass=request.session.get("PASS")
+    val check = (name, pass) match {
+      case (Some(nameStr), Some(passStr))  => checkUser2(nameStr, passStr)
+      case _ => Some(0)
+    }
+    check
   }
 }

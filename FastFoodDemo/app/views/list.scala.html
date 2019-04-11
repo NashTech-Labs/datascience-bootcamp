@@ -1,8 +1,22 @@
-@(listOrders: List[Order])(implicit request: MessagesRequestHeader)
+@import helper._
+
+@(listOrders: List[Order], filterForm: Form[FilterForm.FilterData])(implicit request: MessagesRequestHeader)
 
 @main("List") {
 
-<h1>You ordered</h1>
+    Filter results
+    @helper.form(routes.ListController.list()) {
+
+        @helper.CSRF.formField
+
+        @helper.select(filterForm("foodItem"), options(List("", "Cheese Burger", "Double Double", "Fries", "Milk Shake")))
+
+        @helper.inputText(filterForm("minQuantity"))
+
+        <button>Submit</button>
+    }
+
+    <h1>You ordered</h1>
 
     <table>
         <tr>
@@ -11,11 +25,13 @@
             <td>Price</td>
         </tr>
     @for(order <- listOrders) {
-        <tr>
-            <td>@order.item</td>
-            <td>@order.quantity</td>
-            <td>$@order.price</td>
-        </tr>
+        @if(order.quantity>0) {
+                <tr>
+                    <td>@order.item</td>
+                    <td>@order.quantity</td>
+                    <td>$@order.price</td>
+                </tr>
+        }
     }
     </table>
 

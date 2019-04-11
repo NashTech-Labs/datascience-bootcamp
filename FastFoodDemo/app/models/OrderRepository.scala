@@ -37,10 +37,10 @@ class OrderRepository @Inject()(dbapi:DBApi)(implicit ec: DatabaseExecutionConte
   def insert(order: MenuData, orderId: Int, userId: Option[String]): Future[Option[Long]] = Future {
     val name= userId match { case Some(userIdStr) => userIdStr; case _ => " "}
     db.withConnection { implicit connection =>
-      SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, $name, 'cheese_burger', '2', ${order.cheeseBurger}) ".executeInsert()
-      SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, $name, 'double_double', '4', ${order.doubleDouble}) ".executeInsert()
-      SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, $name, 'fries', '1', ${order.fries}) ".executeInsert()
-      SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, $name, 'milk_shake', '3', ${order.milkShake}) ".executeInsert()
+      SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, $name, 'Cheese Burger', '2', ${order.cheeseBurger}) ".executeInsert()
+      SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, $name, 'Double Double', '4', ${order.doubleDouble}) ".executeInsert()
+      SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, $name, 'Fries', '1', ${order.fries}) ".executeInsert()
+      SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, $name, 'Milk Shake', '3', ${order.milkShake}) ".executeInsert()
     }
   }(ec)
 
@@ -48,6 +48,19 @@ class OrderRepository @Inject()(dbapi:DBApi)(implicit ec: DatabaseExecutionConte
     val name= userId match { case Some(userIdStr) => userIdStr; case _ => " "}
     db.withConnection { implicit connection =>
       SQL"select * from food_orders where user_id=$name".as(simple.*)
+    }
+  }(ec)
+
+  def getOrders(userId: Option[String], foodItem: String, minQuantity: Int): Future[List[Order]] = Future {
+    val name= userId match { case Some(userIdStr) => userIdStr; case _ => ""}
+    //val foodItemStr=foodItem match { case Some(foodItemStr) => foodItemStr; case _ => " " }
+    val queryFood=if (foodItem!="") { " and food_item='" + foodItem + "'" } else { "" }
+    val queryQuantity=" and quantity>=" + minQuantity
+    val query="select * from food_orders where user_id='" + name + "'" + queryFood + queryQuantity
+    println(query)
+    db.withConnection { implicit connection =>
+      //SQL"select * from food_orders where user_id=$name and food_item=$foodItemStr".as(simple.*)
+      SQL(query).as(simple.*)
     }
   }(ec)
 
