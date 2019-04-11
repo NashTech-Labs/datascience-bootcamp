@@ -20,6 +20,8 @@ libraryDependencies += "org.playframework.anorm"  %% "anorm" % "2.6.2"
 
 libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.21"
 
+libraryDependencies += ws
+
 scalacOptions ++= Seq(
     "-feature",
     "-deprecation",

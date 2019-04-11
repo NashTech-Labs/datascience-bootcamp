@@ -20,16 +20,5 @@ class HomeController @Inject()(userService: UserRepository, customAction: Custom
   def index: Action[AnyContent] = customAction { implicit request =>
     Ok(views.html.index())
   }
-
-
-
-
-
-
-
-
-
-
-
 }
 

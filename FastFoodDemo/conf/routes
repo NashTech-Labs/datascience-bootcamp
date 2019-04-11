@@ -19,3 +19,9 @@ GET     /menu                       controllers.MenuController.menu
 GET     /order                      controllers.OrderController.order
 
 GET     /list                       controllers.ListController.list(foodItem: String ?= "", minQuantity: Int ?= 0)
+
+GET     /fakeInfo                   controllers.FakeRestApiController.fakeInfo(n: Int ?= 1)
+
+GET     /postJson                   controllers.PostJsonController.postJson
+
+POST    /bodyParser                 controllers.BodyParserController.bodyParser

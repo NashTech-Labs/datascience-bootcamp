@@ -24,23 +24,7 @@ class MenuController @Inject()(messagesApi: MessagesApi, securityAction: Securit
     Ok(views.html.index())
   }
 
-
-  /*
-  def menu = securityAction.async { implicit request: MessagesRequest[AnyContent] =>
-    //val name=request.session.get("USERNAME")
-    //val pass=request.session.get("PASS")
-
-    //val result=Ok(views.html.menu(postUrl, menuForm))
-    //securityService.security(name, pass, result)
-    Future(Ok(views.html.menu(postUrl, menuForm)))
-  }
-  */
   def menu = securityAction.async { implicit request =>
-    //val name=request.session.get("USERNAME")
-    //val pass=request.session.get("PASS")
-
-    //val result=Ok(views.html.menu(postUrl, menuForm))
-    //securityService.security(name, pass, result)
     Future(Ok(views.html.menu(postUrl, menuForm)))
   }
 

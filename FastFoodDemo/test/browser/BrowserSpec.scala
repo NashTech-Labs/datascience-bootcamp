@@ -14,7 +14,7 @@ import org.scalatestplus.play.guice._
  * http://www.scalatest.org/user_guide/using_selenium
  */
 class BrowserSpec extends PlaySpec with GuiceOneServerPerSuite with OneBrowserPerSuite with HtmlUnitFactory {
-
+/*
   "The browser should" must {
     "successfully process a form" in {
       val listWidgetsURL = controllers.routes.WidgetController.listWidgets().absoluteURL(false, s"localhost:$port")
@@ -35,4 +35,5 @@ class BrowserSpec extends PlaySpec with GuiceOneServerPerSuite with OneBrowserPe
       }
     }
   }
+  */
 }
