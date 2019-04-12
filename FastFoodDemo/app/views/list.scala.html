@@ -1,13 +1,11 @@
 @import helper._
 
-@(listOrders: List[Order], filterForm: Form[FilterForm.FilterData])(implicit request: MessagesRequestHeader)
+@(listOrders: List[Order], filterForm: Form[FilterForm.FilterData])(implicit messages: Messages)
 
 @main("List") {
 
     Filter results
     @helper.form(routes.ListController.list()) {
-
-        @helper.CSRF.formField
 
         @helper.select(filterForm("foodItem"), options(List("", "Cheese Burger", "Double Double", "Fries", "Milk Shake")))
 

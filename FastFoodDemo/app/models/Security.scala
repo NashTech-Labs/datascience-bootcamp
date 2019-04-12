@@ -21,7 +21,7 @@ class Security @Inject()(userService: UserRepository, cc: MessagesControllerComp
       if (check.contains(1)) {
         func
       }
-      else { Ok(views.html.index()) }
+      else { Ok(views.html.index()).withSession("USERNAME" -> "", "PASS" -> "")  }
     }
   }
 
@@ -32,7 +32,7 @@ class Security @Inject()(userService: UserRepository, cc: MessagesControllerComp
       if (check==1) {
         func
       }
-      else { Ok(views.html.index()) }
+      else { Ok(views.html.index()).withSession("USERNAME" -> "", "PASS" -> "") }
     }
   }
 }

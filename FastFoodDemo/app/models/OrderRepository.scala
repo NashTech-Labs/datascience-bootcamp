@@ -38,10 +38,6 @@ class OrderRepository @Inject()(dbapi:DBApi)(implicit ec: DatabaseExecutionConte
   def insert(order: MenuData, orderId: Int, userId: Option[String], foodItems: Array[Food]): Future[Unit] = Future {
     val name= userId match { case Some(userIdStr) => userIdStr; case _ => " "}
     db.withConnection { implicit connection =>
-      //SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, $name, 'Cheese Burger', '2', ${order.cheeseBurger}) ".executeInsert()
-      //SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, $name, 'Double Double', '4', ${order.doubleDouble}) ".executeInsert()
-      //SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, $name, 'Fries', '1', ${order.fries}) ".executeInsert()
-      //SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, $name, 'Milk Shake', '3', ${order.milkShake}) ".executeInsert()
       for { foodItem <- foodItems } {
         SQL"insert into food_orders (food_order_id, user_id, food_item, price, quantity) values ($orderId, $name, ${foodItem.food_item}, ${foodItem.price}, ${order.cheeseBurger}) ".executeInsert()
       }

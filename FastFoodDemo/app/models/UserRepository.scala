@@ -58,6 +58,8 @@ class UserRepository @Inject()(dbapi:DBApi)(implicit ec: DatabaseExecutionContex
   def checkUser(request: RequestHeader): Option[Int] = {
     val name=request.session.get("USERNAME")
     val pass=request.session.get("PASS")
+    println("name= " + name)
+    println("pass= " + pass)
     val check = (name, pass) match {
       case (Some(nameStr), Some(passStr))  => checkUser2(nameStr, passStr)
       case _ => Some(0)

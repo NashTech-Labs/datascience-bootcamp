@@ -10,21 +10,11 @@ class SecurityAction @Inject() (userService: UserRepository, parser: BodyParsers
 
 
   override def invokeBlock[A](request: Request[A], block: (Request[A]) => Future[Result]) = {
-    /*
-    val maybeUsername = request.session.get("USERNAME")
-    maybeUsername match {
-      case None => {
-        Future.successful(Forbidden("Dude, you’re not logged in."))
-      }
-      case Some(u) => {
-        val res: Future[Result] = block(request)
-        res
-      }
-    }
-    */
+
     val check=userService.checkUser(request)
-    if (check==Some(1)) { println("You are logged in"); block(request) }
-    else { println("You are not logged in"); Future.successful(Forbidden("You are not logged in")) }
+    if (check.contains(1)) { println(check); println("You are logged in"); block(request) }
+    //else { println("You are not logged in"); Future.successful(Forbidden("You are not logged in")) }
+    else {Future(Ok(views.html.index()))}
   }
 
 }

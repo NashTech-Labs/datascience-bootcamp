@@ -1,15 +1,18 @@
 package controllers
 
 import javax.inject.Inject
-import models.{OrderRepository, UserRepository}
+import models.{OrderRepository, SecurityAction, UserRepository}
 import play.api.data._
 import play.api.i18n._
 import play.api.mvc._
 
-import scala.concurrent.ExecutionContext
+import play.api.Play.current
+import play.api.i18n.Messages.Implicits._
 
-class ListController @Inject()(userService: UserRepository, orderService: OrderRepository, security: Security,
-                                cc: MessagesControllerComponents)(implicit ec: ExecutionContext) extends MessagesAbstractController(cc) {
+import scala.concurrent.{ExecutionContext, Future}
+
+class ListController @Inject()(messagesApi: MessagesApi, securityAction: SecurityAction, userService: UserRepository, orderService: OrderRepository, security: Security,
+                                cc: MessagesControllerComponents)(implicit ec: ExecutionContext) extends MessagesAbstractController(cc) with I18nSupport {
 
   import FilterForm._
 
@@ -19,22 +22,17 @@ class ListController @Inject()(userService: UserRepository, orderService: OrderR
     Ok(views.html.index())
   }
 
-  def list(foodItem: String, minQuantity: Int) = Action.async { implicit request =>
-    val check=userService.checkUser(request)
+  def list(foodItem: String, minQuantity: Int) = securityAction.async { implicit request =>
     val name=request.session.get("USERNAME")
 
-
-    orderService.getOrders(name, foodItem, minQuantity).map{ listOrders => if (check.contains(1)) {Ok(views.html.list(listOrders, filterForm))} else {Ok(views.html.index())} }
+    orderService.getOrders(name, foodItem, minQuantity).map{ listOrders => Ok(views.html.list(listOrders, filterForm)) }
   }
 
-  def list = Action.async { implicit request =>
-    val check=userService.checkUser(request)
+  def list = securityAction.async { implicit request =>
     val name=request.session.get("USERNAME")
 
-
-    orderService.getOrders(name).map{ listOrders => if (check.contains(1)) {Ok(views.html.list(listOrders, filterForm))} else {Ok(views.html.index())} }
+    orderService.getOrders(name).map{ listOrders => Ok(views.html.list(listOrders, filterForm)) }
   }
-
 
 }
 
