@@ -1,8 +1,7 @@
 package controllers
 
 import javax.inject.Inject
-import models.{User, UserRepository}
-import models.CustomAction
+import models._
 import play.api.data.Forms._
 import play.api.data._
 import play.api.mvc._
@@ -19,7 +18,7 @@ import views._
 import scala.concurrent.{ExecutionContext, Future}
 
 
-class BodyParserController @Inject()(ws: WSClient,
+class BodyParserController @Inject()(ws: WSClient, foodService: FoodRepository,
                                    cc: MessagesControllerComponents)(implicit ec: ExecutionContext)
   extends MessagesAbstractController(cc) {
 
@@ -31,9 +30,15 @@ class BodyParserController @Inject()(ws: WSClient,
     val body: AnyContent = request.body
     val jsonBody: Option[JsValue] = body.asJson
 
-    // Expecting json body
     jsonBody.map { json =>
-      Ok("Got: " + (json \ "key1").as[String])
+      val foodItemName=(json \ "foodItem").as[String]
+      val food=foodService.getFoodItem(foodItemName)
+      if (food.length==0) {
+        Ok("No menu item with that name")
+      }
+      else {
+        Ok("The price of " + foodItemName + " is " + "$" + food.head.price)
+      }
     }.getOrElse {
       BadRequest("Expecting application/json request body")
     }

@@ -22,6 +22,6 @@ GET     /list                       controllers.ListController.list(foodItem: St
 
 GET     /fakeInfo                   controllers.FakeRestApiController.fakeInfo(n: Int ?= 1)
 
-GET     /postJson                   controllers.PostJsonController.postJson
+GET     /postJson                   controllers.PostJsonController.postJson(foodItem: String ?= "Cheese Burger")
 
 POST    /bodyParser                 controllers.BodyParserController.bodyParser

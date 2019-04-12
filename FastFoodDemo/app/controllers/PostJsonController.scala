@@ -27,11 +27,10 @@ class PostJsonController @Inject()(ws: WSClient,
     Ok(views.html.index())
   }
 
-  def postJson() = Action.async { implicit request =>
+  def postJson(foodItem: String) = Action.async { implicit request =>
     val url="http://localhost:9000/bodyParser"
     val data = Json.obj(
-      "key1" -> "value1",
-      "key2" -> "value2"
+      "foodItem" -> foodItem
     )
     ws.url(url).post(data).map{ response => Ok(response.body) }
   }

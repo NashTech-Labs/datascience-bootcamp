@@ -50,5 +50,11 @@ class FoodRepository @Inject()(dbapi:DBApi)(implicit ec: DatabaseExecutionContex
     }
   }
 
+  def getFoodItem(foodItem: String): List[Food] = {
+    db.withConnection { implicit connection =>
+      SQL"select * from food_items where food_item=$foodItem".as(simple.*)
+    }
+  }
+
 }
 
