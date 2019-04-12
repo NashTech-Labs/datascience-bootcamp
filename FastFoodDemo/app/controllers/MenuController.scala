@@ -25,7 +25,8 @@ class MenuController @Inject()(messagesApi: MessagesApi, securityAction: Securit
   }
 
   def menu = securityAction.async { implicit request =>
-    Future(Ok(views.html.menu(postUrl, menuForm)))
+    val foodItems=foodService.getFoodItems().toArray
+    Future(Ok(views.html.menu(postUrl, menuForm, foodItems)))
   }
 
 }

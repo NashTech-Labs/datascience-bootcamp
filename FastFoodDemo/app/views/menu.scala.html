@@ -1,4 +1,6 @@
-@(postUrl: Call, form: Form[MenuForm.MenuData])(implicit messages: Messages)
+@import helper._
+
+@(postUrl: Call, form: Form[MenuForm.MenuData], foodItems: Array[Food])(implicit messages: Messages)
 
 @main("menu") {
 
@@ -6,15 +8,12 @@
 
     @helper.form(postUrl) {
 
-        @helper.inputText(form("Cheese Burger $2"))
-
-        @helper.inputText(form("Double Double $4"))
-
-        @helper.inputText(form("Fries $1"))
-
-        @helper.inputText(form("Milk Shake $3"))
+        @for(i <- 0 until 4) {
+            @helper.inputText(form("Food_" + i), '_label -> (foodItems(i).food_item + " $" + foodItems(i).price))
+        }
 
         <button>Order</button>
     }
 
 }
+

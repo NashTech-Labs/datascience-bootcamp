@@ -26,7 +26,7 @@ class BodyParserController @Inject()(ws: WSClient,
   def index: Action[AnyContent] = Action { implicit request =>
     Ok(views.html.index())
   }
-  
+
   def bodyParser = Action { request: Request[AnyContent] =>
     val body: AnyContent = request.body
     val jsonBody: Option[JsValue] = body.asJson

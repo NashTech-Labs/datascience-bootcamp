@@ -11,6 +11,8 @@ import play.api.mvc._
 import scala.concurrent.ExecutionContext
 import scala.concurrent.Future
 
+//import controllers.MenuForm2
+
 class AuthController @Inject()(securityService: Security, userService: UserRepository, foodService: FoodRepository, cc: MessagesControllerComponents)(implicit ec: ExecutionContext) extends MessagesAbstractController(cc) {
   import LoginForm._
   import MenuForm._
@@ -29,12 +31,17 @@ class AuthController @Inject()(securityService: Security, userService: UserRepos
 
 
   def auth() = Action.async { implicit request =>
+    //val foodItems=Array("Cheese Burger", "Double Double", "Fries", "Milk Shake")
+    //val prices=Array(2L, 4L, 1L, 3L)
+    //val menuForm2=new MenuForm2(foodItems, prices)
+    val foodItems=foodService.getFoodItems().toArray
+
     val failFunc=null
 
     val successFunc= { form: Data=>
       {
         val shaStr=getSha(form.password)
-        val result=Ok(views.html.menu(postUrl, menuForm)).withSession("USERNAME" -> form.name, "PASS" -> shaStr)
+        val result=Ok(views.html.menu(postUrl, menuForm, foodItems)).withSession("USERNAME" -> form.name, "PASS" -> shaStr)
         securityService.security(Some(form.name), Some(shaStr), result)
       }
     }
