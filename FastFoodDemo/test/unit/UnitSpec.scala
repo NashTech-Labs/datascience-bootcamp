@@ -27,7 +27,7 @@ class UnitSpec extends PlaySpec {
 
     "apply successfully from request" in {
       val call = controllers.routes.MenuController.menu()
-      implicit val request: Request[_] = FakeRequest(call).withFormUrlEncodedBody("Cheese Burger $2" -> "2", "Double Double $4" -> "0", "Fries $1" -> "9", "Milk Shake $3" -> "3")
+      implicit val request: Request[_] = FakeRequest(call).withFormUrlEncodedBody("Food_0" -> "2", "Food_1" -> "0", "Food_2" -> "9", "Food_3" -> "3")
       val boundForm = MenuForm.menuForm.bindFromRequest()
       val menuData = boundForm.value.get
 
@@ -39,7 +39,7 @@ class UnitSpec extends PlaySpec {
 
 
     "apply successfully from map" in {
-      val data = Map("Cheese Burger $2" -> "2", "Double Double $4" -> "0", "Fries $1" -> "9", "Milk Shake $3" -> "3")
+      val data = Map("Food_0" -> "2", "Food_1" -> "0", "Food_2" -> "9", "Food_3" -> "3")
       val boundForm = MenuForm.menuForm.bind(data)
       val menuData = boundForm.value.get
 
@@ -52,13 +52,13 @@ class UnitSpec extends PlaySpec {
 
     "show errors when applied unsuccessfully" in {
       // Pass in a negative price that fails the constraints...
-      val data = Map("Cheese Burger $2" -> "2", "Double Double $4" -> "0", "Fries $1" -> "9", "Milk Shake $3" -> "-3")
+      val data = Map("Food_0" -> "2", "Food_1" -> "0", "Food_2" -> "9", "Food_3" -> "-3")
 
       val errorForm = MenuForm.menuForm.bind(data)
       val listOfErrors = errorForm.errors
 
       val formError: FormError = listOfErrors.head
-      formError.key must equal("Milk Shake $3")
+      formError.key must equal("Food_3")
 
       errorForm.hasGlobalErrors mustBe false
 

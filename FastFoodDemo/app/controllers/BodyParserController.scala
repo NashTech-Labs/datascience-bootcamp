@@ -33,7 +33,7 @@ class BodyParserController @Inject()(ws: WSClient, foodService: FoodRepository,
     jsonBody.map { json =>
       val foodItemName=(json \ "foodItem").as[String]
       val food=foodService.getFoodItem(foodItemName)
-      if (food.length==0) {
+      if (food.isEmpty) {
         Ok("No menu item with that name")
       }
       else {
