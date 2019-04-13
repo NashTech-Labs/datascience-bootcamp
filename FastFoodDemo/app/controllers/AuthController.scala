@@ -31,9 +31,6 @@ class AuthController @Inject()(securityService: Security, userService: UserRepos
 
 
   def auth() = Action.async { implicit request =>
-    //val foodItems=Array("Cheese Burger", "Double Double", "Fries", "Milk Shake")
-    //val prices=Array(2L, 4L, 1L, 3L)
-    //val menuForm2=new MenuForm2(foodItems, prices)
     val foodItems=foodService.getFoodItems().toArray
 
     val failFunc=null

@@ -9,7 +9,7 @@
     @helper.form(postUrl) {
 
         @for(i <- 0 until 4) {
-            @helper.inputText(form("Food_" + i), '_label -> (foodItems(i).food_item + " $" + foodItems(i).price))
+            @helper.inputText(form("Food_" + i), '_label -> (foodItems(i).food_item + " $" + foodItems(i).price), '_showConstraints -> false)
         }
 
         <button>Order</button>

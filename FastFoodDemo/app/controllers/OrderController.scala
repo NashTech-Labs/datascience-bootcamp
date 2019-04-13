@@ -25,17 +25,18 @@ class OrderController @Inject()(foodService: FoodRepository, messagesApi: Messag
   def order = securityAction.async { implicit request =>
     val name=request.session.get("USERNAME")
 
-    /*
+
     val failFunc={
       formWithErrors: Form[MenuData] => {
-        Future(Ok(views.html.menu(routes.OrderController.order, formWithErrors)))
+        val foodItems=foodService.getFoodItems().toArray
+        Future(Ok(views.html.menu(routes.OrderController.order, formWithErrors, foodItems)))
       }
     }
-    */
+
 
     val foodItems=foodService.getFoodItems().toArray
 
-    val failFunc=null
+    //val failFunc=null
 
     val successFunc={
       orderForm: MenuData => {
