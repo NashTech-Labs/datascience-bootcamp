@@ -1,4 +1,4 @@
-name := """FastFoodDemo_temp"""
+name := """FastFoodDemo"""
 
 version := "2.7.x"
 

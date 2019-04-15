@@ -1,7 +1,6 @@
 drop table FastFoodDemo.users;
 drop table FastFoodDemo.food_orders;
 drop table FastFoodDemo.food_items;
-drop table FastFoodDemo.comments;
 
 create table FastFoodDemo.users (
   id                        bigint not null,
@@ -25,14 +24,6 @@ create table FastFoodDemo.food_items (
   food_item                 varchar(255) not null,
   price                     bigint not null,
   constraint pk_food_items primary key(id)
-);
-
-
-create table FastFoodDemo.comments (
-  id                        bigint not null auto_increment,
-  comment_type              varchar(255) not null,
-  comment_str               varchar(1024) not null,
-  constraint pk_comment primary key(id)
 );
 
 insert into FastFoodDemo.users (id, name, pass) values (1, 'jouko', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3');

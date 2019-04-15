@@ -25,3 +25,9 @@ GET     /fakeInfo                   controllers.FakeRestApiController.fakeInfo(n
 GET     /postJson                   controllers.PostJsonController.postJson(foodItem: String ?= "Cheese Burger")
 
 POST    /bodyParser                 controllers.BodyParserController.bodyParser
+
+GET     /comments                   controllers.CommentController.comments
+
+GET     /commentsSubmitted          controllers.CommentSubmittedController.thanks
+
+GET     /viewComments               controllers.ViewCommmentsController.listComments
