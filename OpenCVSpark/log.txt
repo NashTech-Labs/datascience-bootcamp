@@ -1,0 +1,302 @@
+[ERROR] Failed to construct terminal; falling back to unsupported
+java.lang.NumberFormatException: For input string: "0x100"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at jline.internal.InfoCmp.parseInfoCmp(InfoCmp.java:59)
+	at jline.UnixTerminal.parseInfoCmp(UnixTerminal.java:242)
+	at jline.UnixTerminal.<init>(UnixTerminal.java:65)
+	at jline.UnixTerminal.<init>(UnixTerminal.java:50)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at jline.TerminalFactory.getFlavor(TerminalFactory.java:211)
+	at jline.TerminalFactory.create(TerminalFactory.java:102)
+	at jline.TerminalFactory.get(TerminalFactory.java:186)
+	at jline.TerminalFactory.get(TerminalFactory.java:192)
+	at sbt.ConsoleLogger$.ansiSupported(ConsoleLogger.scala:123)
+	at sbt.ConsoleLogger$.<init>(ConsoleLogger.scala:117)
+	at sbt.ConsoleLogger$.<clinit>(ConsoleLogger.scala)
+	at sbt.GlobalLogging$.initial(GlobalLogging.scala:43)
+	at sbt.StandardMain$.initialGlobalLogging(Main.scala:116)
+	at sbt.StandardMain$.initialState(Main.scala:125)
+	at sbt.xMain.run(Main.scala:34)
+	at xsbt.boot.Launch$$anonfun$run$1.apply(Launch.scala:109)
+	at xsbt.boot.Launch$.withContextLoader(Launch.scala:128)
+	at xsbt.boot.Launch$.run(Launch.scala:109)
+	at xsbt.boot.Launch$$anonfun$apply$1.apply(Launch.scala:35)
+	at xsbt.boot.Launch$.launch(Launch.scala:117)
+	at xsbt.boot.Launch$.apply(Launch.scala:18)
+	at xsbt.boot.Boot$.runImpl(Boot.scala:56)
+	at xsbt.boot.Boot$.main(Boot.scala:18)
+	at xsbt.boot.Boot.main(Boot.scala)
+
+[info] Loading project definition from /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project
+[info] Set current project to OpenCVSpark (in build file:/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/)
+[info] Running HelloOpenCV 
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+19/04/16 19:18:34 INFO SparkContext: Running Spark version 2.4.0
+19/04/16 19:18:34 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/04/16 19:18:34 INFO SparkContext: Submitted application: OpenCVSpark
+19/04/16 19:18:34 INFO SecurityManager: Changing view acls to: jouko
+19/04/16 19:18:34 INFO SecurityManager: Changing modify acls to: jouko
+19/04/16 19:18:34 INFO SecurityManager: Changing view acls groups to: 
+19/04/16 19:18:34 INFO SecurityManager: Changing modify acls groups to: 
+19/04/16 19:18:34 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(jouko); groups with view permissions: Set(); users  with modify permissions: Set(jouko); groups with modify permissions: Set()
+19/04/16 19:18:35 INFO Utils: Successfully started service 'sparkDriver' on port 41711.
+19/04/16 19:18:35 INFO SparkEnv: Registering MapOutputTracker
+19/04/16 19:18:35 INFO SparkEnv: Registering BlockManagerMaster
+19/04/16 19:18:35 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+19/04/16 19:18:35 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+19/04/16 19:18:35 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-981299a0-41ff-46e7-af29-d1422e2dfa74
+19/04/16 19:18:35 INFO MemoryStore: MemoryStore started with capacity 408.9 MB
+19/04/16 19:18:35 INFO SparkEnv: Registering OutputCommitCoordinator
+19/04/16 19:18:35 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+19/04/16 19:18:35 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://jouko-Gazelle-Professional:4040
+19/04/16 19:18:35 INFO Executor: Starting executor ID driver on host localhost
+19/04/16 19:18:35 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 37589.
+19/04/16 19:18:35 INFO NettyBlockTransferService: Server created on jouko-Gazelle-Professional:37589
+19/04/16 19:18:35 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+19/04/16 19:18:35 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, jouko-Gazelle-Professional, 37589, None)
+19/04/16 19:18:35 INFO BlockManagerMasterEndpoint: Registering block manager jouko-Gazelle-Professional:37589 with 408.9 MB RAM, BlockManagerId(driver, jouko-Gazelle-Professional, 37589, None)
+19/04/16 19:18:35 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, jouko-Gazelle-Professional, 37589, None)
+19/04/16 19:18:35 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, jouko-Gazelle-Professional, 37589, None)
+19/04/16 19:18:35 WARN SparkContext: Using an existing SparkContext; some configuration may not take effect.
+Hello, OpenCV
+/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+19/04/16 19:18:35 DEBUG ClosureCleaner: +++ Cleaning closure <function1> (HelloOpenCV$$anonfun$1) +++
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + declared fields: 1
+19/04/16 19:18:35 DEBUG ClosureCleaner:      public static final long HelloOpenCV$$anonfun$1.serialVersionUID
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + declared methods: 2
+19/04/16 19:18:35 DEBUG ClosureCleaner:      public final java.lang.Object HelloOpenCV$$anonfun$1.apply(java.lang.Object)
+19/04/16 19:18:35 DEBUG ClosureCleaner:      public final scala.Tuple2 HelloOpenCV$$anonfun$1.apply(java.lang.String)
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + inner classes: 0
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + outer classes: 0
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + outer objects: 0
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + fields accessed by starting closure: 0
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + there are no enclosing objects!
+19/04/16 19:18:35 DEBUG ClosureCleaner:  +++ closure <function1> (HelloOpenCV$$anonfun$1) is now cleaned +++
+19/04/16 19:18:35 DEBUG ClosureCleaner: +++ Cleaning closure <function1> (org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13) +++
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + declared fields: 2
+19/04/16 19:18:35 DEBUG ClosureCleaner:      public static final long org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.serialVersionUID
+19/04/16 19:18:35 DEBUG ClosureCleaner:      private final org.apache.spark.rdd.RDD$$anonfun$collect$1 org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.$outer
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + declared methods: 2
+19/04/16 19:18:35 DEBUG ClosureCleaner:      public final java.lang.Object org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(java.lang.Object)
+19/04/16 19:18:35 DEBUG ClosureCleaner:      public final java.lang.Object org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13.apply(scala.collection.Iterator)
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + inner classes: 0
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + outer classes: 2
+19/04/16 19:18:35 DEBUG ClosureCleaner:      org.apache.spark.rdd.RDD$$anonfun$collect$1
+19/04/16 19:18:35 DEBUG ClosureCleaner:      org.apache.spark.rdd.RDD
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + outer objects: 2
+19/04/16 19:18:35 DEBUG ClosureCleaner:      <function0>
+19/04/16 19:18:35 DEBUG ClosureCleaner:      MapPartitionsRDD[1] at map at DetectFaces.scala:45
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + fields accessed by starting closure: 4
+19/04/16 19:18:35 DEBUG ClosureCleaner:      (class scala.runtime.AbstractFunction0,Set())
+19/04/16 19:18:35 DEBUG ClosureCleaner:      (class org.apache.spark.rdd.RDD,Set(org$apache$spark$rdd$RDD$$evidence$1))
+19/04/16 19:18:35 DEBUG ClosureCleaner:      (class java.lang.Object,Set())
+19/04/16 19:18:35 DEBUG ClosureCleaner:      (class org.apache.spark.rdd.RDD$$anonfun$collect$1,Set($outer))
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + outermost object is not a closure or REPL line object,so do not clone it: (class org.apache.spark.rdd.RDD,MapPartitionsRDD[1] at map at DetectFaces.scala:45)
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + cloning the object <function0> of class org.apache.spark.rdd.RDD$$anonfun$collect$1
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + cleaning cloned closure <function0> recursively (org.apache.spark.rdd.RDD$$anonfun$collect$1)
+19/04/16 19:18:35 DEBUG ClosureCleaner: +++ Cleaning closure <function0> (org.apache.spark.rdd.RDD$$anonfun$collect$1) +++
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + declared fields: 2
+19/04/16 19:18:35 DEBUG ClosureCleaner:      public static final long org.apache.spark.rdd.RDD$$anonfun$collect$1.serialVersionUID
+19/04/16 19:18:35 DEBUG ClosureCleaner:      private final org.apache.spark.rdd.RDD org.apache.spark.rdd.RDD$$anonfun$collect$1.$outer
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + declared methods: 2
+19/04/16 19:18:35 DEBUG ClosureCleaner:      public org.apache.spark.rdd.RDD org.apache.spark.rdd.RDD$$anonfun$collect$1.org$apache$spark$rdd$RDD$$anonfun$$$outer()
+19/04/16 19:18:35 DEBUG ClosureCleaner:      public final java.lang.Object org.apache.spark.rdd.RDD$$anonfun$collect$1.apply()
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + inner classes: 1
+19/04/16 19:18:35 DEBUG ClosureCleaner:      org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + outer classes: 1
+19/04/16 19:18:35 DEBUG ClosureCleaner:      org.apache.spark.rdd.RDD
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + outer objects: 1
+19/04/16 19:18:35 DEBUG ClosureCleaner:      MapPartitionsRDD[1] at map at DetectFaces.scala:45
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + fields accessed by starting closure: 4
+19/04/16 19:18:35 DEBUG ClosureCleaner:      (class scala.runtime.AbstractFunction0,Set())
+19/04/16 19:18:35 DEBUG ClosureCleaner:      (class org.apache.spark.rdd.RDD,Set(org$apache$spark$rdd$RDD$$evidence$1))
+19/04/16 19:18:35 DEBUG ClosureCleaner:      (class java.lang.Object,Set())
+19/04/16 19:18:35 DEBUG ClosureCleaner:      (class org.apache.spark.rdd.RDD$$anonfun$collect$1,Set($outer))
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + outermost object is not a closure or REPL line object,so do not clone it: (class org.apache.spark.rdd.RDD,MapPartitionsRDD[1] at map at DetectFaces.scala:45)
+19/04/16 19:18:35 DEBUG ClosureCleaner:  +++ closure <function0> (org.apache.spark.rdd.RDD$$anonfun$collect$1) is now cleaned +++
+19/04/16 19:18:35 DEBUG ClosureCleaner:  +++ closure <function1> (org.apache.spark.rdd.RDD$$anonfun$collect$1$$anonfun$13) is now cleaned +++
+19/04/16 19:18:35 DEBUG ClosureCleaner: +++ Cleaning closure <function2> (org.apache.spark.SparkContext$$anonfun$runJob$5) +++
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + declared fields: 2
+19/04/16 19:18:35 DEBUG ClosureCleaner:      public static final long org.apache.spark.SparkContext$$anonfun$runJob$5.serialVersionUID
+19/04/16 19:18:35 DEBUG ClosureCleaner:      private final scala.Function1 org.apache.spark.SparkContext$$anonfun$runJob$5.cleanedFunc$1
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + declared methods: 2
+19/04/16 19:18:35 DEBUG ClosureCleaner:      public final java.lang.Object org.apache.spark.SparkContext$$anonfun$runJob$5.apply(java.lang.Object,java.lang.Object)
+19/04/16 19:18:35 DEBUG ClosureCleaner:      public final java.lang.Object org.apache.spark.SparkContext$$anonfun$runJob$5.apply(org.apache.spark.TaskContext,scala.collection.Iterator)
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + inner classes: 0
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + outer classes: 0
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + outer objects: 0
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + fields accessed by starting closure: 0
+19/04/16 19:18:35 DEBUG ClosureCleaner:  + there are no enclosing objects!
+19/04/16 19:18:35 DEBUG ClosureCleaner:  +++ closure <function2> (org.apache.spark.SparkContext$$anonfun$runJob$5) is now cleaned +++
+19/04/16 19:18:35 INFO SparkContext: Starting job: collect at DetectFaces.scala:47
+19/04/16 19:18:35 INFO DAGScheduler: Got job 0 (collect at DetectFaces.scala:47) with 2 output partitions
+19/04/16 19:18:35 INFO DAGScheduler: Final stage: ResultStage 0 (collect at DetectFaces.scala:47)
+19/04/16 19:18:35 INFO DAGScheduler: Parents of final stage: List()
+19/04/16 19:18:35 INFO DAGScheduler: Missing parents: List()
+19/04/16 19:18:35 DEBUG DAGScheduler: submitStage(ResultStage 0)
+19/04/16 19:18:35 DEBUG DAGScheduler: missing: List()
+19/04/16 19:18:35 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[1] at map at DetectFaces.scala:45), which has no missing parents
+19/04/16 19:18:35 DEBUG DAGScheduler: submitMissingTasks(ResultStage 0)
+19/04/16 19:18:35 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 1952.0 B, free 408.9 MB)
+19/04/16 19:18:35 DEBUG BlockManager: Put block broadcast_0 locally took  22 ms
+19/04/16 19:18:35 DEBUG BlockManager: Putting block broadcast_0 without replication took  23 ms
+19/04/16 19:18:35 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 1297.0 B, free 408.9 MB)
+19/04/16 19:18:35 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on jouko-Gazelle-Professional:37589 (size: 1297.0 B, free: 408.9 MB)
+19/04/16 19:18:35 DEBUG BlockManagerMaster: Updated info of block broadcast_0_piece0
+19/04/16 19:18:35 DEBUG BlockManager: Told master about block broadcast_0_piece0
+19/04/16 19:18:35 DEBUG BlockManager: Put block broadcast_0_piece0 locally took  5 ms
+19/04/16 19:18:35 DEBUG BlockManager: Putting block broadcast_0_piece0 without replication took  5 ms
+19/04/16 19:18:35 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1161
+19/04/16 19:18:36 INFO DAGScheduler: Submitting 2 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at map at DetectFaces.scala:45) (first 15 tasks are for partitions Vector(0, 1))
+19/04/16 19:18:36 INFO TaskSchedulerImpl: Adding task set 0.0 with 2 tasks
+19/04/16 19:18:36 DEBUG TaskSetManager: Epoch for TaskSet 0.0: 0
+19/04/16 19:18:36 DEBUG TaskSetManager: Valid locality levels for TaskSet 0.0: NO_PREF, ANY
+19/04/16 19:18:36 DEBUG TaskSchedulerImpl: parentName: , name: TaskSet_0.0, runningTasks: 0
+19/04/16 19:18:36 DEBUG TaskSetManager: Valid locality levels for TaskSet 0.0: NO_PREF, ANY
+19/04/16 19:18:36 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 7974 bytes)
+19/04/16 19:18:36 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 8091 bytes)
+19/04/16 19:18:36 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+19/04/16 19:18:36 INFO Executor: Running task 1.0 in stage 0.0 (TID 1)
+19/04/16 19:18:36 DEBUG BlockManager: Getting local block broadcast_0
+19/04/16 19:18:36 DEBUG BlockManager: Level for block broadcast_0 is StorageLevel(disk, memory, deserialized, 1 replicas)
+width= 1000
+width= 512
+Found face
+Writing /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/faceDetectionSpark.jpg
+nfaces= 1
+width= 1400
+Found face
+Found face
+Found face
+Found face
+Found face
+Found face
+Found face
+Found face
+Writing /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/faceDetectionSpark.jpg
+nfaces= 8
+19/04/16 19:18:36 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 955 bytes result sent to driver
+19/04/16 19:18:36 DEBUG TaskSchedulerImpl: parentName: , name: TaskSet_0.0, runningTasks: 1
+19/04/16 19:18:36 DEBUG TaskSetManager: No tasks for locality level NO_PREF, so moving to locality level ANY
+19/04/16 19:18:36 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 313 ms on localhost (executor driver) (1/2)
+Found face
+Found face
+Found face
+Found face
+Writing /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/faceDetectionSpark.jpg
+nfaces= 4
+19/04/16 19:18:36 INFO Executor: Finished task 1.0 in stage 0.0 (TID 1). 1088 bytes result sent to driver
+19/04/16 19:18:36 DEBUG TaskSchedulerImpl: parentName: , name: TaskSet_0.0, runningTasks: 0
+19/04/16 19:18:36 INFO TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 543 ms on localhost (executor driver) (2/2)
+19/04/16 19:18:36 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+19/04/16 19:18:36 INFO DAGScheduler: ResultStage 0 (collect at DetectFaces.scala:47) finished in 0.655 s
+19/04/16 19:18:36 DEBUG DAGScheduler: After removal of stage 0, remaining stages = 0
+19/04/16 19:18:36 INFO DAGScheduler: Job 0 finished: collect at DetectFaces.scala:47, took 0.694397 s
+(/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/src/main/resources/skyfall.jpg,8)
+(/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/src/main/resources/lena.png,1)
+(/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/src/main/resources/BillGatesWarrenBufett.jpg,4)
+19/04/16 19:18:36 ERROR ContextCleaner: Error in cleaning thread
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at org.apache.spark.ContextCleaner$$anonfun$org$apache$spark$ContextCleaner$$keepCleaning$1.apply$mcV$sp(ContextCleaner.scala:181)
+	at org.apache.spark.util.Utils$.tryOrStopSparkContext(Utils.scala:1302)
+	at org.apache.spark.ContextCleaner.org$apache$spark$ContextCleaner$$keepCleaning(ContextCleaner.scala:178)
+	at org.apache.spark.ContextCleaner$$anon$1.run(ContextCleaner.scala:73)
+19/04/16 19:18:36 DEBUG NioEventLoop: Selector.select() returned prematurely because Thread.currentThread().interrupt() was called. Use NioEventLoop.shutdownGracefully() to shutdown the NioEventLoop.
+19/04/16 19:18:36 ERROR Utils: uncaught error in thread spark-listener-group-shared, stopping SparkContext
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply$mcJ$sp(AsyncEventQueue.scala:97)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at org.apache.spark.scheduler.AsyncEventQueue.org$apache$spark$scheduler$AsyncEventQueue$$dispatch(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1$$anonfun$run$1.apply$mcV$sp(AsyncEventQueue.scala:83)
+	at org.apache.spark.util.Utils$.tryOrStopSparkContext(Utils.scala:1302)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1.run(AsyncEventQueue.scala:82)
+19/04/16 19:18:36 ERROR Utils: uncaught error in thread spark-listener-group-executorManagement, stopping SparkContext
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply$mcJ$sp(AsyncEventQueue.scala:97)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at org.apache.spark.scheduler.AsyncEventQueue.org$apache$spark$scheduler$AsyncEventQueue$$dispatch(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1$$anonfun$run$1.apply$mcV$sp(AsyncEventQueue.scala:83)
+	at org.apache.spark.util.Utils$.tryOrStopSparkContext(Utils.scala:1302)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1.run(AsyncEventQueue.scala:82)
+19/04/16 19:18:36 ERROR Utils: uncaught error in thread spark-listener-group-appStatus, stopping SparkContext
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply$mcJ$sp(AsyncEventQueue.scala:97)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at org.apache.spark.scheduler.AsyncEventQueue.org$apache$spark$scheduler$AsyncEventQueue$$dispatch(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1$$anonfun$run$1.apply$mcV$sp(AsyncEventQueue.scala:83)
+	at org.apache.spark.util.Utils$.tryOrStopSparkContext(Utils.scala:1302)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1.run(AsyncEventQueue.scala:82)
+19/04/16 19:18:36 ERROR Utils: throw uncaught fatal error in thread spark-listener-group-shared
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply$mcJ$sp(AsyncEventQueue.scala:97)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at org.apache.spark.scheduler.AsyncEventQueue.org$apache$spark$scheduler$AsyncEventQueue$$dispatch(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1$$anonfun$run$1.apply$mcV$sp(AsyncEventQueue.scala:83)
+	at org.apache.spark.util.Utils$.tryOrStopSparkContext(Utils.scala:1302)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1.run(AsyncEventQueue.scala:82)
+19/04/16 19:18:36 ERROR Utils: throw uncaught fatal error in thread spark-listener-group-executorManagement
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply$mcJ$sp(AsyncEventQueue.scala:97)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at org.apache.spark.scheduler.AsyncEventQueue.org$apache$spark$scheduler$AsyncEventQueue$$dispatch(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1$$anonfun$run$1.apply$mcV$sp(AsyncEventQueue.scala:83)
+	at org.apache.spark.util.Utils$.tryOrStopSparkContext(Utils.scala:1302)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1.run(AsyncEventQueue.scala:82)
+19/04/16 19:18:36 INFO SparkContext: SparkContext already stopped.
+19/04/16 19:18:36 DEBUG NioEventLoop: Selector.select() returned prematurely because Thread.currentThread().interrupt() was called. Use NioEventLoop.shutdownGracefully() to shutdown the NioEventLoop.
+19/04/16 19:18:36 ERROR Utils: throw uncaught fatal error in thread spark-listener-group-appStatus
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply$mcJ$sp(AsyncEventQueue.scala:97)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anonfun$org$apache$spark$scheduler$AsyncEventQueue$$dispatch$1.apply(AsyncEventQueue.scala:87)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at org.apache.spark.scheduler.AsyncEventQueue.org$apache$spark$scheduler$AsyncEventQueue$$dispatch(AsyncEventQueue.scala:87)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1$$anonfun$run$1.apply$mcV$sp(AsyncEventQueue.scala:83)
+	at org.apache.spark.util.Utils$.tryOrStopSparkContext(Utils.scala:1302)
+	at org.apache.spark.scheduler.AsyncEventQueue$$anon$1.run(AsyncEventQueue.scala:82)
+19/04/16 19:18:36 INFO SparkContext: SparkContext already stopped.
+[success] Total time: 3 s, completed Apr 16, 2019 7:18:36 PM
+19/04/16 19:18:36 INFO SparkUI: Stopped Spark web UI at http://jouko-Gazelle-Professional:4040
+19/04/16 19:18:36 INFO DiskBlockManager: Shutdown hook called
+19/04/16 19:18:36 INFO ShutdownHookManager: Shutdown hook called
+19/04/16 19:18:36 INFO ShutdownHookManager: Deleting directory /tmp/spark-bd0b019e-a210-41fd-af13-ef70f9e13222/userFiles-e1f907a2-419b-48a7-a3dc-0d89ed187821
+19/04/16 19:18:36 INFO ShutdownHookManager: Deleting directory /tmp/spark-bd0b019e-a210-41fd-af13-ef70f9e13222
