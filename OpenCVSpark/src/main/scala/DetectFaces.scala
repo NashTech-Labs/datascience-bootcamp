@@ -11,7 +11,8 @@ import org.opencv.objdetect.CascadeClassifier
 import org.apache.spark.{SparkConf, SparkContext, SparkFiles}
 
 object LibraryLoader {
-  lazy val load = System.load(SparkFiles.get("libopencv_java2413.so"))
+  //lazy val load = System.load(SparkFiles.get("libopencv_java2413.so"))
+  lazy val load = System.load("/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/lib/libopencv_java2413.so")
 }
 
 object CountFaces {
@@ -34,12 +35,24 @@ object CountFaces {
 
 
     val homeDir=sys.env("HOME")
-    val projectDir=homeDir + "/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark"
+    val projectDir=homeDir + "/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark"
     val resourcesDir=projectDir + "/src/main/resources"
 
-    val modelFile=resourcesDir + "/haarcascade_frontalface_alt.xml"
+    val modelFile1=resourcesDir + "/haarcascade_frontalface_alt.xml"
+    val modelFile2=resourcesDir + "/haarcascade_frontalface_default.xml"
+    val modelFile3=resourcesDir + "/lbpcascade_frontalface.xml"
+
+    val modelFiles=List(modelFile1, modelFile2, modelFile3)
 
     val inputPaths=resourcesDir + "/images_with_counts_2.txt"
+
+    for (modelFile <- modelFiles) {
+      runModel(inputPaths, modelFile, sc)
+    }
+  }
+
+  def runModel(inputPaths: String, modelFile: String, sc: SparkContext): Unit = {
+    println("modelFile= " + modelFile)
     val rdd=sc.textFile(inputPaths).map( x => x.split(" ") )
     val rddFaces=rdd.map( path => (path(0), countFaces(path(0), modelFile), path(1).toInt) )
     val loss=calcError(rddFaces)
@@ -62,8 +75,7 @@ object CountFaces {
 
   def calcError(rddFaces: RDD[(String, Int, Int)]): Double = {
     val comparison=rddFaces.map( x => (x._2.toDouble, x._3.toDouble) )
-    comparison.collect.foreach(println)
-    val scores=comparison.map( x => math.abs(x._1-x._2)/x._1 )
+    val scores=comparison.map( x => math.abs(x._2-x._1)/x._2 )
     scores.sum/scores.count.toDouble
   }
 }

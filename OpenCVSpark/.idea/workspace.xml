@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/DetectFaces.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+            <state relative-caret-position="465">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -56,10 +56,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="140" />
-    <option name="y" value="370" />
+    <option name="x" value="67" />
+    <option name="y" value="186" />
     <option name="width" value="1730" />
-    <option name="height" value="821" />
+    <option name="height" value="781" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -67,6 +67,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,8 +98,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,6 +142,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="4666094973000" />
         <entry key="$PROJECT_DIR$/build.sbt" value="4122858385" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2920355924" />
         <entry key="$PROJECT_DIR$/project/build.scala" value="1339529045" />
@@ -187,10 +188,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="140" y="370" width="1730" height="821" extended-state="0" />
+    <frame x="67" y="186" width="1730" height="781" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25296912" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25593823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -223,8 +224,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/DetectFaces.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+        <state relative-caret-position="465">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
