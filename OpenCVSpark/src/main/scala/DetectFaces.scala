@@ -1,3 +1,4 @@
+import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.SparkSession
 import org.opencv.core.Core
 import org.opencv.core.Mat
@@ -32,16 +33,23 @@ object CountFaces {
     spark.sparkContext.setLogLevel("DEBUG")
 
 
-    val inputPaths="/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/src/main/resources/images.txt"
-    val rdd=sc.textFile(inputPaths)
-    val rddFaces=rdd.map( path => (path, run(path)) )
+    val homeDir=sys.env("HOME")
+    val projectDir=homeDir + "/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark"
+    val resourcesDir=projectDir + "/src/main/resources"
+
+    val modelFile=resourcesDir + "/haarcascade_frontalface_alt.xml"
+
+    val inputPaths=resourcesDir + "/images_with_counts_2.txt"
+    val rdd=sc.textFile(inputPaths).map( x => x.split(" ") )
+    val rddFaces=rdd.map( path => (path(0), countFaces(path(0), modelFile), path(1).toInt) )
+    val loss=calcError(rddFaces)
 
     rddFaces.collect.foreach(println)
+    println("loss= " + loss)
   }
 
-  def run(imagePath: String): Int = {
+  def countFaces(imagePath: String, modelFile: String): Int = {
     LibraryLoader.load
-    val modelFile="/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/src/main/resources/haarcascade_frontalface_alt.xml"
     val faceDetector = new CascadeClassifier(modelFile)
 
     val image = Highgui.imread(imagePath)
@@ -50,6 +58,13 @@ object CountFaces {
     faceDetector.detectMultiScale(image, faceDetections)
 
     faceDetections.toArray.length
+  }
+
+  def calcError(rddFaces: RDD[(String, Int, Int)]): Double = {
+    val comparison=rddFaces.map( x => (x._2.toDouble, x._3.toDouble) )
+    comparison.collect.foreach(println)
+    val scores=comparison.map( x => math.abs(x._1-x._2)/x._1 )
+    scores.sum/scores.count.toDouble
   }
 }
 
