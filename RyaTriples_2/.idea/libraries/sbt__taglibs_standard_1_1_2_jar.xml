@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: taglibs:standard:1.1.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/taglibs/standard/jars/standard-1.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/taglibs/standard/srcs/standard-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

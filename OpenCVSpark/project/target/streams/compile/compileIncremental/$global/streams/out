@@ -1,15 +1,55 @@
 [debug] [naha] 
 [debug] [naha] Initial source changes: 
-[debug] [naha] 	removed:Set()
-[debug] [naha] 	added: Set()
+[debug] [naha] 	removed:Set(/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala)
+[debug] [naha] 	added: Set(/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala)
 [debug] [naha] 	modified: Set()
 [debug] [naha] Invalidated products: Set()
 [debug] [naha] External API changes: API Changes: Set()
 [debug] [naha] Modified binary dependencies: Set()
-[debug] [naha] Initial directly invalidated sources: Set()
+[debug] [naha] Initial directly invalidated sources: Set(/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala, /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala)
 [debug] [naha] 
 [debug] [naha] Sources indirectly invalidated by:
 [debug] [naha] 	product: Set()
 [debug] [naha] 	binary dep: Set()
 [debug] [naha] 	external source: Set()
-[debug] All initially invalidated sources: Set()
+[debug] All initially invalidated sources: Set(/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala, /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala)
+[debug] [naha] Initial set of included nodes: Set(/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala, /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala)
+[debug] [naha] Recompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources
+[info] Compiling 1 Scala source to /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes...
+[debug] Getting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.10.6
+[debug] Getting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.10.6
+[debug] Running cached compiler 38f28a2a, interfacing (CompilerInterface) with Scala compiler version 2.10.6
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-deprecation
+[debug] 	-bootclasspath
+[debug] 	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/jouko/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+[debug] 	-classpath
+[debug] 	/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes:/home/jouko/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/actions/jars/actions-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/classpath/jars/classpath-0.13.15.jar:/home/jouko/.sbt/boot/scala-2.10.6/lib/scala-compiler.jar:/home/jouko/.sbt/boot/scala-2.10.6/lib/scala-reflect.jar:/home/jouko/.ivy2/cache/org.scala-sbt/interface/jars/interface-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/io/jars/io-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/control/jars/control-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/launcher-interface/jars/launcher-interface-1.0.1.jar:/home/jouko/.ivy2/cache/org.scala-sbt/completion/jars/completion-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.15.jar:/home/jouko/.ivy2/cache/jline/jline/jars/jline-2.14.3.jar:/home/jouko/.ivy2/cache/org.scala-sbt/api/jars/api-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/classfile/jars/classfile-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/logging/jars/logging-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/process/jars/process-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/compiler-integration/jars/compiler-integration-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/incremental-compiler/jars/incremental-compiler-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/relation/jars/relation-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/compile/jars/compile-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/persist/jars/persist-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-tools.sbinary/sbinary_2.10/jars/sbinary_2.10-0.4.2.jar:/home/jouko/.ivy2/cache/org.scala-sbt/compiler-ivy-integration/jars/compiler-ivy-integration-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/cross/jars/cross-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt.ivy/ivy/jars/ivy-2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4.jar:/home/jouko/.ivy2/cache/com.jcraft/jsch/jars/jsch-0.1.50.jar:/home/jouko/.ivy2/cache/org.scala-sbt/serialization_2.10/jars/serialization_2.10-0.1.2.jar:/home/jouko/.ivy2/cache/org.scala-lang.modules/scala-pickling_2.10/jars/scala-pickling_2.10-0.10.1.jar:/home/jouko/.ivy2/cache/org.scalamacros/quasiquotes_2.10/jars/quasiquotes_2.10-2.0.1.jar:/home/jouko/.ivy2/cache/org.json4s/json4s-core_2.10/jars/json4s-core_2.10-3.2.10.jar:/home/jouko/.ivy2/cache/org.json4s/json4s-ast_2.10/jars/json4s-ast_2.10-3.2.10.jar:/home/jouko/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.6.jar:/home/jouko/.ivy2/cache/org.spire-math/jawn-parser_2.10/jars/jawn-parser_2.10-0.6.0.jar:/home/jouko/.ivy2/cache/org.spire-math/json4s-support_2.10/jars/json4s-support_2.10-0.6.0.jar:/home/jouko/.ivy2/cache/org.scala-sbt/run/jars/run-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/task-system/jars/task-system-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/tasks/jars/tasks-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/tracking/jars/tracking-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/cache/jars/cache-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/testing/jars/testing-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/test-agent/jars/test-agent-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar:/home/jouko/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/apply-macro/jars/apply-macro-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/command/jars/command-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/template-resolver/jars/template-resolver-0.1.jar:/home/jouko/.ivy2/cache/org.scala-sbt/logic/jars/logic-0.13.15.jar:/home/jouko/.ivy2/cache/org.scala-sbt/compiler-interface/jars/compiler-interface-0.13.15.jar
+[warn] /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala:4: trait Build in package sbt is deprecated: Use .sbt format instead
+[warn] object JavaSampleBuild extends Build {
+[warn]                                ^
+[warn] /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala:15: method defaultSettings in object Project is deprecated: Use Defaults.coreDefaultSettings instead, combined with AutoPlugins.
+[warn]     Project.defaultSettings ++
+[warn]             ^
+[warn] two warnings found
+[debug] Scala compilation took 13.425252602 s
+[debug] [naha] Invalidating /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala...
+[debug] [naha] Invalidating (transitively) by inheritance from /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala...
+[debug] [naha] Initial set of included nodes: Set(/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala)
+[debug] [naha] Invalidated by transitive inheritance dependency: Set(/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala)
+[debug] [naha] The /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala source file has the following regular definitions changed:
+[debug] [naha] 	notify, wait, $asInstanceOf, buildLoaders, root, equals, asInstanceOf, projectDefinitions, synchronized, JavaSampleBuild, $isInstanceOf, notifyAll, rootProject, isInstanceOf, ==, clone, $init$, scalaSettings, toString, !=, projects, getClass, ne, buildSettings, eq, settings, ##, finalize, hashCode.
+[debug] [naha] All member reference dependencies will be considered within this context.
+[debug] [naha] Invalidating /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala...
+[debug] [naha] Invalidating (transitively) by inheritance from /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala...
+[debug] [naha] Initial set of included nodes: Set(/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala)
+[debug] [naha] Invalidated by transitive inheritance dependency: Set(/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala)
+[debug] [naha] The /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala source file has the following regular definitions changed:
+[debug] [naha] 	notify, wait, $asInstanceOf, buildLoaders, root, equals, asInstanceOf, projectDefinitions, synchronized, JavaSampleBuild, $isInstanceOf, notifyAll, rootProject, isInstanceOf, ==, clone, $init$, scalaSettings, toString, !=, projects, getClass, ne, buildSettings, eq, settings, ##, finalize, hashCode.
+[debug] [naha] All member reference dependencies will be considered within this context.
+[debug] [naha] New invalidations:
+[debug] [naha] 	Set()
+[debug] [naha] Initial set of included nodes: Set()
+[debug] [naha] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] [naha] 	Set()
+[debug] [naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()

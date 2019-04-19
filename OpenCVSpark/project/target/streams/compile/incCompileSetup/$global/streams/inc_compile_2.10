@@ -4,7 +4,7 @@ output mode:
 0 -> single
 output directories:
 1 items
-output dir -> /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes
+output dir -> /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes
 compile options:
 1 items
 0 -> -deprecation
@@ -21,26 +21,26 @@ name hashing:
 0 -> true
 products:
 9 items
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$1.class
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$root$1.class
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$root$2.class
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$root$3.class
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$root$4.class
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$scalaSettings$1.class
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$scalaSettings$2.class
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$.class
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild.class
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$1.class
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$root$1.class
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$root$2.class
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$root$3.class
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$root$4.class
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$scalaSettings$1.class
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$scalaSettings$2.class
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$.class
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild.class
 binary dependencies:
 9 items
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/.ivy2/cache/org.scala-sbt/apply-macro/jars/apply-macro-0.13.15.jar
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.15.jar
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.15.jar
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.15.jar
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.15.jar
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.15.jar
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/.ivy2/cache/org.scala-sbt/task-system/jars/task-system-0.13.15.jar
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/.sbt/boot/scala-2.10.6/lib/scala-library.jar
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/.ivy2/cache/org.scala-sbt/apply-macro/jars/apply-macro-0.13.15.jar
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.15.jar
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.15.jar
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.15.jar
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.15.jar
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.15.jar
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/.ivy2/cache/org.scala-sbt/task-system/jars/task-system-0.13.15.jar
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /home/jouko/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -59,108 +59,108 @@ inheritance external dependencies:
 0 items
 class names:
 9 items
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild$
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild$$anonfun$1
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild$$anonfun$root$1
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild$$anonfun$root$2
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild$$anonfun$root$3
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild$$anonfun$root$4
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild$$anonfun$scalaSettings$1
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild$$anonfun$scalaSettings$2
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild$
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild$$anonfun$1
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild$$anonfun$root$1
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild$$anonfun$root$2
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild$$anonfun$root$3
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild$$anonfun$root$4
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild$$anonfun$scalaSettings$1
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild$$anonfun$scalaSettings$2
 used names:
 77 items
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> ++
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> ++=
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> :=
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> <byname>
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> <init>
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> <refinement>
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> <repeated>
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> A
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> AddSettings
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Any
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Append
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> B
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Build
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> CanBuildFrom
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> ClasspathDep
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Coll
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Configuration
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Def
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> File
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> FullInstance
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Function0
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> GenTraversableOnce
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Initialize
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> InitializeInstance
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Int
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Keys
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> LinePosition
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Nothing
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Object
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Predef
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Project
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> ProjectReference
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> S
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Seq
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Sequence
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Serializable
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Setting
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> SettingKey
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> SourcePosition
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> String
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> T
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Task
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> TaskKey
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> That
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> U
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> V
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Values
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> _$13
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> _$9
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> _1
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> appendN
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> appendSeq
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> apply
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> buildSettings
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> canBuildFrom
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> collection
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> defaultSettings
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> file
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> name
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> package
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> pure
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> root
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> sbt
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> scalaSettings
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> scalaVersion
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> scalacOptions
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> set
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> settings
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> x$1
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> x$2
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> x$3
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> x$4
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> x$5
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> x$6
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> x$7
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> x$8
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> ++
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> ++=
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> :=
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> <byname>
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> <init>
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> <refinement>
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> <repeated>
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> A
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> AddSettings
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Any
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Append
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> B
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Build
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> CanBuildFrom
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> ClasspathDep
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Coll
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Configuration
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Def
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> File
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> FullInstance
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Function0
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> GenTraversableOnce
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Initialize
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> InitializeInstance
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Int
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> JavaSampleBuild
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Keys
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> LinePosition
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Nothing
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Object
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Predef
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Project
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> ProjectReference
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> S
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Seq
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Sequence
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Serializable
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Setting
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> SettingKey
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> SourcePosition
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> String
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> T
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Task
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> TaskKey
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> That
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> U
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> V
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> Values
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> _$13
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> _$9
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> _1
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> appendN
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> appendSeq
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> apply
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> buildSettings
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> canBuildFrom
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> collection
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> defaultSettings
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> file
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> name
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> package
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> pure
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> root
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> sbt
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> scalaSettings
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> scalaVersion
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> scalacOptions
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> set
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> settings
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> x$1
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> x$2
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> x$3
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> x$4
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> x$5
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> x$6
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> x$7
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> x$8
 product stamps:
 9 items
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$1.class -> lastModified(1555358232000)
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$root$1.class -> lastModified(1555358232000)
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$root$2.class -> lastModified(1555358232000)
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$root$3.class -> lastModified(1555358232000)
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$root$4.class -> lastModified(1555358232000)
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$scalaSettings$1.class -> lastModified(1555358232000)
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$scalaSettings$2.class -> lastModified(1555358232000)
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$.class -> lastModified(1555358232000)
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild.class -> lastModified(1555358231000)
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$1.class -> lastModified(1555687271000)
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$root$1.class -> lastModified(1555687271000)
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$root$2.class -> lastModified(1555687271000)
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$root$3.class -> lastModified(1555687271000)
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$root$4.class -> lastModified(1555687271000)
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$scalaSettings$1.class -> lastModified(1555687271000)
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$$anonfun$scalaSettings$2.class -> lastModified(1555687271000)
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$.class -> lastModified(1555687270000)
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild.class -> lastModified(1555687270000)
 source stamps:
 1 items
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> hash(3bb6c2eff49f1bf0a5fdc13456c7044a7b6b035b)
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> hash(3bb6c2eff49f1bf0a5fdc13456c7044a7b6b035b)
 binary stamps:
 9 items
 /home/jouko/.ivy2/cache/org.scala-sbt/apply-macro/jars/apply-macro-0.13.15.jar -> lastModified(1491768439000)
@@ -175,25 +175,26 @@ binary stamps:
 class names:
 9 items
 /home/jouko/.ivy2/cache/org.scala-sbt/apply-macro/jars/apply-macro-0.13.15.jar -> sbt.appmacro.Instance$
-/home/jouko/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.15.jar -> sbt.SourcePosition
+/home/jouko/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.15.jar -> sbt.Init
 /home/jouko/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.15.jar -> sbt.Configuration
-/home/jouko/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.15.jar -> sbt.std.FullInstance$
+/home/jouko/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.15.jar -> sbt.TaskKey
 /home/jouko/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.15.jar -> sbt.Build
 /home/jouko/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.15.jar -> sbt.package$
 /home/jouko/.ivy2/cache/org.scala-sbt/task-system/jars/task-system-0.13.15.jar -> sbt.Task
-/home/jouko/.sbt/boot/scala-2.10.6/lib/scala-library.jar -> scala.collection.GenTraversableOnce
+/home/jouko/.sbt/boot/scala-2.10.6/lib/scala-library.jar -> scala.package$
 /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> java.lang.Object
 internal apis:
 1 items
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwc0buEwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAdc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwkc4TjXQABm5vdGlmeXNxAH4ADE5/sN10AAR3YWl0c3EAfgAMymBfWnQADSRhc0luc3RhbmNlT2ZzcQB+AAyZ935ddAAMYnVpbGRMb2FkZXJzc3EAfgAMUN9QKHQABHJvb3RzcQB+AAzH/jh/dAAGZXF1YWxzc3EAfgAMKvJtWXQADGFzSW5zdGFuY2VPZnNxAH4ADKEbBy50ABJwcm9qZWN0RGVmaW5pdGlvbnNzcQB+AAzcvTYKdAAMc3luY2hyb25pemVkc3EAfgAMoVrEZXQAD0phdmFTYW1wbGVCdWlsZHNxAH4ADLzf87t0AA0kaXNJbnN0YW5jZU9mc3EAfgAMLSncPnQACW5vdGlmeUFsbHNxAH4ADDQtyKh0AAtyb290UHJvamVjdHNxAH4ADIzWyMp0AAxpc0luc3RhbmNlT2ZzcQB+AAwps5szdAACPT1zcQB+AAyrlY4LdAAFY2xvbmVzcQB+AAyAXg13dAAGJGluaXQkc3EAfgAMJ0dub3QADXNjYWxhU2V0dGluZ3NzcQB+AAzzJQx0dAAIdG9TdHJpbmdzcQB+AAxGH87cdAACIT1zcQB+AAwos7AHdAAIcHJvamVjdHNzcQB+AAwpFlBRdAAIZ2V0Q2xhc3NzcQB+AAx8EubcdAACbmVzcQB+AAzd2PIDdAANYnVpbGRTZXR0aW5nc3NxAH4ADJ6klmx0AAJlcXNxAH4ADKOqrvJ0AAhzZXR0aW5nc3NxAH4ADM+es/J0AAIjI3NxAH4ADIi4u+B0AAhmaW5hbGl6ZXNxAH4ADG2HClV0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AIXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AaHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBRTAAJaW5oZXJpdGVkcQB+AFFMAAdwYXJlbnRzcQB+AFF4cQB+AG1zcQB+AGh1cQB+AEwAAAAAc3EAfgBodXEAfgBMAAAAAHNxAH4AaHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AbHQABUJ1aWxkc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBsc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AANzYnRzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AhnNxAH4AeXQABk9iamVjdHNxAH4AfXNxAH4AgHVxAH4AgwAAAANzcQB+AIV0AARqYXZhc3EAfgCFdAAEbGFuZ3EAfgCKc3EAfgB5dAADQW55c3EAfgB9c3EAfgCAdXEAfgCDAAAAAnNxAH4AhXQABXNjYWxhcQB+AIp1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABaiKTI5t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABzL2hvbWUvam91a28vZGV2L3Byb2plY3QvVHJhaW5pbmdTcHJpbnRzL2RhdGFzY2llbmNlLWJvb3RjYW1wL09wZW5DVlNwYXJrL3Byb2plY3QvdGFyZ2V0L3NjYWxhLTIuMTAvc2J0LTAuMTMvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFDu2wu/0nxvwpf3BNFbHBEp7awNb
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwc0buEwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAdc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwkc4TjXQABm5vdGlmeXNxAH4ADE5/sN10AAR3YWl0c3EAfgAMymBfWnQADSRhc0luc3RhbmNlT2ZzcQB+AAyZ935ddAAMYnVpbGRMb2FkZXJzc3EAfgAMUN9QKHQABHJvb3RzcQB+AAzH/jh/dAAGZXF1YWxzc3EAfgAMKvJtWXQADGFzSW5zdGFuY2VPZnNxAH4ADKEbBy50ABJwcm9qZWN0RGVmaW5pdGlvbnNzcQB+AAzcvTYKdAAMc3luY2hyb25pemVkc3EAfgAMoVrEZXQAD0phdmFTYW1wbGVCdWlsZHNxAH4ADLzf87t0AA0kaXNJbnN0YW5jZU9mc3EAfgAMLSncPnQACW5vdGlmeUFsbHNxAH4ADDQtyKh0AAtyb290UHJvamVjdHNxAH4ADIzWyMp0AAxpc0luc3RhbmNlT2ZzcQB+AAwps5szdAACPT1zcQB+AAyrlY4LdAAFY2xvbmVzcQB+AAyAXg13dAAGJGluaXQkc3EAfgAMJ0dub3QADXNjYWxhU2V0dGluZ3NzcQB+AAzzJQx0dAAIdG9TdHJpbmdzcQB+AAxGH87cdAACIT1zcQB+AAwos7AHdAAIcHJvamVjdHNzcQB+AAwpFlBRdAAIZ2V0Q2xhc3NzcQB+AAx8EubcdAACbmVzcQB+AAzd2PIDdAANYnVpbGRTZXR0aW5nc3NxAH4ADJ6klmx0AAJlcXNxAH4ADKOqrvJ0AAhzZXR0aW5nc3NxAH4ADM+es/J0AAIjI3NxAH4ADIi4u+B0AAhmaW5hbGl6ZXNxAH4ADG2HClV0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AIXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AaHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBRTAAJaW5oZXJpdGVkcQB+AFFMAAdwYXJlbnRzcQB+AFF4cQB+AG1zcQB+AGh1cQB+AEwAAAAAc3EAfgBodXEAfgBMAAAAAHNxAH4AaHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AbHQABUJ1aWxkc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBsc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AANzYnRzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AhnNxAH4AeXQABk9iamVjdHNxAH4AfXNxAH4AgHVxAH4AgwAAAANzcQB+AIV0AARqYXZhc3EAfgCFdAAEbGFuZ3EAfgCKc3EAfgB5dAADQW55c3EAfgB9c3EAfgCAdXEAfgCDAAAAAnNxAH4AhXQABXNjYWxhcQB+AIp1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABajYvtmx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAB0L2hvbWUvam91a28vZGV2L3Byb2plY3RzL1RyYWluaW5nU3ByaW50cy9kYXRhc2NpZW5jZS1ib290Y2FtcC9PcGVuQ1ZTcGFyay9wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL3NidC0wLjEzL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQ7tsLv9J8b8KX9wTRWxwRKe2sDWw==
 external apis:
 0 items
 source infos:
 1 items
-/home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> 
-AAAAAgAAAQAAAAQAJm9iamVjdCBKYXZhU2FtcGxlQnVpbGQgZXh0ZW5kcyBCdWlsZCB7AQAAADsBAAAAHwEAHyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICABAFwvaG9tZS9qb3Vrby9kZXYvcHJvamVjdC9UcmFpbmluZ1NwcmludHMvZGF0YXNjaWVuY2UtYm9vdGNhbXAvT3BlbkNWU3BhcmsvcHJvamVjdC9idWlsZC5zY2FsYQEAXC9ob21lL2pvdWtvL2Rldi9wcm9qZWN0L1RyYWluaW5nU3ByaW50cy9kYXRhc2NpZW5jZS1ib290Y2FtcC9PcGVuQ1ZTcGFyay9wcm9qZWN0L2J1aWxkLnNjYWxhAEF0cmFpdCBCdWlsZCBpbiBwYWNrYWdlIHNidCBpcyBkZXByZWNhdGVkOiBVc2UgLnNidCBmb3JtYXQgaW5zdGVhZAEAAAEAAAAPAB4gICAgUHJvamVjdC5kZWZhdWx0U2V0dGluZ3MgKysBAAABAAEAAAAMAQAMICAgICAgICAgICAgAQBcL2hvbWUvam91a28vZGV2L3Byb2plY3QvVHJhaW5pbmdTcHJpbnRzL2RhdGFzY2llbmNlLWJvb3RjYW1wL09wZW5DVlNwYXJrL3Byb2plY3QvYnVpbGQuc2NhbGEBAFwvaG9tZS9qb3Vrby9kZXYvcHJvamVjdC9UcmFpbmluZ1NwcmludHMvZGF0YXNjaWVuY2UtYm9vdGNhbXAvT3BlbkNWU3BhcmsvcHJvamVjdC9idWlsZC5zY2FsYQB8bWV0aG9kIGRlZmF1bHRTZXR0aW5ncyBpbiBvYmplY3QgUHJvamVjdCBpcyBkZXByZWNhdGVkOiBVc2UgRGVmYXVsdHMuY29yZURlZmF1bHRTZXR0aW5ncyBpbnN0ZWFkLCBjb21iaW5lZCB3aXRoIEF1dG9QbHVnaW5zLgEAAAAA
+/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/project/build.scala -> 
+AAAAAgAAAQAAAAQAJm9iamVjdCBKYXZhU2FtcGxlQnVpbGQgZXh0ZW5kcyBCdWlsZCB7AQAAADsBAAAAHwEAHyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICABAF0vaG9tZS9qb3Vrby9kZXYvcHJvamVjdHMvVHJhaW5pbmdTcHJpbnRzL2RhdGFzY2llbmNlLWJvb3RjYW1wL09wZW5DVlNwYXJrL3Byb2plY3QvYnVpbGQuc2NhbGEBAF0vaG9tZS9qb3Vrby9kZXYvcHJvamVjdHMvVHJhaW5pbmdTcHJpbnRzL2RhdGFzY2llbmNlLWJvb3RjYW1wL09wZW5DVlNwYXJrL3Byb2plY3QvYnVpbGQuc2NhbGEAQXRyYWl0IEJ1aWxkIGluIHBhY2thZ2Ugc2J0IGlzIGRlcHJlY2F0ZWQ6IFVzZSAuc2J0IGZvcm1hdCBpbnN0ZWFkAQAAAQAAAA8AHiAgICBQcm9qZWN0LmRlZmF1bHRTZXR0aW5ncyArKwEAAAEAAQAAAAwBAAwgICAgICAgICAgICABAF0vaG9tZS9qb3Vrby9kZXYvcHJvamVjdHMvVHJhaW5pbmdTcHJpbnRzL2RhdGFzY2llbmNlLWJvb3RjYW1wL09wZW5DVlNwYXJrL3Byb2plY3QvYnVpbGQuc2NhbGEBAF0vaG9tZS9qb3Vrby9kZXYvcHJvamVjdHMvVHJhaW5pbmdTcHJpbnRzL2RhdGFzY2llbmNlLWJvb3RjYW1wL09wZW5DVlNwYXJrL3Byb2plY3QvYnVpbGQuc2NhbGEAfG1ldGhvZCBkZWZhdWx0U2V0dGluZ3MgaW4gb2JqZWN0IFByb2plY3QgaXMgZGVwcmVjYXRlZDogVXNlIERlZmF1bHRzLmNvcmVEZWZhdWx0U2V0dGluZ3MgaW5zdGVhZCwgY29tYmluZWQgd2l0aCBBdXRvUGx1Z2lucy4BAAAAAA==
 compilations:
-2 items
+3 items
 0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABaiJsUTp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAdS9ob21lL2pvdWtvL2Rldi9wcm9qZWN0L1RyYWluaW5nU3ByaW50cy9kYXRhc2NpZW5jZS1ib290Y2FtcC9PcGVuQ1ZTcGFya18yL3Byb2plY3QvdGFyZ2V0L3NjYWxhLTIuMTAvc2J0LTAuMTMvY2xhc3Nlc3QAAS8=
 1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABaiKTI5t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAcy9ob21lL2pvdWtvL2Rldi9wcm9qZWN0L1RyYWluaW5nU3ByaW50cy9kYXRhc2NpZW5jZS1ib290Y2FtcC9PcGVuQ1ZTcGFyay9wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL3NidC0wLjEzL2NsYXNzZXN0AAEv
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABajYvtmx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAdC9ob21lL2pvdWtvL2Rldi9wcm9qZWN0cy9UcmFpbmluZ1NwcmludHMvZGF0YXNjaWVuY2UtYm9vdGNhbXAvT3BlbkNWU3BhcmsvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABLw==

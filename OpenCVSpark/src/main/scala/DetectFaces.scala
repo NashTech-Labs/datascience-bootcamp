@@ -18,7 +18,8 @@ import org.apache.spark.{SparkConf, SparkContext, SparkFiles}
 
 object LibraryLoader {
   //lazy val load = System.load(SparkFiles.get("libopencv_java2413.so"))
-  lazy val load = System.load("/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/lib/libopencv_java2413.so")
+  //lazy val load = System.load("/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/lib/libopencv_java2413.so")
+  lazy val load = System.load("/home/jouko/dev/projects/TrainingSprints/TrainingSprint7/opencv/build/lib/libopencv_java2413.so")
 }
 
 object FaceDetector {

@@ -1,0 +1,7 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/jouko/dev/project/TrainingSprints/TrainingSprint8/RyaTriples/src/main/scala/com/knoldus/training/LoadRdf.scala:25:54: comparing values of types Class[Unit] and Unit.type using `==' will always yield false[0m
+[0m[[0m[33mwarn[0m] [0m[0m      while((read = resourceAsStream.read()).getClass==Unit && read >= 0) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/jouko/dev/project/TrainingSprints/TrainingSprint8/RyaTriples/src/main/scala/com/knoldus/training/LoadRdf.scala:34:36: comparing values of types Unit and Unit.type using `==' will always yield false[0m
+[0m[[0m[33mwarn[0m] [0m[0m      while ((line = rd.readLine())==Unit && line != null) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
