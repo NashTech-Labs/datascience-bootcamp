@@ -1,3 +1,9 @@
+import java.io.File
+
+import org.apache.hadoop.conf.Configuration
+import org.apache.hadoop.fs.Path
+import org.apache.hadoop.io.IOUtils
+
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.SparkSession
 import org.opencv.core.Core
@@ -13,6 +19,15 @@ import org.apache.spark.{SparkConf, SparkContext, SparkFiles}
 object LibraryLoader {
   //lazy val load = System.load(SparkFiles.get("libopencv_java2413.so"))
   lazy val load = System.load("/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark/lib/libopencv_java2413.so")
+}
+
+object FaceDetector {
+  val homeDir: String=sys.env("HOME")
+  val projectDir: String=homeDir + "/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark"
+  val resourcesDir: String=projectDir + "/src/main/resources"
+
+  val modelFile: String=resourcesDir + "/haarcascade_frontalface_alt.xml"
+  lazy val faceDetector = new CascadeClassifier(modelFile)
 }
 
 object CountFaces {
@@ -46,12 +61,17 @@ object CountFaces {
 
     val inputPaths=resourcesDir + "/images_with_counts_2.txt"
 
+    //FaceDetector.faceDetector
+
     for (modelFile <- modelFiles) {
+      //val localModelFile=downloadToCluster(modelFile, sc)
+      //runModel(inputPaths, localModelFile, sc)
       runModel(inputPaths, modelFile, sc)
     }
   }
 
   def runModel(inputPaths: String, modelFile: String, sc: SparkContext): Unit = {
+    println()
     println("modelFile= " + modelFile)
     val rdd=sc.textFile(inputPaths).map( x => x.split(" ") )
     val rddFaces=rdd.map( path => (path(0), countFaces(path(0), modelFile), path(1).toInt) )
@@ -59,16 +79,18 @@ object CountFaces {
 
     rddFaces.collect.foreach(println)
     println("loss= " + loss)
+    println()
   }
 
   def countFaces(imagePath: String, modelFile: String): Int = {
     LibraryLoader.load
-    val faceDetector = new CascadeClassifier(modelFile)
+    //val faceDetector = new CascadeClassifier(SparkFiles.get(modelFile))
+    //val faceDetector = new CascadeClassifier(modelFile)
 
     val image = Highgui.imread(imagePath)
 
     val faceDetections = new MatOfRect()
-    faceDetector.detectMultiScale(image, faceDetections)
+    FaceDetector.faceDetector.detectMultiScale(image, faceDetections)
 
     faceDetections.toArray.length
   }
@@ -77,6 +99,25 @@ object CountFaces {
     val comparison=rddFaces.map( x => (x._2.toDouble, x._3.toDouble) )
     val scores=comparison.map( x => math.abs(x._2-x._1)/x._2 )
     scores.sum/scores.count.toDouble
+  }
+
+  def copyFile(from: String, to: String): Unit = {
+    val conf = new Configuration()
+    val fromPath = new Path(from)
+    val toPath=new Path(to)
+    val is = fromPath.getFileSystem(conf).open(fromPath)
+    val os = toPath.getFileSystem(conf).create(toPath)
+    IOUtils.copyBytes(is, os, conf)
+    is.close()
+    os.close()
+  }
+
+  def downloadToCluster(path: String, sc: SparkContext): String = {
+    val suffix = path.substring(path.lastIndexOf("."))
+    val file = File.createTempFile("file_", suffix, new File("/tmp/"))
+    copyFile(path, "file://" + file.getPath())
+    sc.addFile("file://" + file.getPath())
+    file.getPath()
   }
 }
 

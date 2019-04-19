@@ -2,6 +2,8 @@
 [debug] Input file mappings:
 [debug] 	priscilla-du-preez-234138-unsplash.jpg
 [debug] 	  /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/target/scala-2.11/classes/priscilla-du-preez-234138-unsplash.jpg
+[debug] 	FaceDetector$.class
+[debug] 	  /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/target/scala-2.11/classes/FaceDetector$.class
 [debug] 	CountFaces$$anonfun$4.class
 [debug] 	  /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/target/scala-2.11/classes/CountFaces$$anonfun$4.class
 [debug] 	CountFaces.class
@@ -16,6 +18,8 @@
 [debug] 	  /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/target/scala-2.11/classes/hian-oliveira-614747-unsplash.jpg
 [debug] 	michael-dam-258165-unsplash.jpg
 [debug] 	  /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/target/scala-2.11/classes/michael-dam-258165-unsplash.jpg
+[debug] 	FaceDetector.class
+[debug] 	  /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/target/scala-2.11/classes/FaceDetector.class
 [debug] 	sharon-mccutcheon-651671-unsplash.jpg
 [debug] 	  /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/target/scala-2.11/classes/sharon-mccutcheon-651671-unsplash.jpg
 [debug] 	CountFaces$$anonfun$runModel$1.class
@@ -52,8 +56,6 @@
 [debug] 	  /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/target/scala-2.11/classes/toa-heftiba-702268-unsplash.jpg
 [debug] 	LibraryLoader.class
 [debug] 	  /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/target/scala-2.11/classes/LibraryLoader.class
-[debug] 	CountFaces$$anonfun$calcError$1.class
-[debug] 	  /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/target/scala-2.11/classes/CountFaces$$anonfun$calcError$1.class
 [debug] 	haarcascade_hand.xml
 [debug] 	  /home/jouko/dev/project/TrainingSprints/datascience-bootcamp/OpenCVSpark/target/scala-2.11/classes/haarcascade_hand.xml
 [debug] 	allef-vinicius-ig-seteales-241577-unsplash.jpg
