@@ -1,8 +1,8 @@
-name := "Training"
+name := "RyaTriples"
 
 version := "0.1"
 
-scalaVersion := "2.12.8"
+scalaVersion := "2.11.12"
 
 libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % Test
 
@@ -33,6 +33,16 @@ libraryDependencies += "org.apache.rya" % "accumulo.rya" % ryaVersion
 
 // https://mvnrepository.com/artifact/org.apache.rya/rya.sail
 libraryDependencies += "org.apache.rya" % "rya.sail" % ryaVersion
+
+// https://mvnrepository.com/artifact/org.apache.any23/apache-any23-csvutils
+libraryDependencies += "org.apache.any23" % "apache-any23-csvutils" % "2.3"
+
+// https://mvnrepository.com/artifact/org.apache.any23/apache-any23-core
+//libraryDependencies += "org.apache.any23" % "apache-any23-core" % "2.3" % "provided"
+
+// https://mvnrepository.com/artifact/org.apache.any23/apache-any23-api
+libraryDependencies += "org.apache.any23" % "apache-any23-api" % "2.3"
+
 
 
 

@@ -39,7 +39,7 @@ object CountFaces {
 
     val conf = new SparkConf().setMaster(sparkMaster).setAppName("OpenCVSpark")
     val sc = new SparkContext(conf)
-
+    /*
     val spark = SparkSession
         .builder()
         .appName("OpenCVSpark")
@@ -48,7 +48,7 @@ object CountFaces {
         .getOrCreate()
 
     spark.sparkContext.setLogLevel("DEBUG")
-
+    */
 
     val homeDir=sys.env("HOME")
     val projectDir=homeDir + "/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark"
@@ -75,20 +75,46 @@ object CountFaces {
     println()
     println("modelFile= " + modelFile)
     val rdd=sc.textFile(inputPaths).map( x => x.split(" ") )
+    println("Read file paths")
+    println("nline= " + rdd.count)
+    rdd.collect.foreach( x => println(x(0)))
+    val rddTest=rdd.map( path => testFunc(path(0)))
+    rddTest.collect.foreach(println)
     val rddFaces=rdd.map( path => (path(0), countFaces(path(0), modelFile), path(1).toInt) )
+    println("After rddFaces")
+    rddFaces.cache
+    println("After cache")
     val loss=calcError(rddFaces)
-
-    rddFaces.collect.foreach(println)
+    println("After loss")
+    rddFaces.collect.foreach( x => println(x))
     println("loss= " + loss)
     println()
   }
 
+  def testFunc(path: String): String = {
+    val homeDir: String=sys.env("HOME")
+    val projectDir: String=homeDir + "/dev/projects/TrainingSprints/datascience-bootcamp/OpenCVSpark"
+    val resourcesDir: String=projectDir + "/src/main/resources"
+
+    val modelFile: String=resourcesDir + "/haarcascade_frontalface_alt.xml"
+    println(modelFile)
+    val faceDetector = new CascadeClassifier(modelFile)
+    //LibraryLoader.load
+    val image = Highgui.imread(path)
+    val faceDetections = new MatOfRect()
+    faceDetector.detectMultiScale(image, faceDetections)
+    path + "asdf"
+  }
+
   def countFaces(imagePath: String, modelFile: String): Int = {
+    println("In countFaces")
     LibraryLoader.load
+    println("Loaded library")
     //val faceDetector = new CascadeClassifier(SparkFiles.get(modelFile))
     //val faceDetector = new CascadeClassifier(modelFile)
 
     val image = Highgui.imread(imagePath)
+    println("width= " + image.width)
 
     val faceDetections = new MatOfRect()
     FaceDetector.faceDetector.detectMultiScale(image, faceDetections)
@@ -97,8 +123,12 @@ object CountFaces {
   }
 
   def calcError(rddFaces: RDD[(String, Int, Int)]): Double = {
+    println("In calcError")
     val comparison=rddFaces.map( x => (x._2.toDouble, x._3.toDouble) )
+    comparison.collect.foreach(println)
+    println("After comparison")
     val scores=comparison.map( x => math.abs(x._2-x._1)/x._2 )
+    println("After scores")
     scores.sum/scores.count.toDouble
   }
 

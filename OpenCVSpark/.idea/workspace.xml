@@ -2,61 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8a58ded-0bda-4049-a735-05dae8be07e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/OpenCVSpark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/OpenCVSpark.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0679e6608b3113948508$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0679e6608b3113948508$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0679e6608b3113948508.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0679e6608b3113948508.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0aca0017368f1495624e$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0aca0017368f1495624e$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0aca0017368f1495624e.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0aca0017368f1495624e.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$22c7f21bae78cdfda2f8$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$22c7f21bae78cdfda2f8$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$22c7f21bae78cdfda2f8.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$22c7f21bae78cdfda2f8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$33fb9a510afa1a07104b$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$33fb9a510afa1a07104b$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$33fb9a510afa1a07104b.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$33fb9a510afa1a07104b.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4e229a384ee4423a102f$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4e229a384ee4423a102f$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4e229a384ee4423a102f.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4e229a384ee4423a102f.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/opencvspark-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/opencvspark-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/opencvspark-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/opencvspark-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-docs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-sources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-opencvspark-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/classes/JavaSampleBuild$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4792bc7f031d8ed36593$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4792bc7f031d8ed36593$$anonfun$$sbtdef$2$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4792bc7f031d8ed36593$$anonfun$$sbtdef$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4792bc7f031d8ed36593$$anonfun$$sbtdef$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4792bc7f031d8ed36593$$anonfun$$sbtdef$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4792bc7f031d8ed36593$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4792bc7f031d8ed36593.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4792bc7f031d8ed36593.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images_with_counts_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images_with_counts_2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/DetectFaces.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/DetectFaces.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/opencvspark/opencvspark$sources_2.11/0.1/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/opencvspark/opencvspark$sources_2.11/0.1/resolved.xml.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/opencvspark/opencvspark_2.11/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/opencvspark/opencvspark_2.11/0.1/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/opencvspark/opencvspark_2.11/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/opencvspark/opencvspark_2.11/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark$sources_2.11-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark$sources_2.11-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark$sources_2.11-docs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark$sources_2.11-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark$sources_2.11-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark$sources_2.11-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark$sources_2.11-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark$sources_2.11-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark$sources_2.11-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark$sources_2.11-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark$sources_2.11-sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark$sources_2.11-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark$sources_2.11-test.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark_2.11-compile-internal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark_2.11-compile.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark_2.11-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark_2.11-docs.xml" afterDir="false" />
@@ -70,16 +45,240 @@
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark_2.11-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark_2.11-sources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark_2.11-test-internal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/opencvspark-opencvspark_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CountFaces$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/CountFaces$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CountFaces$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/CountFaces$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CountFaces$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/CountFaces$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CountFaces$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/CountFaces$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CountFaces$$anonfun$runModel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/CountFaces$$anonfun$runModel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CountFaces$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/CountFaces$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CountFaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/CountFaces.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/FaceDetector$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/FaceDetector$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/LibraryLoader$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/LibraryLoader$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/images_with_counts_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/images_with_counts_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/opencvspark_2.11-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/opencvspark_2.11-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_12_2_6_7_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__com_twitter_chill_2_12_0_9_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_apache_spark_spark_catalyst_2_12_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_apache_spark_spark_core_2_12_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_apache_spark_spark_kvstore_2_12_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_apache_spark_spark_launcher_2_12_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_apache_spark_spark_network_common_2_12_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_apache_spark_spark_network_shuffle_2_12_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_apache_spark_spark_sketch_2_12_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_apache_spark_spark_sql_2_12_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_apache_spark_spark_tags_2_12_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_apache_spark_spark_unsafe_2_12_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_json4s_json4s_ast_2_12_3_5_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_json4s_json4s_core_2_12_3_5_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_json4s_json4s_jackson_2_12_3_5_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_json4s_json4s_scalap_2_12_3_5_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_6_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/modules/Training-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/modules/Training.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/project/target/config-classes/$41fb0bada0b376c8a796$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/project/target/config-classes/$41fb0bada0b376c8a796.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/project/target/config-classes/$41fb0bada0b376c8a796.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/project/target/config-classes/$5f25ec98ab695cb8f26c$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/project/target/config-classes/$5f25ec98ab695cb8f26c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/project/target/config-classes/$5f25ec98ab695cb8f26c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/project/target/config-classes/$e5fb1fa869aa25cb56f4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/project/target/config-classes/$e5fb1fa869aa25cb56f4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/project/target/config-classes/$e5fb1fa869aa25cb56f4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$061d1dd5d77c4c680f99$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$061d1dd5d77c4c680f99.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$061d1dd5d77c4c680f99.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$13cfb8aa9faeef2f2634$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$13cfb8aa9faeef2f2634.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$13cfb8aa9faeef2f2634.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$2fb9f167e66674667e88$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$2fb9f167e66674667e88.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$2fb9f167e66674667e88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$30a189f4fa5e5e30c421$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$30a189f4fa5e5e30c421.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$30a189f4fa5e5e30c421.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$37a24b8a3ac96f42e875$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$37a24b8a3ac96f42e875.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$37a24b8a3ac96f42e875.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$4241f52dd6c46eb4c306$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$4241f52dd6c46eb4c306.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$4241f52dd6c46eb4c306.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$46ec89816356e00c4741$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$46ec89816356e00c4741.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$46ec89816356e00c4741.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$57cbda0abdafabc38ffe$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$57cbda0abdafabc38ffe.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$57cbda0abdafabc38ffe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$60286dfff339c985c24b$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$60286dfff339c985c24b.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$60286dfff339c985c24b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$61f51903f6aa67d74744$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$61f51903f6aa67d74744.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$61f51903f6aa67d74744.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$6395d641b7464091871d$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$6395d641b7464091871d.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$6395d641b7464091871d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$64b3b78603fd46a7ee08$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$64b3b78603fd46a7ee08.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$64b3b78603fd46a7ee08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$73278351a85fe861489a$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$73278351a85fe861489a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$73278351a85fe861489a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$c2f21212a2e044b2c745$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$c2f21212a2e044b2c745.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$c2f21212a2e044b2c745.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$c6c5672bf78606a63b71$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$c6c5672bf78606a63b71.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$c6c5672bf78606a63b71.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$d169151605fba7e7b497$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$d169151605fba7e7b497.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$d169151605fba7e7b497.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$dd9919da09317ebf556b$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$dd9919da09317ebf556b.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$dd9919da09317ebf556b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$f04f367867b5e0adf1c8$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$f04f367867b5e0adf1c8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$f04f367867b5e0adf1c8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$f071d9645a168aa5725e$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$f071d9645a168aa5725e.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$f071d9645a168aa5725e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$f71029ce9d410d1e6069$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$f71029ce9d410d1e6069.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$f71029ce9d410d1e6069.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$fbe4bd05d24d1733ff79$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$fbe4bd05d24d1733ff79.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/config-classes/$fbe4bd05d24d1733ff79.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/src/main/scala/com/knoldus/training/GetTriples.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/src/main/scala/com/knoldus/training/GetTriples.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/Legacy_Purchase_Orders.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/Legacy_Purchase_Orders.csv.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/application.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/com/knoldus/common/AppConfig$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/com/knoldus/common/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/com/knoldus/common/KLogger$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/com/knoldus/common/KLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/com/knoldus/spark/Transformers$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/com/knoldus/spark/Transformers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/com/knoldus/spark/UDFs$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/com/knoldus/spark/UDFs$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/com/knoldus/spark/UDFs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/com/knoldus/training/GetTriples$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/com/knoldus/training/GetTriples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/com/knoldus/training/LoadRdf$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/com/knoldus/training/LoadRdf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/com/knoldus/training/RyaTriples$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/com/knoldus/training/RyaTriples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/ivy-report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training$sources-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training$sources-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training$sources-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training$sources-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training$sources-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training$sources-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training$sources-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training$sources-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training$sources-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training$sources-scoveragePlugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training$sources-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training$sources-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training_2.12-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training_2.12-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training_2.12-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training_2.12-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training_2.12-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training_2.12-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training_2.12-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training_2.12-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training_2.12-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training_2.12-scoveragePlugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training_2.12-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/reports/training-training_2.12-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/training/training$sources/0.1/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/training/training$sources/0.1/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/training/training_2.12/0.1/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/resolution-cache/training/training_2.12/0.1/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.12/training_2.12-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/exportedProductJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/packageBin/$global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/packageBin/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/packageBin/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/packageBin/$global/streams/output" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/packageBin/$global/streams/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/run/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/runtime/exportedProductJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/runtime/fullClasspathAsJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/runtime/internalDependencyAsJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/test/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/test/unmanagedJars/$global/streams/export" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -96,12 +295,12 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/DetectFaces.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="390">
+              <caret line="104" column="41" lean-forward="true" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -122,8 +321,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="130" />
-    <option name="y" value="392" />
+    <option name="x" value="175" />
+    <option name="y" value="299" />
     <option name="width" value="1730" />
     <option name="height" value="781" />
   </component>
@@ -134,6 +333,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,8 +363,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555711350478" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -205,6 +407,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="4667055348000" />
         <entry key="$PROJECT_DIR$/build.sbt" value="4122858385" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2920355924" />
         <entry key="$PROJECT_DIR$/project/build.scala" value="1339529045" />
@@ -251,20 +454,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="392" width="1730" height="781" extended-state="0" />
+    <frame x="175" y="299" width="1730" height="781" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25296912" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.3297546" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -272,23 +471,28 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="sbt" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="11" visible="true" weight="0.3297546" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="sbt" order="9" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/DetectFaces.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="390">
+          <caret line="104" column="41" lean-forward="true" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
