@@ -106,51 +106,9 @@ object GetTriples {
 
     dfRenamed.foreach( x => addToModel(x, columnIris) )
 
-
-
-    val rddRows=sc.textFile(path)
-      .map( x => x.split(",") )
-    //rddRows.collect.foreach( x => println(x.mkString ))
-    /*
-    val rows=rddRows.collect
-
-    val model=new impl.TreeModel()
-
-    val knoldus="http://www.knoldus.com/"
-
-    val vf=SimpleValueFactory.getInstance()
-
-    //val rowType=vf.createIRI(knoldus, "row")
-    //val recordType=vf.createIRI(knoldus, "RECORD_TYPE")
-    //val purchaseOrderNumber=vf.createIRI(knoldus, "PURCHASE_ORDER_NUMBER")
-
-    val columnIris=getColumnIris(knoldus, vf, rows(0))
-
-    columnIris.foreach(println)
-
-    val convertTo=getConvertTo
-
-    for {i <- 1 until rows.length} {
-      val row = vf.createIRI(knoldus, "row_" + i)
-      model.add(row, RDF.TYPE, vf.createLiteral("order"))
-      for {j <- columnIris.indices} {
-        if (rows(i)(j)!="") {
-          if (convertTo(j)=="Int") { model.add(row, columnIris(j), vf.createLiteral(rows(i)(j).toInt)) }
-          else if (convertTo(j)=="Double") { model.add(row, columnIris(j), vf.createLiteral(rows(i)(j).toDouble)) }
-          else { model.add(row, columnIris(j), vf.createLiteral(rows(i)(j))) }
-          //model.add(row, columnIris(j), vf.createLiteral(rows(i)(j)))
-        }
-      }
-    }
-
-    */
     val outFile="test.ttl"
 
     writeModel(outFile, RdfModel.model)
-
-    //for { i <- 0 to rows.size } {
-    //  val rowSubject=RDFUtils.iri(documentIRI.toString(), "row/" + i)
-    //}
 
 
     spark.stop()
@@ -158,27 +116,18 @@ object GetTriples {
   }
 
   def addToModel(row: Row, colNames: Array[IRI]): Unit = {
-
-    //val model=new impl.TreeModel()
+    
 
     val knoldus="http://www.knoldus.com/"
 
-    //val convertTo=getConvertTo
-    //println(row.schema.fields(0).dataType)
 
     val vf=SimpleValueFactory.getInstance()
-    //println(row)
 
       val rowIRI = vf.createIRI(knoldus, "row_" + row.getLong(row.size-1))
       RdfModel.model.add(rowIRI, RDF.TYPE, vf.createLiteral("order"))
       for {j <- 0 until row.size-1} {
         if (row(j)!=null) {
-          //if (convertTo(j)=="Int") { model.add(row, columnIris(j), vf.createLiteral(rows(i)(j).toInt)) }
-          //else if (convertTo(j)=="Double") { model.add(row, columnIris(j), vf.createLiteral(rows(i)(j).toDouble)) }
-          //else { model.add(row, columnIris(j), vf.createLiteral(rows(i)(j))) }
-          //println(row.schema.fields(j).dataType)
           row.schema.fields(j).dataType match {
-            //println(row.getString(j))
             case StringType => RdfModel.model.add(rowIRI, colNames(j), vf.createLiteral(row.getString(j)))
             case LongType => RdfModel.model.add(rowIRI, colNames(j), vf.createLiteral(row.getLong(j)))
             case DoubleType => RdfModel.model.add(rowIRI, colNames(j), vf.createLiteral(row.getDouble(j)))
@@ -188,53 +137,7 @@ object GetTriples {
       }
   }
 
-  def getConvertTo: Array[String] = {
-    Array(
-     "String",  //0
-      "String", //1
-      "String", //2
-      "String", //3
-      "Double", //4
-      "Int",    //5
-      "String", //6
-      "Int",    //7
-      "String", //8
-      "String", //9
-      "String", //10
-      "String", //11
-      "String", //12
-      "String", //13
-      "String", //14
-      "Int",    //15
-      "String", //16
-      "Double", //17
-      "Int",    //18
-      "String", //19
-      "String", //20
-      "String", //21
-      "String", //22
-      "String", //23
-      "String", //24
-      //"Int",    //25
-      "String", //25
-      "String", //26
-      "String", //27
-      "String", //28
-      "String", //29
-      "String", //30
-      "String", //31
-      "Int",    //32
-      "Double", //33
-      "Int",    //34
-      "String", //35
-      "String", //36
-      "String", //37
-      "String", //38
-      "String", //39
-      "String", //40
-      "String" //41
-    )
-  }
+
 
   def getColumnIrisRec(knoldus: String, vf: SimpleValueFactory, cols: Array[String], n: Int, result: Array[IRI]): Array[IRI] = {
     if (n==cols.length) { result }
