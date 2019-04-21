@@ -116,7 +116,7 @@ object GetTriples {
   }
 
   def addToModel(row: Row, colNames: Array[IRI]): Unit = {
-    
+
 
     val knoldus="http://www.knoldus.com/"
 
