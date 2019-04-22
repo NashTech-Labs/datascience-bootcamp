@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
-		date="20190420144202"/>
+		date="20190421161826"/>
 	<dependencies>
 		<module organisation="org.apache.any23" name="apache-any23-csvutils">
 			<revision name="2.3" status="release" pubdate="20190211120803" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="328">

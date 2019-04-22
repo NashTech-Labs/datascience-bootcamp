@@ -2,7 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8a58ded-0bda-4049-a735-05dae8be07e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/src/main/scala/com/knoldus/training/GetTriples.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/src/main/scala/com/knoldus/training/GetTriples.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RyaTriples_2/src/main/java/LoadDataServletRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/DetectFaces.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/DetectFaces.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/modules/RyaTriples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/.idea/modules/RyaTriples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/ntriples.ntrips" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/default/ryatriples_2-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/default/ryatriples_2-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/default/ryatriples_2-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/default/ryatriples_2-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-scoveragePlugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-scoveragePlugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/ryatriples/ryatriples_2.11/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/ryatriples/ryatriples_2.11/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/ryatriples/ryatriples_2.11/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/resolution-cache/ryatriples/ryatriples_2.11/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/ryatriples_2.11-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/scala-2.11/ryatriples_2.11-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/packageBin/$global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/packageBin/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../RyaTriples_2/target/streams/compile/packageBin/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -23,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/DetectFaces.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="104" column="41" lean-forward="true" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
+            <state relative-caret-position="407">
+              <caret line="105" column="4" lean-forward="true" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -45,10 +90,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="175" />
-    <option name="y" value="299" />
-    <option name="width" value="1730" />
-    <option name="height" value="781" />
+    <option name="x" value="486" />
+    <option name="y" value="199" />
+    <option name="width" value="1657" />
+    <option name="height" value="978" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -57,7 +102,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,6 +131,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -131,7 +176,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4667055348000" />
+        <entry key="$PROJECT_DIR$" value="4667605983000" />
         <entry key="$PROJECT_DIR$/build.sbt" value="4122858385" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2920355924" />
         <entry key="$PROJECT_DIR$/project/build.scala" value="1339529045" />
@@ -178,10 +223,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="175" y="299" width="1730" height="781" extended-state="0" />
+    <frame x="486" y="199" width="1657" height="978" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25296912" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2675357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -215,8 +260,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/DetectFaces.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="104" column="41" lean-forward="true" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
+        <state relative-caret-position="407">
+          <caret line="105" column="4" lean-forward="true" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

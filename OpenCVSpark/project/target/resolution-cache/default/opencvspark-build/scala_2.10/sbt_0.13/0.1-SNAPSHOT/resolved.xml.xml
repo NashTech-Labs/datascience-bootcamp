@@ -4,7 +4,7 @@
 		module="opencvspark-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20190419102053"
+		publication="20190422012321"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
