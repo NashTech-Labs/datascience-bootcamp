@@ -10,4 +10,7 @@ cd $hadoop_dir
 ./RunHdfs
 $tomcat_bin
 $accumulo_bin init
-$accumulo_bin tserver
+$accumulo_bin tserver &
+$accumulo_bin master &
+$accumulo_bin monitor &
+$accumulo_bin gc &
