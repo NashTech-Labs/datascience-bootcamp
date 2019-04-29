@@ -10,7 +10,7 @@ object UDFs {
 
   def safeToInt(str: String, default: Int): Int = {
     try { str.toInt }
-    catch { case e: NumberFormatException => LogObject.LOGGER.trace("Unable to convert " + str + " to int"); default }
+    catch { case e: NumberFormatException => LogObject.LOGGER.warn("Unable to convert " + str + " to int"); default }
   }
 
   def safeToDouble(str: String, default: Double): Double = {
@@ -103,7 +103,7 @@ object UDFs {
     x =>
       x match {
         case str: String => safeToDouble(str, 0)
-        case _ => 0
+        case _ => LogObject.LOGGER.warn("option null"); 1.0
       }
   }
 
@@ -118,4 +118,9 @@ object UDFs {
   }
 
   val applicationTypeToIntUDF = udf(applicationTypeToInt)
+
+  val outPrncpToDouble: String => Double = x => safeToDouble(x, 3.0)
+
+  val outPrncpToDoubleUDF = udf(outPrncpToDouble)
+
 }

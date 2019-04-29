@@ -11,8 +11,7 @@ object RunSavedModel {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession
       .builder()
-      .appName("Spark SQL basic example")
-      .config("spark.some.config.option", "some-value")
+      .appName("Run saved model")
       .master("local[*]")
       .getOrCreate()
 
@@ -31,7 +30,12 @@ object RunSavedModel {
 
     val predictedDf=model.transform(cleanedDf)
 
-    predictedDf.write.format("com.databricks.spark.csv").option("header", "true").save(predictionPath)
+    predictedDf
+      .select("prediction")
+      .repartition(1)
+      .write.format("com.databricks.spark.csv")
+      .option("header", "true")
+      .save(predictionPath)
 
     spark.stop()
   }

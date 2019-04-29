@@ -97,7 +97,7 @@ class ExampleSuite extends TestCase {
   @Test
   def testStringToDouble: Unit = {
     assertEquals(UDFs.stringToDouble("fadfa"), 0, 0.00001)
-    assertEquals(UDFs.stringToDouble("3.5"), 2.5, 0.00001)
+    assertEquals(UDFs.stringToDouble("3.5"), 3.5, 0.00001)
   }
 
   @Test
@@ -109,6 +109,14 @@ class ExampleSuite extends TestCase {
   @Test
   def testOptionToInt: Unit = {
     assertEquals(UDFs.optionToInt(null), 0)
+    assertEquals(UDFs.optionToInt("6"), 6)
+  }
+
+  @Test
+  def testOptionToDouble: Unit = {
+    assertEquals(UDFs.optionToDouble(null), 0, 0.00001)
+    assertEquals(UDFs.optionToDouble("3.5"), 3.5, 0.00001)
+
   }
 
   override def tearDown(): Unit = {

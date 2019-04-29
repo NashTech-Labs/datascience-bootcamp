@@ -51,8 +51,9 @@ object Main {
     spark.sparkContext.setLogLevel("WARN")
 
     val path=args(0)
-    val lsvmOutPath=args(1)
-    val dtOutPath=args(2)
+    val lrOutPath=args(1)
+    val lsvmOutPath=args(2)
+    val dtOutPath=args(3)
 
     val timeStart=System.currentTimeMillis()
 
@@ -72,8 +73,9 @@ object Main {
     LogObject.LOGGER.info("numNegativeTraining= " + numNegativeTraining + " numPositiveTraining= " + numPositiveTraining)
     LogObject.LOGGER.info("numNegativeTest= " + numNegativeTest + " numPositiveTest= " + numPositiveTest)
 
-    val (lsvmModel, dtModel)=testModels(cleanedTraining, cleanedTest)
+    val (lrModel, lsvmModel, dtModel)=testModels(cleanedTraining, cleanedTest)
 
+    lrModel.save(lrOutPath)
     lsvmModel.save(lsvmOutPath)
     dtModel.save(dtOutPath)
 
@@ -103,14 +105,15 @@ object Main {
     (coeff1, coeff2)
   }
 
-  def testModels(training: DataFrame, test: DataFrame): (LinearSVCModel, DecisionTreeClassificationModel) = {
-    //val cvModel=logisticRegression(cleanedTraining)
-    //val testPredict=cvModel.transform(cleanedTest)
+  def testModels(training: DataFrame, test: DataFrame):
+  (LogisticRegressionModel, LinearSVCModel, DecisionTreeClassificationModel) = {
+    val lrModel=logisticRegression(training)
+    val testPredict=lrModel.transform(test)
     //saveLogisticRegession(cvModel, outPath)
 
-    //testPredict.show(false)
-    //LogObject.LOGGER.info("Metrics for logistic regression")
-    //calcMetrics(testPredict)
+    testPredict.show(false)
+    LogObject.LOGGER.info("Metrics for logistic regression")
+    calcMetrics(testPredict)
 
     //readLogisticRegression(outPath)
 
@@ -130,7 +133,7 @@ object Main {
     LogObject.LOGGER.info("Metrics for decision tree")
     calcMetrics(testPredictDt)
 
-    (lsvmModel, dtModel)
+    (lrModel, lsvmModel, dtModel)
   }
 
   def countNumNegativePositive(df: DataFrame): (Long, Long) = {
@@ -273,11 +276,14 @@ object Main {
       Transformers.getColVerificationStatusDouble()(_), Transformers.getColPymntPlanDouble()(_),
       Transformers.getColDtiDouble()(_), Transformers.getColDelinq2YrsInt()(_), Transformers.getColZipcodeInt()(_),
       Transformers.getColEarliestCrLineInt()(_), Transformers.getColInqLast6MthsInt()(_),
-      //Transformers.getColMthsSinceLastDelinqInt()(_),
+      //Transformers.getColMthsSinceLastDelinqInt()(_), gfg
       Transformers.getColOpenInt()(_),
       Transformers.getColPubRecInt()(_), Transformers.getColRevolBalDouble()(_),
       Transformers.getColRevolUtilDouble()(_), Transformers.getColTotalAccInt()(_),
+
       Transformers.getColOptionDouble()(_:DataFrame)("out_prncp", "out_prncp_double"),
+      //Transformers.getColOutPrncpDouble()(_),
+
       Transformers.getColOptionDouble()(_:DataFrame)("total_pymnt", "total_pymnt_double"),
       Transformers.getColOptionDouble()(_:DataFrame)("total_rec_prncp", "total_rec_prncp_double"),
       Transformers.getColOptionDouble()(_:DataFrame)("total_rec_int", "total_rec_int_double"),
@@ -300,10 +306,11 @@ object Main {
     df2.show
 
     val goodFeatures=Array("issue_dInt", "out_prncp_double", "dti_double", "total_rec_prncp_double", "annual_incInt")
+    //val goodFeatures=Array("out_prncp_double")
 
     val assembler = new VectorAssembler()
-      //.setInputCols(df2.columns.filter( x => x!="label" ))
-      .setInputCols(goodFeatures)
+      .setInputCols(df2.columns.filter( x => x!="label" ))
+      //.setInputCols(goodFeatures)
       .setOutputCol("features")
 
     val dfCleaned=assembler.transform(df2)

@@ -200,7 +200,10 @@ object Transformers {
   }
 
   def getColOptionDouble()(df: DataFrame)(inputCol: String, outputCol: String): Column = {
+    println("inputCol= " + inputCol + " outputCol= " + outputCol)
     UDFs.optionToDoubleUDF(df.col(inputCol)).as(outputCol)
+    //UDFs.outPrncpToDoubleUDF(df.col("out_prncp")).as("out_prncp_double")
+    //UDFs.outPrncpToDoubleUDF(df.col(inputCol)).as(outputCol)
   }
 
   def withApplicationTypeInt()(df: DataFrame): DataFrame = {
@@ -210,5 +213,11 @@ object Transformers {
   def getColApplicationTypeInt()(df: DataFrame): Column = {
     UDFs.applicationTypeToIntUDF(df.col("application_type")).as("application_type_int")
   }
+
+  def getColOutPrncpDouble()(df: DataFrame): Column = {
+    UDFs.outPrncpToDoubleUDF(df.col("out_prncp")).as("out_prncp_double")
+  }
+
+  //Transformers.getColOptionDouble()(_:DataFrame)("out_prncp", "out_prncp_double"),
 
 }

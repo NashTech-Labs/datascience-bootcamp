@@ -10,8 +10,7 @@ object SplitTrainingTest {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession
       .builder()
-      .appName("Spark SQL basic example")
-      .config("spark.some.config.option", "some-value")
+      .appName("SplitTrainingTest")
       .master("local[*]")
       .getOrCreate()
 
@@ -22,8 +21,8 @@ object SplitTrainingTest {
 
     val inputPath = args(0)
     val testSetSize = args(1).toDouble
-    val trainingOutPath = args(1)
-    val testOutPath = args(2)
+    val trainingOutPath = args(2)
+    val testOutPath = args(3)
 
     val df = spark.read
       .format("csv")
@@ -34,9 +33,12 @@ object SplitTrainingTest {
     val count=df.count()
     val fraction=testSetSize/count.toDouble
 
+    LogObject.LOGGER.info("trainingOutPath= " + trainingOutPath)
+    LogObject.LOGGER.info("testOutPath= " + testOutPath)
+
     val Array(trainingDf, testDf) = df.randomSplit(Array(1.0-fraction, fraction))
 
-    trainingDf.write.format("com.databricks.spark.csv").option("header", "true").save(trainingOutPath)
-    testDf.write.format("com.databricks.spark.csv").option("header", "true").save(testOutPath)
+    trainingDf.repartition(1).write.format("com.databricks.spark.csv").option("header", "true").save(trainingOutPath)
+    testDf.repartition(1).write.format("com.databricks.spark.csv").option("header", "true").save(testOutPath)
   }
 }
