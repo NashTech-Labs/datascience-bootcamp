@@ -103,7 +103,7 @@ object UDFs {
     x =>
       x match {
         case str: String => safeToDouble(str, 0)
-        case _ => LogObject.LOGGER.warn("option null"); 1.0
+        case _ => LogObject.LOGGER.warn("option null"); 0
       }
   }
 
