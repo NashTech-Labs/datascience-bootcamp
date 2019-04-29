@@ -38,11 +38,13 @@ object Main {
 
   def main(args: Array[String]):Unit = {
 
+    val sparkMaster="spark://192.168.1.5:7077"
+
     val spark = SparkSession
       .builder()
       .appName("Spark SQL basic example")
       .config("spark.some.config.option", "some-value")
-      .master("local[*]")
+      .master(sparkMaster)
       .getOrCreate()
 
     AppConfig.setSparkSession(spark)
