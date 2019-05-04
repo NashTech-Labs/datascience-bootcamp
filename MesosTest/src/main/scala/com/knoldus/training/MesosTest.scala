@@ -6,7 +6,7 @@ import org.apache.log4j.Logger
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.{SparkConf, SparkContext}
 
-object Sample {
+object MesosTest {
 
 
   def main(args: Array[String]):Unit = {
@@ -20,12 +20,15 @@ object Sample {
     val conf = new SparkConf().setMaster(master).setAppName("MesosTest")//.set("spark.master.rest.enabled", "true")
     val sc = new SparkContext(conf)
 
+    val sparkUri="http://localhost/spark-2.4.0-bin-hadoop2.7.tgz"
+
     // Spark Demo
     val spark = SparkSession
       .builder()
       .appName("MesosTest")
       //.set("spark.executor.uri", "http://192.168.1.5/spark-2.4.0-bin-hadoop2.7.tgz")
-      .config("spark.executor.uri", "http://192.168.1.5/spark-2.4.0-bin-hadoop2.7.tgz")
+      //.config("spark.executor.uri", "http://192.168.1.5/spark-2.4.0-bin-hadoop2.7.tgz")
+      .config("spark.executor.uri", sparkUri)
       //.config("spark.master.rest.enabled", "true")
       .master(master)
       .getOrCreate()
