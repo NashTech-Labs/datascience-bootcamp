@@ -16,15 +16,100 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: aopalliance:aopalliance:1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.yaml:snakeyaml:1.15:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.ow2.asm:asm:5.0.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-util:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-sail-rdbms:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-sail-nativerdf:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-sail-memory:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-sail-inferencer:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-sail-federation:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-sail-api:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-runtime:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-turtle:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-trix:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-trig:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-rdfxml:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-rdfjson:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-ntriples:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-nquads:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-n3:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-languages:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-datatypes:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-binary:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-api:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-repository-sparql:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-repository-sail:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-repository-manager:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-repository-http:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-repository-event:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-repository-dataset:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-repository-contextaware:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-repository-api:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryresultio-text:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryresultio-sparqlxml:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryresultio-sparqljson:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryresultio-binary:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryresultio-api:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryparser-sparql:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryparser-serql:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryparser-api:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryalgebra-model:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryalgebra-evaluation:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-query:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-model:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-http-protocol:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-http-client:2.7.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.javatuples:javatuples:1.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.calrissian.mango:mango-core:1.2.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.tinkerpop:tinkergraph-gremlin:3.2.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.tinkerpop:gremlin-shaded:3.2.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.tinkerpop:gremlin-core:3.2.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.rya:rya.sail:3.2.12-incubating:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.rya:rya.provenance:3.2.12-incubating:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.rya:rya.prospector:3.2.12-incubating:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.rya:rya.api:3.2.12-incubating:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.rya:accumulo.rya:3.2.12-incubating:jar" level="project" />
+    <orderEntry type="library" name="sbt: net.sf.opencsv:opencsv:2.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: net.sf.ehcache:ehcache-core:1.7.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: commons-pool:commons-pool:1.5.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: commons-net:commons-net:3.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: commons-dbcp:commons-dbcp:1.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.jcabi:jcabi-manifests:1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.jcabi:jcabi-log:0.14:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.github.stephenc.jcip:jcip-annotations:1.0-1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.github.stephenc.findbugs:findbugs-annotations:1.3.9-1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.esotericsoftware:reflectasm:1.10.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.esotericsoftware:kryo:3.0.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.slf4j:slf4j-log4j12:1.7.25:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.codehaus.mojo:animal-sniffer-annotations:1.14:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.checkerframework:checker-qual:2.5.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.zookeeper:zookeeper:3.4.13:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.yetus:audience-annotations:0.5.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.thrift:libthrift:0.11.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.htrace:htrace-core4:4.1.0-incubating:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-client-runtime:3.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-client-api:3.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.accumulo:accumulo-start:2.0.0-alpha-2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.accumulo:accumulo-core:2.0.0-alpha-2:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty:3.10.6.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: commons-configuration:commons-configuration:1.10:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.google.j2objc:j2objc-annotations:1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.google.guava:guava:26.0-jre:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.google.errorprone:error_prone_annotations:2.1.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.google.code.gson:gson:2.8.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.github.ben-manes.caffeine:caffeine:2.6.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.beust:jcommander:1.72:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.htrace:htrace-core:3.1.0-incubating:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.commons:commons-vfs2:2.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.commons:commons-math3:3.6.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: jline:jline:2.11:jar" level="project" />
     <orderEntry type="library" name="sbt: ch.qos.logback:logback-classic:1.1.11:jar" level="project" />
     <orderEntry type="library" name="sbt: ch.qos.logback:logback-core:1.1.11:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.beust:jcommander:1.32:jar" level="project" />
     <orderEntry type="library" name="sbt: com.carrotsearch:hppc:0.7.2:jar" level="project" />
     <orderEntry type="library" name="sbt: com.clearspring.analytics:stream:2.7.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.esotericsoftware:kryo:3.0.3:jar" level="project" />
     <orderEntry type="library" name="sbt: com.esotericsoftware:kryo-shaded:4.0.2:jar" level="project" />
     <orderEntry type="library" name="sbt: com.esotericsoftware:minlog:1.3.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.esotericsoftware:reflectasm:1.10.1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-annotations:2.9.6:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-core:2.9.6:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-databind:2.9.6:jar" level="project" />
@@ -32,15 +117,9 @@
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.module:jackson-module-scala_2.11:2.6.7.1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.github.jsonld-java:jsonld-java:0.12.3:jar" level="project" />
     <orderEntry type="library" name="sbt: com.github.luben:zstd-jni:1.3.2-2:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.github.stephenc.findbugs:findbugs-annotations:1.3.9-1:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.github.stephenc.jcip:jcip-annotations:1.0-1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.google.code.findbugs:jsr305:3.0.2:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.google.code.gson:gson:2.8.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.google.guava:guava:18.0:jar" level="project" />
     <orderEntry type="library" name="sbt: com.google.inject:guice:3.0:jar" level="project" />
     <orderEntry type="library" name="sbt: com.google.protobuf:protobuf-java:2.5.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.jcabi:jcabi-log:0.14:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.jcabi:jcabi-manifests:1.1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.ning:compress-lzf:1.0.3:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: com.novocode:junit-interface:0.11:jar" level="project" />
     <orderEntry type="library" name="sbt: com.opencsv:opencsv:4.3.2:jar" level="project" />
@@ -54,20 +133,15 @@
     <orderEntry type="library" name="sbt: commons-cli:commons-cli:1.4:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-codec:commons-codec:1.11:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-collections:commons-collections:3.2.2:jar" level="project" />
-    <orderEntry type="library" name="sbt: commons-configuration:commons-configuration:1.10:jar" level="project" />
-    <orderEntry type="library" name="sbt: commons-dbcp:commons-dbcp:1.3:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-httpclient:commons-httpclient:3.1:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-io:commons-io:2.6:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-lang:commons-lang:2.6:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-logging:commons-logging:1.2:jar" level="project" />
-    <orderEntry type="library" name="sbt: commons-net:commons-net:3.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: commons-pool:commons-pool:1.5.4:jar" level="project" />
     <orderEntry type="library" name="sbt: io.airlift:aircompressor:0.10:jar" level="project" />
     <orderEntry type="library" name="sbt: io.dropwizard.metrics:metrics-core:3.1.5:jar" level="project" />
     <orderEntry type="library" name="sbt: io.dropwizard.metrics:metrics-graphite:3.1.5:jar" level="project" />
     <orderEntry type="library" name="sbt: io.dropwizard.metrics:metrics-json:3.1.5:jar" level="project" />
     <orderEntry type="library" name="sbt: io.dropwizard.metrics:metrics-jvm:3.1.5:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty:3.10.5.Final:jar" level="project" />
     <orderEntry type="library" name="sbt: io.netty:netty-all:4.1.17.Final:jar" level="project" />
     <orderEntry type="library" name="sbt: javax.activation:activation:1.1.1:jar" level="project" />
     <orderEntry type="library" name="sbt: javax.annotation:javax.annotation-api:1.2:jar" level="project" />
@@ -78,21 +152,12 @@
     <orderEntry type="library" name="sbt: javax.ws.rs:javax.ws.rs-api:2.0.1:jar" level="project" />
     <orderEntry type="library" name="sbt: javax.xml.bind:jaxb-api:2.2.2:jar" level="project" />
     <orderEntry type="library" name="sbt: javax.xml.stream:stax-api:1.0-2:jar" level="project" />
-    <orderEntry type="library" name="sbt: jline:jline:2.11:jar" level="project" />
     <orderEntry type="library" name="sbt: joda-time:joda-time:2.9.9:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: junit:junit:4.11:jar" level="project" />
     <orderEntry type="library" name="sbt: log4j:log4j:1.2.17:jar" level="project" />
     <orderEntry type="library" name="sbt: net.razorvine:pyrolite:4.13:jar" level="project" />
-    <orderEntry type="library" name="sbt: net.sf.ehcache:ehcache-core:1.7.2:jar" level="project" />
-    <orderEntry type="library" name="sbt: net.sf.opencsv:opencsv:2.0:jar" level="project" />
     <orderEntry type="library" name="sbt: net.sf.py4j:py4j:0.10.7:jar" level="project" />
     <orderEntry type="library" name="sbt: org.antlr:antlr4-runtime:4.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.accumulo:accumulo-core:1.6.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.accumulo:accumulo-fate:1.6.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.accumulo:accumulo-start:1.6.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.accumulo:accumulo-trace:1.6.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.any23:apache-any23-api:2.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.any23:apache-any23-csvutils:2.3:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.arrow:arrow-format:0.10.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.arrow:arrow-memory:0.10.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.arrow:arrow-vector:0.10.0:jar" level="project" />
@@ -102,12 +167,8 @@
     <orderEntry type="library" name="sbt: org.apache.commons:commons-collections4:4.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.commons:commons-compress:1.8.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.commons:commons-crypto:1.0.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.commons:commons-csv:1.6:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.commons:commons-lang3:3.8.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.commons:commons-math:2.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.commons:commons-math3:3.5:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.commons:commons-text:1.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.commons:commons-vfs2:2.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.curator:curator-client:2.6.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.curator:curator-framework:2.6.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.curator:curator-recipes:2.6.0:jar" level="project" />
@@ -145,9 +206,6 @@
     <orderEntry type="library" name="sbt: org.apache.lucene:lucene-sandbox:6.6.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.lucene:lucene-spatial-extras:6.6.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.lucene:lucene-spatial3d:6.6.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.maven.scm:maven-scm-api:1.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.maven.scm:maven-scm-provider-svn-commons:1.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.maven.scm:maven-scm-provider-svnexe:1.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.orc:orc-core:1.5.2:nohive:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.orc:orc-mapreduce:1.5.2:nohive:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.orc:orc-shims:1.5.2:jar" level="project" />
@@ -157,11 +215,6 @@
     <orderEntry type="library" name="sbt: org.apache.parquet:parquet-format:2.4.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.parquet:parquet-hadoop:1.10.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.parquet:parquet-jackson:1.10.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.rya:accumulo.rya:3.2.12-incubating:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.rya:rya.api:3.2.12-incubating:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.rya:rya.prospector:3.2.12-incubating:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.rya:rya.provenance:3.2.12-incubating:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.rya:rya.sail:3.2.12-incubating:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.solr:solr-solrj:6.6.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.spark:spark-catalyst_2.11:2.4.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.spark:spark-core_2.11:2.4.0:jar" level="project" />
@@ -173,13 +226,7 @@
     <orderEntry type="library" name="sbt: org.apache.spark:spark-sql_2.11:2.4.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.spark:spark-tags_2.11:2.4.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.spark:spark-unsafe_2.11:2.4.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.thrift:libthrift:0.9.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.tinkerpop:gremlin-core:3.2.2:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.tinkerpop:gremlin-shaded:3.2.2:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.tinkerpop:tinkergraph-gremlin:3.2.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.xbean:xbean-asm6-shaded:4.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.zookeeper:zookeeper:3.4.10:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.calrissian.mango:mango-core:1.2.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.codehaus.jackson:jackson-core-asl:1.9.13:jar" level="project" />
     <orderEntry type="library" name="sbt: org.codehaus.jackson:jackson-jaxrs:1.9.13:jar" level="project" />
     <orderEntry type="library" name="sbt: org.codehaus.jackson:jackson-mapper-asl:1.9.13:jar" level="project" />
@@ -187,7 +234,6 @@
     <orderEntry type="library" name="sbt: org.codehaus.janino:commons-compiler:3.0.9:jar" level="project" />
     <orderEntry type="library" name="sbt: org.codehaus.janino:janino:3.0.9:jar" level="project" />
     <orderEntry type="library" name="sbt: org.codehaus.jettison:jettison:1.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.codehaus.plexus:plexus-utils:1.5.6:jar" level="project" />
     <orderEntry type="library" name="sbt: org.codehaus.woodstox:stax2-api:3.1.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.codehaus.woodstox:woodstox-core-asl:4.4.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.eclipse.rdf4j:rdf4j-client:2.5.0:jar" level="project" />
@@ -265,7 +311,6 @@
     <orderEntry type="library" scope="TEST" name="sbt: org.hamcrest:hamcrest-core:1.3:jar" level="project" />
     <orderEntry type="library" name="sbt: org.htrace:htrace-core:3.0.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.javassist:javassist:3.18.1-GA:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.javatuples:javatuples:1.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.jline:jline:3.6.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.json4s:json4s-ast_2.11:3.5.3:jar" level="project" />
     <orderEntry type="library" name="sbt: org.json4s:json4s-core_2.11:3.5.3:jar" level="project" />
@@ -278,49 +323,6 @@
     <orderEntry type="library" name="sbt: org.mortbay.jetty:jetty-util:6.1.26:jar" level="project" />
     <orderEntry type="library" name="sbt: org.noggit:noggit:0.6:jar" level="project" />
     <orderEntry type="library" name="sbt: org.objenesis:objenesis:2.5.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-http-client:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-http-protocol:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-model:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-query:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryalgebra-evaluation:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryalgebra-model:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryparser-api:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryparser-serql:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryparser-sparql:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryresultio-api:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryresultio-binary:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryresultio-sparqljson:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryresultio-sparqlxml:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-queryresultio-text:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-repository-api:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-repository-contextaware:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-repository-dataset:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-repository-event:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-repository-http:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-repository-manager:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-repository-sail:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-repository-sparql:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-api:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-binary:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-datatypes:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-languages:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-n3:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-nquads:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-ntriples:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-rdfjson:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-rdfxml:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-trig:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-trix:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-rio-turtle:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-runtime:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-sail-api:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-sail-federation:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-sail-inferencer:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-sail-memory:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-sail-nativerdf:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-sail-rdbms:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.openrdf.sesame:sesame-util:2.7.6:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.ow2.asm:asm:5.0.3:jar" level="project" />
     <orderEntry type="library" name="sbt: org.roaringbitmap:RoaringBitmap:0.5.11:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.11.12:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.11.12:jar" level="project" />
@@ -330,7 +332,6 @@
     <orderEntry type="library" name="sbt: org.slf4j:jcl-over-slf4j:1.7.25:jar" level="project" />
     <orderEntry type="library" name="sbt: org.slf4j:jul-to-slf4j:1.7.16:jar" level="project" />
     <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.25:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.slf4j:slf4j-log4j12:1.7.25:jar" level="project" />
     <orderEntry type="library" name="sbt: org.sonatype.sisu.inject:cglib:2.2.1-v20090111:jar" level="project" />
     <orderEntry type="library" name="sbt: org.spark-project.spark:unused:1.0.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.springframework:spring-aop:4.3.21.RELEASE:jar" level="project" />
@@ -342,9 +343,7 @@
     <orderEntry type="library" name="sbt: org.springframework:spring-webmvc:4.3.21.RELEASE:jar" level="project" />
     <orderEntry type="library" name="sbt: org.tukaani:xz:1.5:jar" level="project" />
     <orderEntry type="library" name="sbt: org.xerial.snappy:snappy-java:1.1.7.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.yaml:snakeyaml:1.15:jar" level="project" />
     <orderEntry type="library" name="sbt: oro:oro:2.0.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: regexp:regexp:1.3:jar" level="project" />
     <orderEntry type="library" name="sbt: taglibs:standard:1.1.2:jar" level="project" />
     <orderEntry type="library" name="sbt: xerces:xercesImpl:2.9.1:jar" level="project" />
     <orderEntry type="library" name="sbt: xml-apis:xml-apis:1.3.04:jar" level="project" />

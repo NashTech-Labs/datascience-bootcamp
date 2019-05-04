@@ -42,7 +42,7 @@ import org.apache.accumulo.core.client.Connector
 import org.apache.accumulo.core.client.MutationsRejectedException
 import org.apache.accumulo.core.client.TableExistsException
 import org.apache.accumulo.core.client.TableNotFoundException
-import org.apache.accumulo.core.client.mock.MockInstance
+//import org.apache.accumulo.core.client.mock.MockInstance
 import org.apache.accumulo.core.client.security.tokens.PasswordToken
 
 

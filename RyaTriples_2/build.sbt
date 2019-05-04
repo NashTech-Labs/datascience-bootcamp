@@ -23,7 +23,12 @@ libraryDependencies += "org.eclipse.rdf4j" % "rdf4j-rio-rdfxml" % "2.5.0"
 libraryDependencies += "org.eclipse.rdf4j" % "rdf4j-repository-sail" % "2.5.0"
 libraryDependencies += "org.eclipse.rdf4j" % "rdf4j-sail-memory" % "2.5.0"
 
+libraryDependencies += "org.apache.accumulo" % "accumulo-core" % "2.0.0-alpha-2"
+// https://mvnrepository.com/artifact/org.apache.accumulo/accumulo-minicluster
+//libraryDependencies += "org.apache.accumulo" % "accumulo-minicluster" % "2.0.0-alpha-2"
+
 val ryaVersion = "3.2.12-incubating"
+
 
 // https://mvnrepository.com/artifact/org.apache.rya/rya.api
 libraryDependencies += "org.apache.rya" % "rya.api" % ryaVersion
@@ -35,13 +40,13 @@ libraryDependencies += "org.apache.rya" % "accumulo.rya" % ryaVersion
 libraryDependencies += "org.apache.rya" % "rya.sail" % ryaVersion
 
 // https://mvnrepository.com/artifact/org.apache.any23/apache-any23-csvutils
-libraryDependencies += "org.apache.any23" % "apache-any23-csvutils" % "2.3"
+//libraryDependencies += "org.apache.any23" % "apache-any23-csvutils" % "2.3"
 
 // https://mvnrepository.com/artifact/org.apache.any23/apache-any23-core
 //libraryDependencies += "org.apache.any23" % "apache-any23-core" % "2.3" % "provided"
 
 // https://mvnrepository.com/artifact/org.apache.any23/apache-any23-api
-libraryDependencies += "org.apache.any23" % "apache-any23-api" % "2.3"
+//libraryDependencies += "org.apache.any23" % "apache-any23-api" % "2.3"
 
 
 
