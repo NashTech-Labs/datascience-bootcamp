@@ -17,7 +17,7 @@ log=$log_dir/log.txt
 class=com.knoldus.training.MesosTest
 class=org.apache.spark.examples.SparkPi
 
-image=localhost:5000/spark_docker5
+image=localhost:5000/spark_docker
 
 is_image=`docker image ls | grep $image`
 

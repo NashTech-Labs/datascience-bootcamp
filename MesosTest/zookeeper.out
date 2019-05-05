@@ -1,37 +1,32 @@
-2019-05-04 23:39:33,535 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /home/jouko/dev/software/zookeeper-3.4.14/bin/../conf/zoo.cfg
-2019-05-04 23:39:33,552 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
-2019-05-04 23:39:33,553 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
-2019-05-04 23:39:33,553 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
-2019-05-04 23:39:33,553 [myid:] - WARN  [main:QuorumPeerMain@116] - Either no config or no quorum defined in config, running  in standalone mode
-2019-05-04 23:39:33,578 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /home/jouko/dev/software/zookeeper-3.4.14/bin/../conf/zoo.cfg
-2019-05-04 23:39:33,578 [myid:] - INFO  [main:ZooKeeperServerMain@98] - Starting server
-2019-05-04 23:39:33,605 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf, built on 03/06/2019 16:18 GMT
-2019-05-04 23:39:33,605 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=jouko-Gazelle-Professional
-2019-05-04 23:39:33,605 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.8.0_201
-2019-05-04 23:39:33,605 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Oracle Corporation
-2019-05-04 23:39:33,605 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-8-oracle/jre
-2019-05-04 23:39:33,605 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/home/jouko/dev/software/zookeeper-3.4.14/bin/../zookeeper-server/target/classes:/home/jouko/dev/software/zookeeper-3.4.14/bin/../build/classes:/home/jouko/dev/software/zookeeper-3.4.14/bin/../zookeeper-server/target/lib/*.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../build/lib/*.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/slf4j-log4j12-1.7.25.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/slf4j-api-1.7.25.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/netty-3.10.6.Final.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/log4j-1.2.17.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/jline-0.9.94.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/audience-annotations-0.5.0.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../zookeeper-3.4.14.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../zookeeper-server/src/main/resources/lib/*.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../conf:
-2019-05-04 23:39:33,605 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
-2019-05-04 23:39:33,605 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
-2019-05-04 23:39:33,605 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
-2019-05-04 23:39:33,606 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
-2019-05-04 23:39:33,607 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
-2019-05-04 23:39:33,607 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=4.15.0-48-generic
-2019-05-04 23:39:33,607 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=jouko
-2019-05-04 23:39:33,607 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/home/jouko
-2019-05-04 23:39:33,607 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/MesosTest
-2019-05-04 23:39:33,634 [myid:] - INFO  [main:ZooKeeperServer@836] - tickTime set to 2000
-2019-05-04 23:39:33,635 [myid:] - INFO  [main:ZooKeeperServer@845] - minSessionTimeout set to -1
-2019-05-04 23:39:33,635 [myid:] - INFO  [main:ZooKeeperServer@854] - maxSessionTimeout set to -1
-2019-05-04 23:39:33,646 [myid:] - INFO  [main:ServerCnxnFactory@117] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
-2019-05-04 23:39:33,668 [myid:] - INFO  [main:NIOServerCnxnFactory@89] - binding to port 0.0.0.0/0.0.0.0:2181
-2019-05-04 23:40:59,374 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@222] - Accepted socket connection from /192.168.1.5:57226
-2019-05-04 23:40:59,422 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /192.168.1.5:57226
-2019-05-04 23:40:59,434 [myid:] - INFO  [SyncThread:0:FileTxnLog@216] - Creating new log file: log.1
-2019-05-04 23:40:59,509 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x100000dce390000 with negotiated timeout 40000 for client /192.168.1.5:57226
-2019-05-04 23:41:00,551 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x100000dce390000 type:create cxid:0x2 zxid:0x2 txntype:-1 reqpath:n/a Error Path:/spark_mesos_dispatcher Error:KeeperErrorCode = NoNode for /spark_mesos_dispatcher
-2019-05-05 08:35:12,525 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x100000dce390000, likely client has closed socket
-2019-05-05 08:35:12,527 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /192.168.1.5:57226 which had sessionid 0x100000dce390000
-2019-05-05 08:35:13,169 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@222] - Accepted socket connection from /192.168.1.5:58274
-2019-05-05 08:35:13,169 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@942] - Client attempting to renew session 0x100000dce390000 at /192.168.1.5:58274
-2019-05-05 08:35:13,169 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@694] - Established session 0x100000dce390000 with negotiated timeout 40000 for client /192.168.1.5:58274
+2019-05-05 11:49:17,645 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /home/jouko/dev/software/zookeeper-3.4.14/bin/../conf/zoo.cfg
+2019-05-05 11:49:17,744 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2019-05-05 11:49:17,744 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2019-05-05 11:49:17,744 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2019-05-05 11:49:17,744 [myid:] - WARN  [main:QuorumPeerMain@116] - Either no config or no quorum defined in config, running  in standalone mode
+2019-05-05 11:49:17,943 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /home/jouko/dev/software/zookeeper-3.4.14/bin/../conf/zoo.cfg
+2019-05-05 11:49:17,943 [myid:] - INFO  [main:ZooKeeperServerMain@98] - Starting server
+2019-05-05 11:49:18,173 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf, built on 03/06/2019 16:18 GMT
+2019-05-05 11:49:18,173 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=jouko-Gazelle-Professional
+2019-05-05 11:49:18,173 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.8.0_201
+2019-05-05 11:49:18,173 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2019-05-05 11:49:18,173 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-8-oracle/jre
+2019-05-05 11:49:18,173 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/home/jouko/dev/software/zookeeper-3.4.14/bin/../zookeeper-server/target/classes:/home/jouko/dev/software/zookeeper-3.4.14/bin/../build/classes:/home/jouko/dev/software/zookeeper-3.4.14/bin/../zookeeper-server/target/lib/*.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../build/lib/*.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/slf4j-log4j12-1.7.25.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/slf4j-api-1.7.25.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/netty-3.10.6.Final.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/log4j-1.2.17.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/jline-0.9.94.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/audience-annotations-0.5.0.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../zookeeper-3.4.14.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../zookeeper-server/src/main/resources/lib/*.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../conf:
+2019-05-05 11:49:18,173 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2019-05-05 11:49:18,174 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2019-05-05 11:49:18,174 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2019-05-05 11:49:18,175 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
+2019-05-05 11:49:18,175 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2019-05-05 11:49:18,175 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=4.15.0-48-generic
+2019-05-05 11:49:18,175 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=jouko
+2019-05-05 11:49:18,175 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/home/jouko
+2019-05-05 11:49:18,175 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/MesosTest
+2019-05-05 11:49:18,400 [myid:] - INFO  [main:ZooKeeperServer@836] - tickTime set to 2000
+2019-05-05 11:49:18,400 [myid:] - INFO  [main:ZooKeeperServer@845] - minSessionTimeout set to -1
+2019-05-05 11:49:18,400 [myid:] - INFO  [main:ZooKeeperServer@854] - maxSessionTimeout set to -1
+2019-05-05 11:49:18,660 [myid:] - INFO  [main:ServerCnxnFactory@117] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2019-05-05 11:49:18,717 [myid:] - INFO  [main:NIOServerCnxnFactory@89] - binding to port 0.0.0.0/0.0.0.0:2181
+2019-05-05 11:50:41,935 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@222] - Accepted socket connection from /192.168.1.5:55918
+2019-05-05 11:50:41,984 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /192.168.1.5:55918
+2019-05-05 11:50:41,996 [myid:] - INFO  [SyncThread:0:FileTxnLog@216] - Creating new log file: log.1
+2019-05-05 11:50:42,065 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x1000002b2e50000 with negotiated timeout 40000 for client /192.168.1.5:55918
+2019-05-05 11:50:43,116 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000002b2e50000 type:create cxid:0x2 zxid:0x2 txntype:-1 reqpath:n/a Error Path:/spark_mesos_dispatcher Error:KeeperErrorCode = NoNode for /spark_mesos_dispatcher

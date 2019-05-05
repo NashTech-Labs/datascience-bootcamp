@@ -15,3 +15,10 @@ RUN mesos-1.6.0/configure
 RUN make
 RUN make install
 
+RUN wget http://192.168.1.5/spark-2.4.0-bin-hadoop2.7.tgz
+RUN tar -xzf spark-2.4.0-bin-hadoop2.7.tgz
+
+ENV MESOS_NATIVE_JAVA_LIBRARY /usr/local/lib/libmesos.so
+ENV SPARK_HOME spark-2.4.0-bin-hadoop2.7
+
+COPY spark_conf/* spark-2.4.0-bin-hadoop2.7/conf/
