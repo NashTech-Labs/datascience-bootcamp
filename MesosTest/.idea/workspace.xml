@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="98ac52bc-e066-4564-bc21-5b1e05a700c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../LendingClubMl" beforeDir="false" afterPath="$PROJECT_DIR$/../LendingClubMl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MesosTest.sh" beforeDir="false" afterPath="$PROJECT_DIR$/MesosTest.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/knoldus/training/MesosTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/knoldus/training/MesosTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zookeeper.out" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper.out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -29,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/MesosTest.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -58,8 +55,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,6 +101,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,7 +199,7 @@
   <component name="ToolWindowManager">
     <frame x="202" y="240" width="1476" height="867" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26783216" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27202797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -237,7 +234,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/MesosTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

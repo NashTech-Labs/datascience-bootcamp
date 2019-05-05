@@ -1,0 +1,3 @@
+docker build -t spark_docker .
+docker tag spark_docker localhost:5000/spark_docker
+docker push localhost:5000/spark_docker

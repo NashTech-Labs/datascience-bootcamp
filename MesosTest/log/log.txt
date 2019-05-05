@@ -1,14 +1,14 @@
-19/05/04 16:07:55 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-19/05/04 16:07:55 INFO RestSubmissionClient: Submitting a request to launch an application in mesos://192.168.1.5:7077.
-19/05/04 16:07:56 DEBUG RestSubmissionClient: Sending POST request to server at http://192.168.1.5:7077/v1/submissions/create:
+19/05/04 20:12:48 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/05/04 20:12:49 INFO RestSubmissionClient: Submitting a request to launch an application in mesos://192.168.1.5:7077.
+19/05/04 20:12:49 DEBUG RestSubmissionClient: Sending POST request to server at http://192.168.1.5:7077/v1/submissions/create:
 {
   "action" : "CreateSubmissionRequest",
-  "appArgs" : [ ],
+  "appArgs" : [ "100" ],
   "appResource" : "http://192.168.1.5/spark-examples_2.11-2.4.0.jar",
   "clientSparkVersion" : "2.4.0",
   "environmentVariables" : {
     "SPARK_SCALA_VERSION" : "2.12",
-    "SPARK_EXECUTOR_URI" : "http://localhost/spark-2.4.0-bin-hadoop2.7.tgz",
+    "SPARK_EXECUTOR_URI" : "/home/jouko/spark-2.4.0-bin-hadoop2.7.tgz",
     "SPARK_MASTER_HOST" : "192.168.1.5",
     "MESOS_NATIVE_JAVA_LIBRARY" : "/usr/local/lib/libmesos.so",
     "SPARK_CONF_DIR" : "/home/jouko/dev/software/spark-2.4.0-bin-hadoop2.7/conf",
@@ -22,36 +22,37 @@
     "spark.app.name" : "org.apache.spark.examples.SparkPi",
     "spark.driver.memory" : "3G",
     "spark.master.rest.enabled" : "true",
+    "spark.mesos.executor.docker.image" : "192.168.1.5:spark_docker",
     "spark.submit.deployMode" : "cluster",
     "spark.master" : "mesos://192.168.1.5:7077",
     "spark.executor.memory" : "3G"
   }
 }
-19/05/04 16:07:56 DEBUG RestSubmissionClient: Response from the server:
+19/05/04 20:12:49 DEBUG RestSubmissionClient: Response from the server:
 {
   "action" : "CreateSubmissionResponse",
   "serverSparkVersion" : "2.4.0",
-  "submissionId" : "driver-20190504160756-0003",
+  "submissionId" : "driver-20190504201249-0001",
   "success" : true
 }
-19/05/04 16:07:56 INFO RestSubmissionClient: Submission successfully created as driver-20190504160756-0003. Polling submission state...
-19/05/04 16:07:56 INFO RestSubmissionClient: Submitting a request for the status of submission driver-20190504160756-0003 in mesos://192.168.1.5:7077.
-19/05/04 16:07:56 DEBUG RestSubmissionClient: Sending GET request to server at http://192.168.1.5:7077/v1/submissions/status/driver-20190504160756-0003.
-19/05/04 16:07:56 DEBUG RestSubmissionClient: Response from the server:
+19/05/04 20:12:50 INFO RestSubmissionClient: Submission successfully created as driver-20190504201249-0001. Polling submission state...
+19/05/04 20:12:50 INFO RestSubmissionClient: Submitting a request for the status of submission driver-20190504201249-0001 in mesos://192.168.1.5:7077.
+19/05/04 20:12:50 DEBUG RestSubmissionClient: Sending GET request to server at http://192.168.1.5:7077/v1/submissions/status/driver-20190504201249-0001.
+19/05/04 20:12:50 DEBUG RestSubmissionClient: Response from the server:
 {
   "action" : "SubmissionStatusResponse",
   "driverState" : "RUNNING",
   "serverSparkVersion" : "2.4.0",
-  "submissionId" : "driver-20190504160756-0003",
+  "submissionId" : "driver-20190504201249-0001",
   "success" : true
 }
-19/05/04 16:07:56 INFO RestSubmissionClient: State of driver driver-20190504160756-0003 is now RUNNING.
-19/05/04 16:07:56 INFO RestSubmissionClient: Server responded with CreateSubmissionResponse:
+19/05/04 20:12:50 INFO RestSubmissionClient: State of driver driver-20190504201249-0001 is now RUNNING.
+19/05/04 20:12:50 INFO RestSubmissionClient: Server responded with CreateSubmissionResponse:
 {
   "action" : "CreateSubmissionResponse",
   "serverSparkVersion" : "2.4.0",
-  "submissionId" : "driver-20190504160756-0003",
+  "submissionId" : "driver-20190504201249-0001",
   "success" : true
 }
-19/05/04 16:07:56 INFO ShutdownHookManager: Shutdown hook called
-19/05/04 16:07:56 INFO ShutdownHookManager: Deleting directory /tmp/spark-97f3a853-fde7-43d8-a4b5-e69af272be61
+19/05/04 20:12:50 INFO ShutdownHookManager: Shutdown hook called
+19/05/04 20:12:50 INFO ShutdownHookManager: Deleting directory /tmp/spark-91af9176-6957-4d6e-80ac-0f8494b1204c
