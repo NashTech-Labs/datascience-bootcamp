@@ -1,6 +1,6 @@
-19/05/04 20:22:15 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-19/05/04 20:22:15 INFO RestSubmissionClient: Submitting a request to launch an application in mesos://192.168.1.5:7077.
-19/05/04 20:22:15 DEBUG RestSubmissionClient: Sending POST request to server at http://192.168.1.5:7077/v1/submissions/create:
+19/05/04 23:46:37 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/05/04 23:46:37 INFO RestSubmissionClient: Submitting a request to launch an application in mesos://192.168.1.5:7077.
+19/05/04 23:46:38 DEBUG RestSubmissionClient: Sending POST request to server at http://192.168.1.5:7077/v1/submissions/create:
 {
   "action" : "CreateSubmissionRequest",
   "appArgs" : [ "100" ],
@@ -22,37 +22,38 @@
     "spark.app.name" : "org.apache.spark.examples.SparkPi",
     "spark.driver.memory" : "3G",
     "spark.master.rest.enabled" : "true",
-    "spark.mesos.executor.docker.image" : "localhost:5000/spark_docker",
+    "spark.mesos.executor.docker.image" : "localhost:5000/spark_docker5",
     "spark.submit.deployMode" : "cluster",
     "spark.master" : "mesos://192.168.1.5:7077",
-    "spark.executor.memory" : "3G"
+    "spark.executor.memory" : "3G",
+    "spark.mesos.executor.home" : "/opt/spark"
   }
 }
-19/05/04 20:22:15 DEBUG RestSubmissionClient: Response from the server:
+19/05/04 23:46:38 DEBUG RestSubmissionClient: Response from the server:
 {
   "action" : "CreateSubmissionResponse",
   "serverSparkVersion" : "2.4.0",
-  "submissionId" : "driver-20190504202215-0002",
+  "submissionId" : "driver-20190504234638-0002",
   "success" : true
 }
-19/05/04 20:22:15 INFO RestSubmissionClient: Submission successfully created as driver-20190504202215-0002. Polling submission state...
-19/05/04 20:22:15 INFO RestSubmissionClient: Submitting a request for the status of submission driver-20190504202215-0002 in mesos://192.168.1.5:7077.
-19/05/04 20:22:15 DEBUG RestSubmissionClient: Sending GET request to server at http://192.168.1.5:7077/v1/submissions/status/driver-20190504202215-0002.
-19/05/04 20:22:15 DEBUG RestSubmissionClient: Response from the server:
+19/05/04 23:46:38 INFO RestSubmissionClient: Submission successfully created as driver-20190504234638-0002. Polling submission state...
+19/05/04 23:46:38 INFO RestSubmissionClient: Submitting a request for the status of submission driver-20190504234638-0002 in mesos://192.168.1.5:7077.
+19/05/04 23:46:38 DEBUG RestSubmissionClient: Sending GET request to server at http://192.168.1.5:7077/v1/submissions/status/driver-20190504234638-0002.
+19/05/04 23:46:38 DEBUG RestSubmissionClient: Response from the server:
 {
   "action" : "SubmissionStatusResponse",
   "driverState" : "RUNNING",
   "serverSparkVersion" : "2.4.0",
-  "submissionId" : "driver-20190504202215-0002",
+  "submissionId" : "driver-20190504234638-0002",
   "success" : true
 }
-19/05/04 20:22:15 INFO RestSubmissionClient: State of driver driver-20190504202215-0002 is now RUNNING.
-19/05/04 20:22:15 INFO RestSubmissionClient: Server responded with CreateSubmissionResponse:
+19/05/04 23:46:38 INFO RestSubmissionClient: State of driver driver-20190504234638-0002 is now RUNNING.
+19/05/04 23:46:38 INFO RestSubmissionClient: Server responded with CreateSubmissionResponse:
 {
   "action" : "CreateSubmissionResponse",
   "serverSparkVersion" : "2.4.0",
-  "submissionId" : "driver-20190504202215-0002",
+  "submissionId" : "driver-20190504234638-0002",
   "success" : true
 }
-19/05/04 20:22:15 INFO ShutdownHookManager: Shutdown hook called
-19/05/04 20:22:15 INFO ShutdownHookManager: Deleting directory /tmp/spark-2af44449-10d5-4a07-a0c4-eeaee4975378
+19/05/04 23:46:38 INFO ShutdownHookManager: Shutdown hook called
+19/05/04 23:46:38 INFO ShutdownHookManager: Deleting directory /tmp/spark-5ce58426-b036-44a3-b78a-7870f71deac6

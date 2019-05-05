@@ -17,7 +17,13 @@ log=$log_dir/log.txt
 class=com.knoldus.training.MesosTest
 class=org.apache.spark.examples.SparkPi
 
-$spark_submit --class $class --master mesos://$ip:7077 --driver-memory 3G --executor-memory 3G --deploy-mode $mode --supervise --conf spark.master.rest.enabled=true --conf spark.mesos.executor.docker.image=localhost:5000/spark_docker $jar 100 >& $log
+image=localhost:5000/spark_docker5
+
+is_image=`docker image ls | grep $image`
+
+echo $is_image
+
+$spark_submit --class $class --master mesos://$ip:7077 --driver-memory 3G --executor-memory 3G --deploy-mode $mode --supervise --conf spark.master.rest.enabled=true --conf spark.mesos.executor.docker.image=$image --conf spark.mesos.executor.home=/opt/spark $jar 100 >& $log
 #$spark_submit --class $class --master mesos://$ip:7077 --driver-memory 3G --executor-memory 3G --deploy-mode $mode --supervise --conf spark.master.rest.enabled=true $jar >& $log
 
 

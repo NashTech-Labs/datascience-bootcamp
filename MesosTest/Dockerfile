@@ -1,20 +1,17 @@
-FROM java:openjdk-8-jdk
+FROM ubuntu:latest
 
-RUN cd /tmp && \
-        wget http://repos.mesosphere.com/debian/pool/main/m/mesos/mesos_1.1.0-2.0.107.debian81_amd64.deb && \
-        dpkg --unpack mesos_1.1.0-2.0.107.debian81_amd64.deb && \
-        apt-get install -f -y && \
-        rm mesos_1.1.0-2.0.107.debian81_amd64.deb && \
-        apt-get clean
-
-RUN cd /tmp && \
-        wget https://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.7.tgz && \
-        tar -xzvf spark-2.1.1-bin-hadoop2.7.tgz && \
-        mv spark-2.1.1-bin-hadoop2.7 /opt/spark
-
-ENV MESOS_NATIVE_JAVA_LIBRARY /usr/lib/libmesos.so
-ENV SPARK_HOME /opt/spark
-
-COPY spark_conf/* /opt/spark/conf/
-
+RUN apt-get update
+RUN apt-get install -y wget
+RUN apt-get install -y tar git
+RUN apt-get install -y openjdk-8-jdk
+RUN apt-get install -y autoconf libtool
+RUN apt-get -y install build-essential python-dev python-six python-virtualenv libcurl4-nss-dev libsasl2-dev libsasl2-modules maven libapr1-dev libsvn-dev zlib1g-dev iputils-ping
+RUN wget https://archive.apache.org/dist/mesos/1.6.0/mesos-1.6.0.tar.gz
+RUN tar -xzf mesos-1.6.0.tar.gz
+RUN cd mesos-1.6.0
+RUN mkdir build
+RUN cd build
+RUN mesos-1.6.0/configure
+RUN make
+RUN make install
 
