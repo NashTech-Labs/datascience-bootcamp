@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.fluo:fluo-recipes-core:1.0.0-incubating:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.fluo/fluo-recipes-core/jars/fluo-recipes-core-1.0.0-incubating.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.fluo/fluo-recipes-core/srcs/fluo-recipes-core-1.0.0-incubating-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

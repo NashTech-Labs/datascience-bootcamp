@@ -1,0 +1,22 @@
+{
+  "id": "httpd",
+  "cpus": 1.0,
+  "mem": 256,
+  "disk": 5000,
+  "instances": 1,
+  "container": {
+    "kind": "DOCKER",
+    "docker": {
+      "image": "libmesos/ubuntu"
+    },
+    "volumes": [
+	{
+		"containerPath": "/home/jouko/container",
+		"hostPath": "/home/jouko/host",
+		"mode": "RO" 
+	}
+    ]
+  },
+  "cmd": "while sleep 3; do echo hello; done"
+}
+

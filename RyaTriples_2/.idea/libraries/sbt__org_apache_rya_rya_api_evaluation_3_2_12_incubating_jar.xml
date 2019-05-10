@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.apache.rya:rya.api.evaluation:3.2.12-incubating:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.rya/rya.api.evaluation/jars/rya.api.evaluation-3.2.12-incubating.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.rya/rya.api.evaluation/srcs/rya.api.evaluation-3.2.12-incubating-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

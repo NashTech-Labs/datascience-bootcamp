@@ -1,0 +1,34 @@
+I0510 12:06:01.916725  2677 main.cpp:243] Build: 2019-05-09 21:42:43 by root
+I0510 12:06:01.920552  2677 main.cpp:244] Version: 1.8.0
+I0510 12:06:01.920562  2677 main.cpp:247] Git tag: 1.8.0-rc3
+I0510 12:06:01.920567  2677 main.cpp:251] Git SHA: acefa90695a32f8e8d6361f8192a6522aeaadbb9
+I0510 12:06:02.108644  2677 main.cpp:345] Using 'hierarchical' allocator
+I0510 12:06:02.478325  2677 replica.cpp:795] Replica recovered with log positions 1 -> 2 with 0 holes and 0 unlearned
+I0510 12:06:02.563455  2693 recover.cpp:437] Starting replica recovery
+I0510 12:06:02.580396  2693 recover.cpp:468] Replica is in VOTING status
+I0510 12:06:02.604491  2677 master.cpp:440] Master 6782b6b5-d218-4459-91ce-d0f1e325c33d (jouko-Gazelle-Professional) started on 192.168.1.5:5050
+I0510 12:06:02.604535  2677 master.cpp:443] Flags at startup: --agent_ping_timeout="15secs" --agent_reregister_timeout="10mins" --allocation_interval="1secs" --allocator="hierarchical" --authenticate_agents="false" --authenticate_frameworks="false" --authenticate_http_frameworks="false" --authenticate_http_readonly="false" --authenticate_http_readwrite="false" --authentication_v0_timeout="15secs" --authenticators="crammd5" --authorizers="local" --filter_gpu_resources="true" --framework_sorter="drf" --help="false" --hostname_lookup="true" --http_authenticators="basic" --initialize_driver_logging="true" --ip="192.168.1.5" --log_auto_initialize="true" --logbufsecs="0" --logging_level="INFO" --max_agent_ping_timeouts="5" --max_completed_frameworks="50" --max_completed_tasks_per_framework="1000" --max_operator_event_stream_subscribers="1000" --max_unreachable_tasks_per_framework="1000" --memory_profiling="false" --min_allocatable_resources="cpus:0.01|mem:32" --port="5050" --publish_per_framework_metrics="true" --quiet="false" --recovery_agent_removal_limit="100%" --registry="replicated_log" --registry_fetch_timeout="1mins" --registry_gc_interval="15mins" --registry_max_agent_age="2weeks" --registry_max_agent_count="102400" --registry_store_timeout="20secs" --registry_strict="false" --require_agent_domain="false" --role_sorter="drf" --root_submissions="true" --version="false" --webui_dir="/usr/local/share/mesos/webui" --work_dir="/home/jouko/mesos_work_dir" --zk_session_timeout="10secs"
+I0510 12:06:02.604838  2677 master.cpp:494] Master allowing unauthenticated frameworks to register
+I0510 12:06:02.604846  2677 master.cpp:500] Master allowing unauthenticated agents to register
+I0510 12:06:02.604849  2677 master.cpp:507] Master allowing HTTP frameworks to register without authentication
+I0510 12:06:02.616114  2677 master.cpp:548] Using default 'crammd5' authenticator
+W0510 12:06:02.616183  2677 authenticator.cpp:513] No credentials provided, authentication requests will be refused
+I0510 12:06:02.616194  2677 authenticator.cpp:520] Initializing server SASL
+I0510 12:06:02.694042  2688 master.cpp:2141] Elected as the leading master!
+I0510 12:06:02.694077  2688 master.cpp:1664] Recovering from registrar
+I0510 12:06:02.704104  2689 log.cpp:554] Attempting to start the writer
+I0510 12:06:02.707818  2689 replica.cpp:497] Replica received implicit promise request from __req_res__(1)@192.168.1.5:5050 with proposal 2
+I0510 12:06:02.764219  2689 replica.cpp:344] Persisted promised to 2
+I0510 12:06:02.766180  2688 coordinator.cpp:238] Coordinator attempting to fill missing positions
+I0510 12:06:02.767035  2691 log.cpp:570] Writer started with ending position 2
+I0510 12:06:02.774494  2693 registrar.cpp:383] Successfully fetched the registry (162B) in 72.381952ms
+I0510 12:06:02.774899  2693 registrar.cpp:487] Applied 1 operations in 150127ns; attempting to update the registry
+I0510 12:06:02.795133  2688 coordinator.cpp:348] Coordinator attempting to write APPEND action at position 3
+I0510 12:06:02.796249  2692 replica.cpp:541] Replica received write request for position 3 from __req_res__(2)@192.168.1.5:5050
+I0510 12:06:02.865572  2688 replica.cpp:695] Replica received learned notice for position 3 from log-network(1)@192.168.1.5:5050
+I0510 12:06:02.908929  2693 registrar.cpp:544] Successfully updated the registry in 133.85216ms
+I0510 12:06:02.909245  2693 registrar.cpp:416] Successfully recovered registrar
+I0510 12:06:02.910207  2688 coordinator.cpp:348] Coordinator attempting to write TRUNCATE action at position 4
+I0510 12:06:02.910327  2694 master.cpp:1790] Recovered 0 agents from the registry (162B); allowing 10mins for agents to reregister
+I0510 12:06:02.911207  2692 replica.cpp:541] Replica received write request for position 4 from __req_res__(3)@192.168.1.5:5050
+I0510 12:06:02.948807  2691 replica.cpp:695] Replica received learned notice for position 4 from log-network(1)@192.168.1.5:5050

@@ -120,12 +120,19 @@ object GetTriples {
     val vf=SimpleValueFactory.getInstance()
 
     val recordIRI = vf.createIRI(knoldus, "record")
-    RdfModel.model.add(recordIRI, RDF.TYPE, OWL.THING)
+    RdfModel.model.add(recordIRI, RDF.TYPE, OWL.CLASS)
 
     val recordTypeIRI = vf.createIRI(knoldus, "RECORD_TYPE")
+
     RdfModel.model.add(recordTypeIRI, RDF.TYPE, recordIRI)
 
-    RdfModel.model.add(recordTypeIRI. OWL.ONEOF, OWL.ONEOF)
+    val h = vf.createLiteral("H")
+    val d = vf.createLiteral("D")
+    RdfModel.model.add(recordTypeIRI, OWL.ONEOF, h)
+    RdfModel.model.add(recordTypeIRI, OWL.ONEOF, d)
+
+    //val testIRI = vf.createIRI(knoldus, "TEST")
+    //RdfModel.model.add(testIRI, OWL.DATATYPEPROPERTY, OWL.CARDINALITY)
 
     val requisitionNumberIRI = vf.createIRI(knoldus, "REQUISITION_NUMBER")
     RdfModel.model.add(requisitionNumberIRI, RDF.TYPE, recordIRI)

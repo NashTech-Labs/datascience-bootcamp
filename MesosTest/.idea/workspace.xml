@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="98ac52bc-e066-4564-bc21-5b1e05a700c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../LendingClubMl" beforeDir="false" afterPath="$PROJECT_DIR$/../LendingClubMl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunDocker" beforeDir="false" afterPath="$PROJECT_DIR$/RunDocker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_conf/spark-env.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spark_conf/spark-env.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -27,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/MesosTest.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -57,6 +54,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,7 +101,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,8 +196,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="443" y="473" width="1476" height="867" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27622378" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2804196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -235,7 +233,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/MesosTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>

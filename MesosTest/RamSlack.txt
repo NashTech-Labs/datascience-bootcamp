@@ -1,0 +1,4 @@
+/Users/iramaraju/dev/software/zookeeper-3.4.14/bin/zkServer.sh restart
+sudo /usr/local/sbin/mesos-master --zk=zk://127.0.0.1:2181/mesos --registry=in_memory --ip=127.0.0.1
+sudo /usr/local/sbin/mesos-agent --work_dir=/var/lib/mesos/agent  --master=zk://127.0.0.1:2181/mesos --containerizers=docker,mesos --executor_registration_timeout=5mins
+sudo /Users/iramaraju/dev/software/marathon-1.5.0/bin/marathon  --zk zk://127.0.0.1:2181/marathon  --master zk://127.0.0.1:2181/mesos

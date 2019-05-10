@@ -1,0 +1,83 @@
+I0510 11:25:40.199082  2926 main.cpp:350] Build: 2019-05-09 21:42:43 by root
+I0510 11:25:40.199159  2926 main.cpp:351] Version: 1.8.0
+I0510 11:25:40.199165  2926 main.cpp:354] Git tag: 1.8.0-rc3
+I0510 11:25:40.199169  2926 main.cpp:358] Git SHA: acefa90695a32f8e8d6361f8192a6522aeaadbb9
+I0510 11:25:40.205982  2926 systemd.cpp:240] systemd version `237` detected
+I0510 11:25:40.206017  2926 main.cpp:453] Initializing systemd state
+I0510 11:25:40.206331  2926 systemd.cpp:307] Created systemd slice: `/run/systemd/system/mesos_executors.slice`
+I0510 11:25:40.347595  2926 systemd.cpp:328] Started systemd slice `mesos_executors.slice`
+I0510 11:25:40.392174  2926 resolver.cpp:69] Creating default secret resolver
+I0510 11:25:41.244689  2926 containerizer.cpp:314] Using isolation { environment_secret, filesystem/posix, network/cni, posix/cpu, posix/mem }
+I0510 11:25:41.248486  2926 linux_launcher.cpp:144] Using /sys/fs/cgroup/freezer as the freezer hierarchy for the Linux launcher
+I0510 11:25:41.248792  2926 linux_launcher.cpp:176] Using /sys/fs/cgroup/systemd as the systemd hierarchy for the Linux launcher
+I0510 11:25:41.304956  2926 provisioner.cpp:298] Using default backend 'overlay'
+I0510 11:25:41.322607  2926 slave.cpp:265] Mesos agent started on (1)@192.168.1.5:5051
+I0510 11:25:41.322674  2926 slave.cpp:266] Flags at startup: --appc_simple_discovery_uri_prefix="http://" --appc_store_dir="/tmp/mesos/store/appc" --authenticate_http_readonly="false" --authenticate_http_readwrite="false" --authenticatee="crammd5" --authentication_backoff_factor="1secs" --authentication_timeout_max="1mins" --authentication_timeout_min="5secs" --authorizer="local" --cgroups_cpu_enable_pids_and_tids_count="false" --cgroups_destroy_timeout="1mins" --cgroups_enable_cfs="false" --cgroups_hierarchy="/sys/fs/cgroup" --cgroups_limit_swap="false" --cgroups_root="mesos" --container_disk_watch_interval="15secs" --containerizers="docker,mesos" --default_role="*" --disallow_sharing_agent_pid_namespace="false" --disk_watch_interval="1mins" --docker="docker" --docker_kill_orphans="true" --docker_registry="https://registry-1.docker.io" --docker_remove_delay="6hrs" --docker_socket="/var/run/docker.sock" --docker_stop_timeout="0ns" --docker_store_dir="/tmp/mesos/store/docker" --docker_volume_checkpoint_dir="/var/run/mesos/isolators/docker/volume" --enforce_container_disk_quota="false" --executor_registration_timeout="5mins" --executor_reregistration_timeout="2secs" --executor_shutdown_grace_period="5secs" --fetcher_cache_dir="/tmp/mesos/fetch" --fetcher_cache_size="2GB" --fetcher_stall_timeout="1mins" --frameworks_home="" --gc_delay="1weeks" --gc_disk_headroom="0.1" --gc_non_executor_container_sandboxes="false" --help="false" --hostname_lookup="true" --http_command_executor="false" --http_heartbeat_interval="30secs" --initialize_driver_logging="true" --isolation="posix/cpu,posix/mem" --launcher="linux" --launcher_dir="/usr/local/libexec/mesos" --logbufsecs="0" --logging_level="INFO" --master="zk://192.168.1.5:2181/mesos" --max_completed_executors_per_framework="150" --memory_profiling="false" --network_cni_metrics="true" --network_cni_root_dir_persist="false" --oversubscribed_resources_interval="15secs" --perf_duration="10secs" --perf_interval="1mins" --port="5051" --qos_correction_interval_min="0ns" --quiet="false" --reconfiguration_policy="equal" --recover="reconnect" --recovery_timeout="15mins" --registration_backoff_factor="1secs" --revocable_cpu_low_priority="true" --runtime_dir="/var/run/mesos" --sandbox_directory="/mnt/mesos/sandbox" --strict="true" --switch_user="true" --systemd_enable_support="true" --systemd_runtime_directory="/run/systemd/system" --version="false" --work_dir="/var/lib/mesos/agent" --zk_session_timeout="10secs"
+I0510 11:25:41.330508  2926 disk_profile_adaptor.cpp:78] Creating default disk profile adaptor module
+I0510 11:25:41.344748  2926 slave.cpp:613] Agent resources: [{"name":"cpus","scalar":{"value":8.0},"type":"SCALAR"},{"name":"mem","scalar":{"value":14936.0},"type":"SCALAR"},{"name":"disk","scalar":{"value":698029.0},"type":"SCALAR"},{"name":"ports","ranges":{"range":[{"begin":31000,"end":32000}]},"type":"RANGES"}]
+I0510 11:25:41.354123  2926 slave.cpp:621] Agent attributes: [  ]
+I0510 11:25:41.354141  2926 slave.cpp:630] Agent hostname: jouko-Gazelle-Professional
+I0510 11:25:41.354342  2928 task_status_update_manager.cpp:181] Pausing sending task status updates
+I0510 11:25:41.354347  2929 status_update_manager_process.hpp:379] Pausing operation status update manager
+2019-05-10 11:25:41,361:2926(0x7ff5c06a1700):ZOO_INFO@log_env@753: Client environment:zookeeper.version=zookeeper C client 3.4.8
+2019-05-10 11:25:41,361:2926(0x7ff5c06a1700):ZOO_INFO@log_env@757: Client environment:host.name=jouko-Gazelle-Professional
+2019-05-10 11:25:41,361:2926(0x7ff5c06a1700):ZOO_INFO@log_env@764: Client environment:os.name=Linux
+2019-05-10 11:25:41,361:2926(0x7ff5c06a1700):ZOO_INFO@log_env@765: Client environment:os.arch=4.15.0-48-generic
+2019-05-10 11:25:41,361:2926(0x7ff5c06a1700):ZOO_INFO@log_env@766: Client environment:os.version=#51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+2019-05-10 11:25:41,361:2926(0x7ff5c06a1700):ZOO_INFO@log_env@774: Client environment:user.name=jouko
+2019-05-10 11:25:41,361:2926(0x7ff5c06a1700):ZOO_INFO@log_env@782: Client environment:user.home=/root
+2019-05-10 11:25:41,361:2926(0x7ff5c06a1700):ZOO_INFO@log_env@794: Client environment:user.dir=/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/MesosTest
+2019-05-10 11:25:41,361:2926(0x7ff5c06a1700):ZOO_INFO@zookeeper_init@827: Initiating client connection, host=192.168.1.5:2181 sessionTimeout=10000 watcher=0x7ff5d4704992 sessionId=0 sessionPasswd=<null> context=0x7ff59c0022e8 flags=0
+2019-05-10 11:25:41,361:2926(0x7ff5bae55700):ZOO_INFO@check_events@1764: initiated connection to server [192.168.1.5:2181]
+2019-05-10 11:25:41,567:2926(0x7ff5bae55700):ZOO_INFO@check_events@1811: session establishment complete on server [192.168.1.5:2181], sessionId=0x1000020669a0000, negotiated timeout=10000
+I0510 11:25:41.567607  2932 group.cpp:341] Group process (zookeeper-group(1)@192.168.1.5:5051) connected to ZooKeeper
+I0510 11:25:41.567694  2932 group.cpp:831] Syncing group operations: queue size (joins, cancels, datas) = (0, 0, 0)
+I0510 11:25:41.567716  2932 group.cpp:419] Trying to create path '/mesos' in ZooKeeper
+I0510 11:25:41.587935  2930 state.cpp:67] Recovering state from '/var/lib/mesos/agent/meta'
+I0510 11:25:41.590040  2928 slave.cpp:7233] Finished recovering checkpointed state from '/var/lib/mesos/agent/meta', beginning agent recovery
+I0510 11:25:41.591938  2927 task_status_update_manager.cpp:207] Recovering task status update manager
+I0510 11:25:41.598120  2928 containerizer.cpp:797] Recovering Mesos containers
+I0510 11:25:41.598497  2929 linux_launcher.cpp:286] Recovering Linux launcher
+I0510 11:25:41.599164  2934 containerizer.cpp:1123] Recovering isolators
+I0510 11:25:41.628124  2930 docker.cpp:890] Recovering Docker containers
+I0510 11:25:41.659327  2929 containerizer.cpp:1162] Recovering provisioner
+I0510 11:25:41.661123  2928 provisioner.cpp:498] Provisioner recovery complete
+I0510 11:25:41.837514  2933 docker.cpp:903] Got the list of Docker containers
+I0510 11:25:41.837898  2933 docker.cpp:1139] Finished processing orphaned Docker containers
+I0510 11:25:41.839284  2933 composing.cpp:339] Finished recovering all containerizers
+I0510 11:25:41.839720  2928 slave.cpp:7695] Recovering executors
+I0510 11:25:41.839903  2928 slave.cpp:7848] Finished recovery
+I0510 11:26:41.355799  2930 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358807709038310days
+I0510 11:27:41.357245  2933 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358783559865024days
+I0510 11:28:41.358718  2932 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358784026515706days
+I0510 11:29:41.359805  2927 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358784298728611days
+I0510 11:30:41.361011  2932 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358784532053958days
+I0510 11:31:41.362639  2934 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358777882281597days
+I0510 11:32:41.363569  2929 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358778193382061days
+I0510 11:33:41.364392  2930 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358773565762708days
+I0510 11:34:41.365504  2931 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358772904674225days
+I0510 11:35:41.366454  2930 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358765671588507days
+I0510 11:36:41.367673  2933 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358753422007847days
+I0510 11:37:41.368858  2930 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358753110907384days
+I0510 11:38:41.370717  2933 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358748327737801days
+I0510 11:39:41.371982  2930 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358747783311991days
+I0510 11:40:41.373355  2933 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358747161111065days
+I0510 11:41:41.373957  2929 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358746694460382days
+I0510 11:42:41.375145  2933 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358746422247477days
+I0510 11:43:41.376793  2929 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358745800046551days
+I0510 11:44:41.377774  2928 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358745722271435days
+I0510 11:45:41.378870  2931 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358778737807870days
+I0510 11:46:41.380169  2933 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358778737807870days
+I0510 11:47:41.381114  2927 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358778854470544days
+I0510 11:48:41.382695  2932 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358778893358102days
+I0510 11:49:41.384450  2931 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358778932245659days
+I0510 11:50:41.385673  2932 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358778893358102days
+I0510 11:51:41.387609  2931 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358778893358102days
+I0510 11:52:41.388953  2930 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358778854470544days
+I0510 11:53:41.390225  2934 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358778854470544days
+I0510 11:54:41.392313  2930 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358778854470544days
+I0510 11:55:41.393352  2934 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358779087795892days
+I0510 11:56:41.394920  2929 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358779048908334days
+I0510 11:57:41.396809  2933 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358943076626447days
+I0510 11:58:41.398195  2927 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358943037738888days
+I0510 11:59:41.400089  2932 slave.cpp:7148] Current disk usage 27.73%. Max allowed age: 4.358942882188657days

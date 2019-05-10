@@ -1,0 +1,455 @@
+I0510 11:23:12.757958  2834 main.cpp:243] Build: 2019-05-09 21:42:43 by root
+I0510 11:23:12.758042  2834 main.cpp:244] Version: 1.8.0
+I0510 11:23:12.758049  2834 main.cpp:247] Git tag: 1.8.0-rc3
+I0510 11:23:12.758052  2834 main.cpp:251] Git SHA: acefa90695a32f8e8d6361f8192a6522aeaadbb9
+I0510 11:23:12.761667  2834 main.cpp:345] Using 'hierarchical' allocator
+I0510 11:23:13.070502  2834 replica.cpp:795] Replica recovered with log positions 0 -> 0 with 1 holes and 0 unlearned
+I0510 11:23:13.169545  2840 recover.cpp:437] Starting replica recovery
+I0510 11:23:13.180414  2840 recover.cpp:468] Replica is in EMPTY status
+I0510 11:23:13.198905  2842 replica.cpp:677] Replica in EMPTY status received a broadcasted recover request from __req_res__(1)@192.168.1.5:5050
+I0510 11:23:13.220152  2835 recover.cpp:197] Received a recover response from a replica in EMPTY status
+I0510 11:23:13.221138  2840 recover.cpp:564] Updating replica status to STARTING
+I0510 11:23:13.304217  2834 master.cpp:440] Master 55850c2a-f77e-41ae-bb91-b469d7c26552 (jouko-Gazelle-Professional) started on 192.168.1.5:5050
+I0510 11:23:13.304255  2834 master.cpp:443] Flags at startup: --agent_ping_timeout="15secs" --agent_reregister_timeout="10mins" --allocation_interval="1secs" --allocator="hierarchical" --authenticate_agents="false" --authenticate_frameworks="false" --authenticate_http_frameworks="false" --authenticate_http_readonly="false" --authenticate_http_readwrite="false" --authentication_v0_timeout="15secs" --authenticators="crammd5" --authorizers="local" --filter_gpu_resources="true" --framework_sorter="drf" --help="false" --hostname_lookup="true" --http_authenticators="basic" --initialize_driver_logging="true" --ip="192.168.1.5" --log_auto_initialize="true" --logbufsecs="0" --logging_level="INFO" --max_agent_ping_timeouts="5" --max_completed_frameworks="50" --max_completed_tasks_per_framework="1000" --max_operator_event_stream_subscribers="1000" --max_unreachable_tasks_per_framework="1000" --memory_profiling="false" --min_allocatable_resources="cpus:0.01|mem:32" --port="5050" --publish_per_framework_metrics="true" --quiet="false" --recovery_agent_removal_limit="100%" --registry="replicated_log" --registry_fetch_timeout="1mins" --registry_gc_interval="15mins" --registry_max_agent_age="2weeks" --registry_max_agent_count="102400" --registry_store_timeout="20secs" --registry_strict="false" --require_agent_domain="false" --role_sorter="drf" --root_submissions="true" --version="false" --webui_dir="/usr/local/share/mesos/webui" --work_dir="/home/jouko/mesos_work_dir" --zk_session_timeout="10secs"
+I0510 11:23:13.304531  2834 master.cpp:494] Master allowing unauthenticated frameworks to register
+I0510 11:23:13.304538  2834 master.cpp:500] Master allowing unauthenticated agents to register
+I0510 11:23:13.304541  2834 master.cpp:507] Master allowing HTTP frameworks to register without authentication
+I0510 11:23:13.318867  2842 replica.cpp:322] Persisted replica status to STARTING
+I0510 11:23:13.319067  2834 master.cpp:548] Using default 'crammd5' authenticator
+W0510 11:23:13.319101  2834 authenticator.cpp:513] No credentials provided, authentication requests will be refused
+I0510 11:23:13.319109  2834 authenticator.cpp:520] Initializing server SASL
+I0510 11:23:13.336393  2840 recover.cpp:468] Replica is in STARTING status
+I0510 11:23:13.337338  2841 replica.cpp:677] Replica in STARTING status received a broadcasted recover request from __req_res__(2)@192.168.1.5:5050
+I0510 11:23:13.337764  2842 recover.cpp:197] Received a recover response from a replica in STARTING status
+I0510 11:23:13.338165  2838 recover.cpp:564] Updating replica status to VOTING
+I0510 11:23:13.402319  2835 replica.cpp:322] Persisted replica status to VOTING
+I0510 11:23:13.402463  2840 recover.cpp:578] Successfully joined the Paxos group
+I0510 11:23:13.460307  2842 master.cpp:2141] Elected as the leading master!
+I0510 11:23:13.460336  2842 master.cpp:1664] Recovering from registrar
+I0510 11:23:13.475822  2841 log.cpp:554] Attempting to start the writer
+I0510 11:23:13.517930  2837 replica.cpp:497] Replica received implicit promise request from __req_res__(3)@192.168.1.5:5050 with proposal 1
+I0510 11:23:13.560958  2837 replica.cpp:344] Persisted promised to 1
+I0510 11:23:13.562549  2842 coordinator.cpp:238] Coordinator attempting to fill missing positions
+I0510 11:23:13.564891  2837 replica.cpp:391] Replica received explicit promise request from __req_res__(4)@192.168.1.5:5050 for position 0 with proposal 2
+I0510 11:23:13.596247  2835 replica.cpp:541] Replica received write request for position 0 from __req_res__(5)@192.168.1.5:5050
+I0510 11:23:13.628933  2840 replica.cpp:695] Replica received learned notice for position 0 from log-network(1)@192.168.1.5:5050
+I0510 11:23:13.687331  2838 log.cpp:570] Writer started with ending position 0
+I0510 11:23:13.693492  2840 registrar.cpp:383] Successfully fetched the registry (0B) in 224.982784ms
+I0510 11:23:13.693732  2840 registrar.cpp:487] Applied 1 operations in 88948ns; attempting to update the registry
+I0510 11:23:13.712225  2840 coordinator.cpp:348] Coordinator attempting to write APPEND action at position 1
+I0510 11:23:13.713248  2840 replica.cpp:541] Replica received write request for position 1 from __req_res__(6)@192.168.1.5:5050
+I0510 11:23:13.762292  2835 replica.cpp:695] Replica received learned notice for position 1 from log-network(1)@192.168.1.5:5050
+I0510 11:23:13.796897  2841 registrar.cpp:544] Successfully updated the registry in 103.04384ms
+I0510 11:23:13.797091  2841 registrar.cpp:416] Successfully recovered registrar
+I0510 11:23:13.797358  2839 coordinator.cpp:348] Coordinator attempting to write TRUNCATE action at position 2
+I0510 11:23:13.797725  2840 master.cpp:1790] Recovered 0 agents from the registry (162B); allowing 10mins for agents to reregister
+I0510 11:23:13.798018  2838 replica.cpp:541] Replica received write request for position 2 from __req_res__(7)@192.168.1.5:5050
+I0510 11:23:13.837234  2835 replica.cpp:695] Replica received learned notice for position 2 from log-network(1)@192.168.1.5:5050
+I0510 11:27:28.610605  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:40702 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:27:28.667323  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:40702: '200 OK' after 374.227ms
+I0510 11:27:38.727288  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:27:38.728519  2841 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2 from 192.168.1.5:40714: '200 OK' after 3.05382ms
+I0510 11:27:48.766316  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:27:48.767544  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4 from 192.168.1.5:40714: '200 OK' after 3.04614ms
+I0510 11:27:58.782177  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:27:58.783279  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6 from 192.168.1.5:40714: '200 OK' after 2.93299ms
+I0510 11:28:08.810418  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._8 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:28:08.811700  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._8 from 192.168.1.5:40714: '200 OK' after 3.08378ms
+I0510 11:28:18.839284  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._a from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:28:18.840337  2841 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._a from 192.168.1.5:40714: '200 OK' after 2.89024ms
+I0510 11:28:28.873543  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._c from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:28:28.874740  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._c from 192.168.1.5:40714: '200 OK' after 3.10707ms
+I0510 11:28:38.898391  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._e from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:28:38.899606  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._e from 192.168.1.5:40714: '200 OK' after 3.15136ms
+I0510 11:28:48.935174  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._g from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:28:48.936398  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._g from 192.168.1.5:40714: '200 OK' after 3.18515ms
+I0510 11:28:58.975603  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._i from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:28:58.976649  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._i from 192.168.1.5:40714: '200 OK' after 2.76403ms
+I0510 11:29:09.009081  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._k from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:29:09.010272  2841 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._k from 192.168.1.5:40714: '200 OK' after 3.12115ms
+I0510 11:29:19.041748  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._m from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:29:19.042927  2841 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._m from 192.168.1.5:40714: '200 OK' after 3.09504ms
+I0510 11:29:29.068749  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._o from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:29:29.069854  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._o from 192.168.1.5:40714: '200 OK' after 2.96499ms
+I0510 11:29:39.093345  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._q from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:29:39.094405  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._q from 192.168.1.5:40714: '200 OK' after 2.78502ms
+I0510 11:29:49.121726  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._s from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:29:49.122802  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._s from 192.168.1.5:40714: '200 OK' after 2.81805ms
+I0510 11:29:59.153020  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._u from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:29:59.154021  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._u from 192.168.1.5:40714: '200 OK' after 2.70336ms
+I0510 11:30:09.192860  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._w from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:30:09.196203  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._w from 192.168.1.5:40714: '200 OK' after 8.82918ms
+I0510 11:30:19.225014  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._y from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:30:19.226176  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._y from 192.168.1.5:40714: '200 OK' after 3.02003ms
+I0510 11:30:29.251668  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._10 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:30:29.252846  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._10 from 192.168.1.5:40714: '200 OK' after 3.04717ms
+I0510 11:30:39.273547  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._12 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:30:39.274746  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._12 from 192.168.1.5:40714: '200 OK' after 3.02413ms
+I0510 11:30:49.301646  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._14 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:30:49.302922  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._14 from 192.168.1.5:40714: '200 OK' after 3.12218ms
+I0510 11:30:59.328999  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._16 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:30:59.331513  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._16 from 192.168.1.5:40714: '200 OK' after 6.46093ms
+I0510 11:31:09.363780  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._18 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:31:09.366719  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._18 from 192.168.1.5:40714: '200 OK' after 7.90093ms
+I0510 11:31:19.391156  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._1a from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:31:19.392253  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._1a from 192.168.1.5:40714: '200 OK' after 2.9801ms
+I0510 11:31:29.407989  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._1c from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:31:29.409092  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._1c from 192.168.1.5:40714: '200 OK' after 2.94912ms
+I0510 11:31:39.441037  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._1e from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:31:39.442312  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._1e from 192.168.1.5:40714: '200 OK' after 3.04102ms
+I0510 11:31:40.426559  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:40964 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:31:40.427623  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:40964: '200 OK' after 2.784ms
+I0510 11:31:49.250279  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:40964 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:31:49.251464  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:40964: '200 OK' after 2.83187ms
+I0510 11:31:59.275259  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:31:59.276523  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2 from 192.168.1.5:40714: '200 OK' after 5.41312ms
+I0510 11:32:09.295199  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:32:09.297879  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4 from 192.168.1.5:40714: '200 OK' after 7.24096ms
+I0510 11:32:19.315820  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:32:19.317100  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6 from 192.168.1.5:40714: '200 OK' after 4.4352ms
+I0510 11:32:29.329694  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._8 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:32:29.333168  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._8 from 192.168.1.5:40714: '200 OK' after 8.36096ms
+I0510 11:32:39.348430  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._a from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:32:39.351737  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._a from 192.168.1.5:40714: '200 OK' after 8.24397ms
+I0510 11:32:49.366834  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._c from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:32:49.369113  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._c from 192.168.1.5:40714: '200 OK' after 6.5111ms
+I0510 11:32:59.393330  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._e from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:32:59.394794  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._e from 192.168.1.5:40714: '200 OK' after 6.5961ms
+I0510 11:33:09.408512  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._g from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:33:09.410050  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._g from 192.168.1.5:40714: '200 OK' after 6.77811ms
+I0510 11:33:19.421695  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._i from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:33:19.424413  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._i from 192.168.1.5:40714: '200 OK' after 6.73997ms
+I0510 11:33:23.947892  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:40964 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:33:23.949126  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:40964: '200 OK' after 2.9719ms
+I0510 11:33:33.970052  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:33:33.971765  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2 from 192.168.1.5:40714: '200 OK' after 4.23987ms
+I0510 11:33:38.036175  2836 http.cpp:1105] HTTP GET for /master/roles?jsonp=angular.callbacks._4 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:33:40.550650  2839 http.cpp:1105] HTTP GET for /master/maintenance/schedule?jsonp=angular.callbacks._5 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:33:43.984771  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:33:43.987354  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6 from 192.168.1.5:40714: '200 OK' after 7.05613ms
+I0510 11:33:53.999912  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._8 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:33:54.001046  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._8 from 192.168.1.5:40714: '200 OK' after 3.09709ms
+I0510 11:34:04.015808  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._a from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:34:04.017848  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._a from 192.168.1.5:40714: '200 OK' after 6.79219ms
+I0510 11:34:14.029498  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._c from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:34:14.031980  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._c from 192.168.1.5:40714: '200 OK' after 6.52493ms
+I0510 11:34:24.052073  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._e from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:34:24.055359  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._e from 192.168.1.5:40714: '200 OK' after 8.2263ms
+I0510 11:34:34.072517  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._g from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:34:34.074816  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._g from 192.168.1.5:40714: '200 OK' after 7.54304ms
+I0510 11:34:44.090754  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._i from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:34:44.092072  2841 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._i from 192.168.1.5:40714: '200 OK' after 6.23411ms
+I0510 11:34:54.105013  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._k from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:34:54.107695  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._k from 192.168.1.5:40714: '200 OK' after 6.97472ms
+I0510 11:35:04.120824  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._m from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:35:04.123106  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._m from 192.168.1.5:40714: '200 OK' after 4.832ms
+I0510 11:35:14.134876  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._o from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:35:14.137389  2841 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._o from 192.168.1.5:40714: '200 OK' after 5.96864ms
+I0510 11:35:24.150436  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._q from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:35:24.153204  2841 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._q from 192.168.1.5:40714: '200 OK' after 7.6841ms
+I0510 11:35:34.169008  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._s from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:35:34.171761  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._s from 192.168.1.5:40714: '200 OK' after 6.87309ms
+I0510 11:35:39.391067  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:41208 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:35:39.392194  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:41208: '200 OK' after 3.07098ms
+I0510 11:35:45.517427  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:41208 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:35:45.518647  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:41208: '200 OK' after 3.00006ms
+I0510 11:35:49.343839  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:41208 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:35:49.345036  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:41208: '200 OK' after 2.82906ms
+I0510 11:35:59.366276  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:35:59.368961  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2 from 192.168.1.5:40714: '200 OK' after 7.24506ms
+I0510 11:36:09.380609  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:36:09.381664  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4 from 192.168.1.5:40714: '200 OK' after 2.99392ms
+I0510 11:36:19.398711  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:36:19.401412  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6 from 192.168.1.5:40714: '200 OK' after 6.94477ms
+I0510 11:36:29.413938  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._8 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:36:29.416441  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._8 from 192.168.1.5:40714: '200 OK' after 7.25197ms
+I0510 11:36:33.695797  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:41208 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:36:33.696990  2841 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:41208: '200 OK' after 3.05203ms
+I0510 11:36:43.719290  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:36:43.720423  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2 from 192.168.1.5:40714: '200 OK' after 5.04397ms
+I0510 11:36:53.741901  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:36:53.743589  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4 from 192.168.1.5:40714: '200 OK' after 6.34803ms
+I0510 11:37:03.757478  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:37:03.758716  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6 from 192.168.1.5:40714: '200 OK' after 3.11398ms
+I0510 11:37:13.771332  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._8 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:37:13.774579  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._8 from 192.168.1.5:40714: '200 OK' after 8.24294ms
+I0510 11:37:23.785184  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._a from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:37:23.786329  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._a from 192.168.1.5:40714: '200 OK' after 2.89997ms
+I0510 11:37:33.799670  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._c from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:37:33.801054  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._c from 192.168.1.5:40714: '200 OK' after 4.61389ms
+I0510 11:37:43.816310  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._e from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:37:43.818806  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._e from 192.168.1.5:40714: '200 OK' after 6.68698ms
+I0510 11:37:53.830057  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._g from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:37:53.831230  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._g from 192.168.1.5:40714: '200 OK' after 3.07584ms
+I0510 11:38:00.718160  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:41208 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:38:00.719439  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._0 from 192.168.1.5:41208: '200 OK' after 3.02899ms
+I0510 11:38:10.739027  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:38:10.742063  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2 from 192.168.1.5:40714: '200 OK' after 6.8201ms
+I0510 11:38:20.766115  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:38:20.767645  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4 from 192.168.1.5:40714: '200 OK' after 6.40589ms
+I0510 11:38:30.785781  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:38:30.787583  2841 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6 from 192.168.1.5:40714: '200 OK' after 6.8713ms
+I0510 11:38:40.800590  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._8 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:38:40.804054  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._8 from 192.168.1.5:40714: '200 OK' after 8.40678ms
+I0510 11:38:50.814378  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._a from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:38:50.815462  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._a from 192.168.1.5:40714: '200 OK' after 2.82598ms
+I0510 11:39:00.825841  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._c from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:39:00.827077  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._c from 192.168.1.5:40714: '200 OK' after 3.09709ms
+I0510 11:39:10.840795  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._e from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:39:10.842317  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._e from 192.168.1.5:40714: '200 OK' after 6.01626ms
+I0510 11:39:20.861042  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._g from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:39:20.863296  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._g from 192.168.1.5:40714: '200 OK' after 7.20998ms
+I0510 11:39:30.876322  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._i from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:39:30.879307  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._i from 192.168.1.5:40714: '200 OK' after 7.80288ms
+I0510 11:39:40.891691  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._k from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:39:40.894788  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._k from 192.168.1.5:40714: '200 OK' after 7.97901ms
+I0510 11:39:50.908653  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._m from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:39:50.910104  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._m from 192.168.1.5:40714: '200 OK' after 3.56301ms
+I0510 11:40:00.919302  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._o from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:40:00.920831  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._o from 192.168.1.5:40714: '200 OK' after 3.81594ms
+I0510 11:40:10.932822  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._q from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:40:10.935729  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._q from 192.168.1.5:40714: '200 OK' after 6.99008ms
+I0510 11:40:20.947360  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._s from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:40:20.950377  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._s from 192.168.1.5:40714: '200 OK' after 7.32723ms
+I0510 11:40:30.964193  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._u from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:40:30.967094  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._u from 192.168.1.5:40714: '200 OK' after 7.84026ms
+I0510 11:40:40.980672  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._w from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:40:40.984021  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._w from 192.168.1.5:40714: '200 OK' after 8.29491ms
+I0510 11:40:50.998394  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._y from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:40:51.001673  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._y from 192.168.1.5:40714: '200 OK' after 8.23808ms
+I0510 11:41:01.011545  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._10 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:41:01.013643  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._10 from 192.168.1.5:40714: '200 OK' after 5.17914ms
+I0510 11:41:11.029413  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._12 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:41:11.032289  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._12 from 192.168.1.5:40714: '200 OK' after 7.78906ms
+I0510 11:41:21.045104  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._14 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:41:21.048336  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._14 from 192.168.1.5:40714: '200 OK' after 8.11315ms
+I0510 11:41:31.058439  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._16 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:41:31.059670  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._16 from 192.168.1.5:40714: '200 OK' after 3.13984ms
+I0510 11:41:41.071651  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._18 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:41:41.074923  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._18 from 192.168.1.5:40714: '200 OK' after 8.10829ms
+I0510 11:41:51.088865  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._1a from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:41:51.091809  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._1a from 192.168.1.5:40714: '200 OK' after 8.11187ms
+I0510 11:42:01.099923  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._1c from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:42:01.101619  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._1c from 192.168.1.5:40714: '200 OK' after 4.256ms
+I0510 11:42:11.114599  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._1e from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:42:11.117324  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._1e from 192.168.1.5:40714: '200 OK' after 7.68486ms
+I0510 11:42:21.129034  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._1g from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:42:21.132277  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._1g from 192.168.1.5:40714: '200 OK' after 8.17997ms
+I0510 11:42:31.146068  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._1i from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:42:31.147672  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._1i from 192.168.1.5:40714: '200 OK' after 6.59917ms
+I0510 11:42:41.159189  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._1k from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:42:41.160645  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._1k from 192.168.1.5:40714: '200 OK' after 6.28019ms
+I0510 11:42:51.172163  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._1m from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:42:51.173399  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._1m from 192.168.1.5:40714: '200 OK' after 5.43206ms
+I0510 11:43:01.180088  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._1o from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:43:01.181715  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._1o from 192.168.1.5:40714: '200 OK' after 3.91501ms
+I0510 11:43:11.224956  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._1q from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:43:11.226060  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._1q from 192.168.1.5:40714: '200 OK' after 2.84006ms
+I0510 11:43:21.245803  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._1s from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:43:21.247383  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._1s from 192.168.1.5:40714: '200 OK' after 5.82989ms
+I0510 11:43:31.260130  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._1u from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:43:31.263299  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._1u from 192.168.1.5:40714: '200 OK' after 8.00077ms
+I0510 11:43:41.276479  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._1w from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:43:41.278136  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._1w from 192.168.1.5:40714: '200 OK' after 6.41792ms
+I0510 11:43:51.288410  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._1y from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:43:51.289825  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._1y from 192.168.1.5:40714: '200 OK' after 3.92602ms
+I0510 11:44:01.300653  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._20 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:44:01.302935  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._20 from 192.168.1.5:40714: '200 OK' after 5.51373ms
+I0510 11:44:11.320662  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._22 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:44:11.322221  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._22 from 192.168.1.5:40714: '200 OK' after 5.90592ms
+I0510 11:44:21.338917  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._24 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:44:21.340607  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._24 from 192.168.1.5:40714: '200 OK' after 5.61587ms
+I0510 11:44:31.353219  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._26 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:44:31.356320  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._26 from 192.168.1.5:40714: '200 OK' after 7.71302ms
+I0510 11:44:41.367131  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._28 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:44:41.368309  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._28 from 192.168.1.5:40714: '200 OK' after 3.01312ms
+I0510 11:44:51.381742  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2a from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:44:51.383759  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2a from 192.168.1.5:40714: '200 OK' after 6.71514ms
+I0510 11:45:01.394544  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2c from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:45:01.395964  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2c from 192.168.1.5:40714: '200 OK' after 4.7081ms
+I0510 11:45:11.409216  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2e from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:45:11.410822  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2e from 192.168.1.5:40714: '200 OK' after 6.49805ms
+I0510 11:45:21.421260  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2g from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:45:21.422505  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2g from 192.168.1.5:40714: '200 OK' after 4.38323ms
+I0510 11:45:31.455981  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2i from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:45:31.458741  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2i from 192.168.1.5:40714: '200 OK' after 7.51283ms
+I0510 11:45:41.496361  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2k from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:45:41.497702  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2k from 192.168.1.5:40714: '200 OK' after 3.99002ms
+I0510 11:45:51.510993  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2m from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:45:51.513769  2841 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2m from 192.168.1.5:40714: '200 OK' after 7.5689ms
+I0510 11:46:01.532821  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2o from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:46:01.535326  2841 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2o from 192.168.1.5:40714: '200 OK' after 6.82189ms
+I0510 11:46:11.555312  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2q from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:46:11.556855  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2q from 192.168.1.5:40714: '200 OK' after 6.50496ms
+I0510 11:46:21.569125  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2s from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:46:21.570631  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2s from 192.168.1.5:40714: '200 OK' after 6.39616ms
+I0510 11:46:31.582176  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2u from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:46:31.585114  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2u from 192.168.1.5:40714: '200 OK' after 7.24608ms
+I0510 11:46:41.598052  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2w from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:46:41.599335  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2w from 192.168.1.5:40714: '200 OK' after 5.14022ms
+I0510 11:46:51.612226  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._2y from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:46:51.614958  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._2y from 192.168.1.5:40714: '200 OK' after 7.7161ms
+I0510 11:47:01.623733  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._30 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:47:01.625025  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._30 from 192.168.1.5:40714: '200 OK' after 4.27981ms
+I0510 11:47:11.638348  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._32 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:47:11.639875  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._32 from 192.168.1.5:40714: '200 OK' after 6.40794ms
+I0510 11:47:21.652671  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._34 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:47:21.656029  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._34 from 192.168.1.5:40714: '200 OK' after 8.27904ms
+I0510 11:47:31.676002  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._36 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:47:31.677309  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._36 from 192.168.1.5:40714: '200 OK' after 5.66374ms
+I0510 11:47:41.689620  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._38 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:47:41.691305  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._38 from 192.168.1.5:40714: '200 OK' after 6.92301ms
+I0510 11:47:51.703181  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._3a from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:47:51.705088  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._3a from 192.168.1.5:40714: '200 OK' after 6.91482ms
+I0510 11:48:01.721773  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._3c from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:48:01.723274  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._3c from 192.168.1.5:40714: '200 OK' after 4.83482ms
+I0510 11:48:11.733407  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._3e from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:48:11.734804  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._3e from 192.168.1.5:40714: '200 OK' after 4.47206ms
+I0510 11:48:21.746706  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._3g from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:48:21.748211  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._3g from 192.168.1.5:40714: '200 OK' after 6.43482ms
+I0510 11:48:31.760555  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._3i from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:48:31.762001  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._3i from 192.168.1.5:40714: '200 OK' after 6.29274ms
+I0510 11:48:41.774432  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._3k from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:48:41.776068  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._3k from 192.168.1.5:40714: '200 OK' after 6.49088ms
+I0510 11:48:51.784858  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._3m from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:48:51.785953  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._3m from 192.168.1.5:40714: '200 OK' after 2.91379ms
+I0510 11:49:01.796557  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._3o from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:49:01.798063  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._3o from 192.168.1.5:40714: '200 OK' after 5.82682ms
+I0510 11:49:11.808872  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._3q from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:49:11.810106  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._3q from 192.168.1.5:40714: '200 OK' after 4.68096ms
+I0510 11:49:21.819047  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._3s from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:49:21.820109  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._3s from 192.168.1.5:40714: '200 OK' after 2.9591ms
+I0510 11:49:31.827443  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._3u from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:49:31.828596  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._3u from 192.168.1.5:40714: '200 OK' after 3.09811ms
+I0510 11:49:41.840538  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._3w from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:49:41.842159  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._3w from 192.168.1.5:40714: '200 OK' after 6.42381ms
+I0510 11:49:51.854204  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._3y from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:49:51.855789  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._3y from 192.168.1.5:40714: '200 OK' after 6.36902ms
+I0510 11:50:01.866050  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._40 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:50:01.867503  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._40 from 192.168.1.5:40714: '200 OK' after 5.38163ms
+I0510 11:50:11.876574  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._42 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:50:11.878495  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._42 from 192.168.1.5:40714: '200 OK' after 4.71808ms
+I0510 11:50:21.890306  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._44 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:50:21.892714  2841 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._44 from 192.168.1.5:40714: '200 OK' after 6.28275ms
+I0510 11:50:31.906244  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._46 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:50:31.909651  2841 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._46 from 192.168.1.5:40714: '200 OK' after 8.21478ms
+I0510 11:50:41.927060  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._48 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:50:41.929498  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._48 from 192.168.1.5:40714: '200 OK' after 7.27501ms
+I0510 11:50:51.941004  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4a from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:50:51.942261  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4a from 192.168.1.5:40714: '200 OK' after 4.50483ms
+I0510 11:51:01.950800  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4c from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:51:01.951961  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4c from 192.168.1.5:40714: '200 OK' after 2.87898ms
+I0510 11:51:11.964009  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4e from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:51:11.965557  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4e from 192.168.1.5:40714: '200 OK' after 5.94611ms
+I0510 11:51:21.976800  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4g from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:51:21.978258  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4g from 192.168.1.5:40714: '200 OK' after 5.51373ms
+I0510 11:51:31.989181  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4i from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:51:31.991534  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4i from 192.168.1.5:40714: '200 OK' after 6.79603ms
+I0510 11:51:42.004855  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4k from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:51:42.006503  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4k from 192.168.1.5:40714: '200 OK' after 6.43789ms
+I0510 11:51:52.019085  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4m from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:51:52.020941  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4m from 192.168.1.5:40714: '200 OK' after 6.88794ms
+I0510 11:52:02.032147  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4o from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:52:02.033474  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4o from 192.168.1.5:40714: '200 OK' after 4.93389ms
+I0510 11:52:12.042891  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4q from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:52:12.043905  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4q from 192.168.1.5:40714: '200 OK' after 2.76198ms
+I0510 11:52:22.056326  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4s from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:52:22.058650  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4s from 192.168.1.5:40714: '200 OK' after 7.0871ms
+I0510 11:52:32.071990  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4u from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:52:32.075165  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4u from 192.168.1.5:40714: '200 OK' after 8.26778ms
+I0510 11:52:42.089519  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4w from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:52:42.091130  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4w from 192.168.1.5:40714: '200 OK' after 6.50906ms
+I0510 11:52:52.103682  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._4y from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:52:52.105243  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._4y from 192.168.1.5:40714: '200 OK' after 6.26893ms
+I0510 11:53:02.118214  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._50 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:53:02.121524  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._50 from 192.168.1.5:40714: '200 OK' after 8.2281ms
+I0510 11:53:12.135012  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._52 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:53:12.138113  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._52 from 192.168.1.5:40714: '200 OK' after 7.98592ms
+I0510 11:53:22.232883  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._54 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:53:22.234457  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._54 from 192.168.1.5:40714: '200 OK' after 6.15706ms
+I0510 11:53:32.246564  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._56 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:53:32.248140  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._56 from 192.168.1.5:40714: '200 OK' after 6.22797ms
+I0510 11:53:42.260287  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._58 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:53:42.261839  2841 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._58 from 192.168.1.5:40714: '200 OK' after 6.18726ms
+I0510 11:53:52.270005  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._5a from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:53:52.271215  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._5a from 192.168.1.5:40714: '200 OK' after 2.90483ms
+I0510 11:54:02.281754  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._5c from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:54:02.282943  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._5c from 192.168.1.5:40714: '200 OK' after 4.17408ms
+I0510 11:54:12.291540  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._5e from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:54:12.292717  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._5e from 192.168.1.5:40714: '200 OK' after 3.06278ms
+I0510 11:54:22.305122  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._5g from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:54:22.308630  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._5g from 192.168.1.5:40714: '200 OK' after 8.39091ms
+I0510 11:54:32.322192  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._5i from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:54:32.323717  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._5i from 192.168.1.5:40714: '200 OK' after 6.46093ms
+I0510 11:54:42.337795  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._5k from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:54:42.339061  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._5k from 192.168.1.5:40714: '200 OK' after 4.98688ms
+I0510 11:54:52.355520  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._5m from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:54:52.356727  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._5m from 192.168.1.5:40714: '200 OK' after 4.07117ms
+I0510 11:55:02.366955  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._5o from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:55:02.368526  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._5o from 192.168.1.5:40714: '200 OK' after 4.10189ms
+I0510 11:55:12.381036  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._5q from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:55:12.384280  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._5q from 192.168.1.5:40714: '200 OK' after 8.08397ms
+I0510 11:55:22.398169  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._5s from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:55:22.399677  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._5s from 192.168.1.5:40714: '200 OK' after 6.53184ms
+I0510 11:55:32.412432  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._5u from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:55:32.415130  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._5u from 192.168.1.5:40714: '200 OK' after 7.66208ms
+I0510 11:55:42.459188  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._5w from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:55:42.462397  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._5w from 192.168.1.5:40714: '200 OK' after 8.06477ms
+I0510 11:55:52.471956  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._5y from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:55:52.473186  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._5y from 192.168.1.5:40714: '200 OK' after 2.97395ms
+I0510 11:56:02.486379  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._60 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:56:02.489636  2841 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._60 from 192.168.1.5:40714: '200 OK' after 8.17587ms
+I0510 11:56:12.502171  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._62 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:56:12.505092  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._62 from 192.168.1.5:40714: '200 OK' after 7.69306ms
+I0510 11:56:22.513929  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._64 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:56:22.514986  2841 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._64 from 192.168.1.5:40714: '200 OK' after 2.81011ms
+I0510 11:56:32.526567  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._66 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:56:32.528234  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._66 from 192.168.1.5:40714: '200 OK' after 6.58381ms
+I0510 11:56:42.540832  2836 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._68 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:56:42.543525  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._68 from 192.168.1.5:40714: '200 OK' after 7.62701ms
+I0510 11:56:52.555877  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6a from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:56:52.557457  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6a from 192.168.1.5:40714: '200 OK' after 6.08819ms
+I0510 11:57:02.563110  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6c from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:57:02.564199  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6c from 192.168.1.5:40714: '200 OK' after 2.79091ms
+I0510 11:57:12.570529  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6e from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:57:12.571883  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6e from 192.168.1.5:40714: '200 OK' after 3.47904ms
+I0510 11:57:22.584482  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6g from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:57:22.587025  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6g from 192.168.1.5:40714: '200 OK' after 7.37997ms
+I0510 11:57:32.598703  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6i from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:57:32.600107  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6i from 192.168.1.5:40714: '200 OK' after 5.55878ms
+I0510 11:57:42.610548  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6k from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:57:42.612395  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6k from 192.168.1.5:40714: '200 OK' after 4.82304ms
+I0510 11:57:52.625480  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6m from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:57:52.628737  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6m from 192.168.1.5:40714: '200 OK' after 8.18893ms
+I0510 11:58:02.640027  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6o from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:58:02.642722  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6o from 192.168.1.5:40714: '200 OK' after 6.77914ms
+I0510 11:58:12.650496  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6q from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:58:12.651645  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6q from 192.168.1.5:40714: '200 OK' after 2.80704ms
+I0510 11:58:22.663921  2839 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6s from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:58:22.666677  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6s from 192.168.1.5:40714: '200 OK' after 7.65594ms
+I0510 11:58:32.679358  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6u from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:58:32.681012  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6u from 192.168.1.5:40714: '200 OK' after 6.7648ms
+I0510 11:58:42.693229  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6w from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:58:42.694912  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6w from 192.168.1.5:40714: '200 OK' after 6.37798ms
+I0510 11:58:52.706931  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._6y from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:58:52.708868  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._6y from 192.168.1.5:40714: '200 OK' after 6.54208ms
+I0510 11:59:02.722321  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._70 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:59:02.725157  2836 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._70 from 192.168.1.5:40714: '200 OK' after 7.74605ms
+I0510 11:59:12.738245  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._72 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:59:12.739457  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._72 from 192.168.1.5:40714: '200 OK' after 4.66278ms
+I0510 11:59:22.751917  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._74 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:59:22.753561  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._74 from 192.168.1.5:40714: '200 OK' after 6.52698ms
+I0510 11:59:32.766502  2838 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._76 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:59:32.768126  2841 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._76 from 192.168.1.5:40714: '200 OK' after 6.53005ms
+I0510 11:59:42.780221  2842 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._78 from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:59:42.783468  2838 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._78 from 192.168.1.5:40714: '200 OK' after 8.09498ms
+I0510 11:59:52.795572  2840 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._7a from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 11:59:52.798576  2835 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._7a from 192.168.1.5:40714: '200 OK' after 7.3129ms
+I0510 12:00:02.834697  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._7c from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 12:00:02.837255  2840 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._7c from 192.168.1.5:40714: '200 OK' after 6.95782ms
+I0510 12:00:12.850117  2835 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._7e from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 12:00:12.853425  2837 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._7e from 192.168.1.5:40714: '200 OK' after 8.4631ms
+I0510 12:00:22.865546  2837 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._7g from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 12:00:22.867658  2842 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._7g from 192.168.1.5:40714: '200 OK' after 5.51706ms
+I0510 12:00:32.877866  2841 http.cpp:1105] HTTP GET for /master/state?jsonp=angular.callbacks._7i from 192.168.1.5:40714 with User-Agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0'
+I0510 12:00:32.879393  2839 http.cpp:1122] HTTP GET for /master/state?jsonp=angular.callbacks._7i from 192.168.1.5:40714: '200 OK' after 5.06496ms

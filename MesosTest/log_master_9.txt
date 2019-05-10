@@ -1,0 +1,53 @@
+I0510 09:52:05.812326  2718 main.cpp:243] Build: 2019-05-09 21:42:43 by root
+I0510 09:52:05.816097  2718 main.cpp:244] Version: 1.8.0
+I0510 09:52:05.816105  2718 main.cpp:247] Git tag: 1.8.0-rc3
+I0510 09:52:05.816110  2718 main.cpp:251] Git SHA: acefa90695a32f8e8d6361f8192a6522aeaadbb9
+I0510 09:52:06.054353  2718 main.cpp:345] Using 'hierarchical' allocator
+I0510 09:52:06.110678  2718 master.cpp:440] Master a6af7d98-07ed-4233-87be-9f62e43603d9 (jouko-Gazelle-Professional) started on 192.168.1.5:5050
+I0510 09:52:06.110716  2718 master.cpp:443] Flags at startup: --agent_ping_timeout="15secs" --agent_reregister_timeout="10mins" --allocation_interval="1secs" --allocator="hierarchical" --authenticate_agents="false" --authenticate_frameworks="false" --authenticate_http_frameworks="false" --authenticate_http_readonly="false" --authenticate_http_readwrite="false" --authentication_v0_timeout="15secs" --authenticators="crammd5" --authorizers="local" --filter_gpu_resources="true" --framework_sorter="drf" --help="false" --hostname_lookup="true" --http_authenticators="basic" --initialize_driver_logging="true" --ip="192.168.1.5" --log_auto_initialize="true" --logbufsecs="0" --logging_level="INFO" --max_agent_ping_timeouts="5" --max_completed_frameworks="50" --max_completed_tasks_per_framework="1000" --max_operator_event_stream_subscribers="1000" --max_unreachable_tasks_per_framework="1000" --memory_profiling="false" --min_allocatable_resources="cpus:0.01|mem:32" --port="5050" --publish_per_framework_metrics="true" --quiet="false" --recovery_agent_removal_limit="100%" --registry="in_memory" --registry_fetch_timeout="1mins" --registry_gc_interval="15mins" --registry_max_agent_age="2weeks" --registry_max_agent_count="102400" --registry_store_timeout="20secs" --registry_strict="false" --require_agent_domain="false" --role_sorter="drf" --root_submissions="true" --version="false" --webui_dir="/usr/local/share/mesos/webui" --zk="zk://192.168.1.5:2181/mesos" --zk_session_timeout="10secs"
+I0510 09:52:06.111037  2718 master.cpp:494] Master allowing unauthenticated frameworks to register
+I0510 09:52:06.111043  2718 master.cpp:500] Master allowing unauthenticated agents to register
+I0510 09:52:06.111047  2718 master.cpp:507] Master allowing HTTP frameworks to register without authentication
+I0510 09:52:06.111451  2718 master.cpp:548] Using default 'crammd5' authenticator
+W0510 09:52:06.111479  2718 authenticator.cpp:513] No credentials provided, authentication requests will be refused
+I0510 09:52:06.111485  2718 authenticator.cpp:520] Initializing server SASL
+2019-05-10 09:52:06,203:2718(0x7fcd81779700):ZOO_INFO@log_env@753: Client environment:zookeeper.version=zookeeper C client 3.4.8
+2019-05-10 09:52:06,203:2718(0x7fcd81779700):ZOO_INFO@log_env@757: Client environment:host.name=jouko-Gazelle-Professional
+2019-05-10 09:52:06,203:2718(0x7fcd81779700):ZOO_INFO@log_env@764: Client environment:os.name=Linux
+2019-05-10 09:52:06,203:2718(0x7fcd81779700):ZOO_INFO@log_env@765: Client environment:os.arch=4.15.0-48-generic
+2019-05-10 09:52:06,203:2718(0x7fcd83f7e700):ZOO_INFO@log_env@753: Client environment:zookeeper.version=zookeeper C client 3.4.8
+2019-05-10 09:52:06,203:2718(0x7fcd81779700):ZOO_INFO@log_env@766: Client environment:os.version=#51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+2019-05-10 09:52:06,203:2718(0x7fcd83f7e700):ZOO_INFO@log_env@757: Client environment:host.name=jouko-Gazelle-Professional
+2019-05-10 09:52:06,203:2718(0x7fcd83f7e700):ZOO_INFO@log_env@764: Client environment:os.name=Linux
+2019-05-10 09:52:06,203:2718(0x7fcd83f7e700):ZOO_INFO@log_env@765: Client environment:os.arch=4.15.0-48-generic
+2019-05-10 09:52:06,203:2718(0x7fcd83f7e700):ZOO_INFO@log_env@766: Client environment:os.version=#51-Ubuntu SMP Wed Apr 3 08:28:49 UTC 2019
+2019-05-10 09:52:06,233:2718(0x7fcd83f7e700):ZOO_INFO@log_env@774: Client environment:user.name=jouko
+2019-05-10 09:52:06,233:2718(0x7fcd81779700):ZOO_INFO@log_env@774: Client environment:user.name=jouko
+2019-05-10 09:52:06,233:2718(0x7fcd83f7e700):ZOO_INFO@log_env@782: Client environment:user.home=/home/jouko
+2019-05-10 09:52:06,233:2718(0x7fcd83f7e700):ZOO_INFO@log_env@794: Client environment:user.dir=/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/MesosTest
+2019-05-10 09:52:06,233:2718(0x7fcd81779700):ZOO_INFO@log_env@782: Client environment:user.home=/home/jouko
+2019-05-10 09:52:06,233:2718(0x7fcd81779700):ZOO_INFO@log_env@794: Client environment:user.dir=/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/MesosTest
+2019-05-10 09:52:06,233:2718(0x7fcd81779700):ZOO_INFO@zookeeper_init@827: Initiating client connection, host=192.168.1.5:2181 sessionTimeout=10000 watcher=0x7fcd987e2992 sessionId=0 sessionPasswd=<null> context=0x7fcd70001078 flags=0
+2019-05-10 09:52:06,233:2718(0x7fcd83f7e700):ZOO_INFO@zookeeper_init@827: Initiating client connection, host=192.168.1.5:2181 sessionTimeout=10000 watcher=0x7fcd987e2992 sessionId=0 sessionPasswd=<null> context=0x7fcd58001cc8 flags=0
+2019-05-10 09:52:06,233:2718(0x7fcd7e0e0700):ZOO_INFO@check_events@1764: initiated connection to server [192.168.1.5:2181]
+2019-05-10 09:52:06,233:2718(0x7fcd7d8df700):ZOO_INFO@check_events@1764: initiated connection to server [192.168.1.5:2181]
+I0510 09:52:06.361680  2725 contender.cpp:152] Joining the ZK group
+2019-05-10 09:52:06,577:2718(0x7fcd7d8df700):ZOO_INFO@check_events@1811: session establishment complete on server [192.168.1.5:2181], sessionId=0x1000004ae430000, negotiated timeout=10000
+I0510 09:52:06.578078  2720 group.cpp:341] Group process (zookeeper-group(2)@192.168.1.5:5050) connected to ZooKeeper
+I0510 09:52:06.578155  2720 group.cpp:831] Syncing group operations: queue size (joins, cancels, datas) = (0, 0, 0)
+I0510 09:52:06.578181  2720 group.cpp:419] Trying to create path '/mesos' in ZooKeeper
+2019-05-10 09:52:06,578:2718(0x7fcd7e0e0700):ZOO_INFO@check_events@1811: session establishment complete on server [192.168.1.5:2181], sessionId=0x1000004ae430001, negotiated timeout=10000
+I0510 09:52:06.578440  2725 group.cpp:341] Group process (zookeeper-group(1)@192.168.1.5:5050) connected to ZooKeeper
+I0510 09:52:06.578490  2725 group.cpp:831] Syncing group operations: queue size (joins, cancels, datas) = (1, 0, 0)
+I0510 09:52:06.578501  2725 group.cpp:419] Trying to create path '/mesos' in ZooKeeper
+I0510 09:52:06.791290  2721 contender.cpp:268] New candidate (id='0') has entered the contest for leadership
+I0510 09:52:06.793045  2722 detector.cpp:152] Detected a new leader: (id='0')
+I0510 09:52:06.793802  2723 group.cpp:700] Trying to get '/mesos/json.info_0000000000' in ZooKeeper
+I0510 09:52:06.798000  2722 zookeeper.cpp:262] A new leading master (UPID=master@192.168.1.5:5050) is detected
+I0510 09:52:06.810879  2724 master.cpp:2141] Elected as the leading master!
+I0510 09:52:06.810926  2724 master.cpp:1664] Recovering from registrar
+I0510 09:52:06.822872  2726 registrar.cpp:383] Successfully fetched the registry (0B) in 3.175168ms
+I0510 09:52:06.823097  2726 registrar.cpp:487] Applied 1 operations in 96025ns; attempting to update the registry
+I0510 09:52:06.833364  2726 registrar.cpp:544] Successfully updated the registry in 10.16704ms
+I0510 09:52:06.833549  2726 registrar.cpp:416] Successfully recovered registrar
+I0510 09:52:06.834159  2720 master.cpp:1790] Recovered 0 agents from the registry (162B); allowing 10mins for agents to reregister

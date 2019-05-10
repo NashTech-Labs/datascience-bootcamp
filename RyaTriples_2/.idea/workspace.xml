@@ -2,86 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e868d24-cb52-4fb1-8ac3-3ce8127a5cf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_ben_manes_caffeine_caffeine_2_6_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_errorprone_error_prone_annotations_2_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_j2objc_j2objc_annotations_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_client_api_3_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_client_runtime_3_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_htrace_htrace_core4_4_1_0_incubating_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_htrace_htrace_core_3_1_0_incubating_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_thrift_libthrift_0_11_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_yetus_audience_annotations_0_5_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_checkerframework_checker_qual_2_5_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_mojo_animal_sniffer_annotations_1_14_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AccumuloTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HelloAccumulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Rdf4jApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__de_flapdoodle_embed_de_flapdoodle_embed_mongo_1_50_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__de_flapdoodle_embed_de_flapdoodle_embed_process_1_50_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jna_jna_4_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jna_jna_platform_4_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_jpountz_lz4_lz4_1_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_fluo_fluo_api_1_0_0_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_fluo_fluo_recipes_accumulo_1_0_0_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_fluo_fluo_recipes_core_1_0_0_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_kafka_kafka_clients_0_10_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_lucene_lucene_analyzers_3_6_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_rya_mongodb_rya_3_2_12_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_rya_rya_api_evaluation_3_2_12_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_rya_rya_api_model_3_2_12_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_rya_rya_indexing_3_2_12_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_rya_rya_indexing_pcj_3_2_12_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_rya_rya_pcj_fluo_api_3_2_12_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_rya_rya_pcj_fluo_app_3_2_12_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_rya_rya_periodic_notification_api_3_2_12_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_mongodb_mongo_java_driver_3_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_openrdf_sesame_sesame_queryrender_2_7_6_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LendingClubMl" beforeDir="false" afterPath="$PROJECT_DIR$/../LendingClubMl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LendingClubMl_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LendingClubMl_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LendingClubMl_2/LendingClubMl.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../LendingClubMl_2/LendingClubMl.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenCVSpark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenCVSpark/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_beust_jcommander_1_32_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_beust_jcommander_1_72_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_8_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_8_5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_guava_guava_18_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_guava_guava_26_0_jre_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_3_10_5_Final_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_3_10_6_Final_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_accumulo_accumulo_core_1_6_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_accumulo_accumulo_core_2_0_0_alpha_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_accumulo_accumulo_fate_1_6_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_accumulo_accumulo_start_2_0_0_alpha_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_accumulo_accumulo_start_1_6_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_accumulo_accumulo_trace_1_6_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_any23_apache_any23_api_2_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_any23_apache_any23_csvutils_2_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_csv_1_6_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_vfs2_2_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_math3_3_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_math3_3_6_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_math_2_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_vfs2_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_maven_scm_maven_scm_api_1_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_maven_scm_maven_scm_provider_svn_commons_1_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_maven_scm_maven_scm_provider_svnexe_1_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_thrift_libthrift_0_9_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_zookeeper_zookeeper_3_4_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_zookeeper_zookeeper_3_4_13_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_plexus_plexus_utils_1_5_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__regexp_regexp_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MesosTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MesosTest/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MesosTest/MesosTest.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/MesosTest.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MesosTest/RunDocker" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/RunDocker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MesosTest/StartMesosMaster.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/StartMesosMaster.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MesosTest/StartZookeeper.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/StartZookeeper.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MesosTest/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/log/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MesosTest/zookeeper.out" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/zookeeper.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_compress_1_8_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_compress_1_10_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/RyaTriples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/RyaTriples.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StartPrograms" beforeDir="false" afterPath="$PROJECT_DIR$/StartPrograms" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$028f0ee7cb635dcb5cc0$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$028f0ee7cb635dcb5cc0.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$028f0ee7cb635dcb5cc0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2421bfd1cbda675875f9$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$2421bfd1cbda675875f9$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5cad5ab282f521c6e2bb$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$5cad5ab282f521c6e2bb$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6dd7a966691db72c28c7$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6dd7a966691db72c28c7.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6dd7a966691db72c28c7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$eac11530fcf1d8990bcf$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$eac11530fcf1d8990bcf$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/ryatriples_2-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/ryatriples_2-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/ryatriples_2-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/ryatriples_2-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-ryatriples_2-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Legacy_Purchase_Orders.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Legacy_Purchase_Orders.csv.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/__MACOSX/._Legacy_Purchase_Orders.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/test.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoadDataServletRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoadDataServletRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rdf4jApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rdf4jApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/knoldus/training/GetTriples.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/knoldus/training/GetTriples.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/knoldus/training/Sample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/knoldus/training/Sample.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Legacy_Purchase_Orders.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Legacy_Purchase_Orders.csv.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Rdf4jApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Rdf4jApi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/knoldus/training/GetTriples$$anonfun$addToModel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/knoldus/training/GetTriples$$anonfun$addToModel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/knoldus/training/GetTriples$$anonfun$main$3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/knoldus/training/GetTriples$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/knoldus/training/GetTriples$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/knoldus/training/GetTriples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/knoldus/training/GetTriples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/test.ttl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-scoveragePlugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-scoveragePlugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples$sources-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-compile-internal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-compile.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-optional.xml" afterDir="false" />
@@ -94,22 +66,21 @@
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-scoveragePlugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-scoveragePlugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-test-internal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/ryatriples-ryatriples_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/ryatriples/ryatriples$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/ryatriples/ryatriples$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/ryatriples/ryatriples$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/ryatriples/ryatriples$sources/0.1/resolved.xml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/ryatriples/ryatriples_2.11/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/ryatriples/ryatriples_2.11/0.1/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/ryatriples/ryatriples_2.11/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/ryatriples/ryatriples_2.11/0.1/resolved.xml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/ryatriples_2.11-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/ryatriples_2.11-0.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
@@ -119,6 +90,8 @@
       <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/runtime/fullClasspathAsJars/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/fullClasspathAsJars/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zookeeper.out" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper.out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -140,8 +113,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/GetTriples.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+            <state relative-caret-position="345">
+              <caret line="134" column="33" selection-start-line="134" selection-start-column="33" selection-end-line="134" selection-end-column="33" />
               <folding>
                 <element signature="e#30#76#0" expanded="true" />
               </folding>
@@ -164,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Rdf4jApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
+            <state relative-caret-position="210">
+              <caret line="75" column="55" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,8 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LoadDataServletRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="120">
+              <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -227,8 +200,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -248,20 +221,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/LoadDataServletRun.java" />
         <option value="$PROJECT_DIR$/src/main/java/AccumuloTest.java" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/com/knoldus/training/Sample.scala" />
         <option value="$PROJECT_DIR$/src/main/java/HelloAccumulo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Rdf4jApi.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/knoldus/training/GetTriples.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/java/Rdf4jApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LoadDataServletRun.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="412" />
-    <option name="y" value="213" />
-    <option name="width" value="1476" />
+    <option name="x" value="116" />
+    <option name="y" value="189" />
+    <option name="width" value="1456" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -270,8 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,10 +296,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556901979548" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557338344472" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -369,8 +342,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4669857724000" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="2171147035" />
+        <entry key="$PROJECT_DIR$" value="4670201916000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1578893146" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="3771982881" />
         <entry key="$PROJECT_DIR$/project/plugins.sbt" value="977990450" />
       </map>
@@ -417,9 +390,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="412" y="213" width="1476" height="867" extended-state="0" />
+    <frame x="116" y="189" width="1456" height="867" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37482518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34468085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -437,7 +410,7 @@
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="11" visible="true" weight="0.43495935" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.43495935" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -451,6 +424,16 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/GetTriples.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="134" column="33" selection-start-line="134" selection-start-column="33" selection-end-line="134" selection-end-column="33" />
+          <folding>
+            <element signature="e#30#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/Sample.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -461,10 +444,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rdf4jApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="75" column="55" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LoadDataServletRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="120">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -504,28 +497,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rdf4jApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/GetTriples.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
-          <folding>
-            <element signature="e#30#76#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

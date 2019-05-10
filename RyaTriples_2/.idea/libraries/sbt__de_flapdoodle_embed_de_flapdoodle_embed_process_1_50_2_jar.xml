@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: de.flapdoodle.embed:de.flapdoodle.embed.process:1.50.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/de.flapdoodle.embed/de.flapdoodle.embed.process/bundles/de.flapdoodle.embed.process-1.50.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/de.flapdoodle.embed/de.flapdoodle.embed.process/srcs/de.flapdoodle.embed.process-1.50.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -4,7 +4,7 @@
 		module="ryatriples_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20190502135545"
+		publication="20190506133220"
 	>
 		<description>
 		RyaTriples
@@ -51,5 +51,6 @@
 		<dependency org="org.apache.rya" name="rya.api" rev="3.2.12-incubating" conf="compile->default(compile)"/>
 		<dependency org="org.apache.rya" name="accumulo.rya" rev="3.2.12-incubating" conf="compile->default(compile)"/>
 		<dependency org="org.apache.rya" name="rya.sail" rev="3.2.12-incubating" conf="compile->default(compile)"/>
+		<dependency org="org.apache.rya" name="rya.indexing" rev="3.2.12-incubating" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

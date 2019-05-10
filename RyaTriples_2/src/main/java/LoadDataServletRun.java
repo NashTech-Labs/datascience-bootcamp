@@ -10,9 +10,8 @@ public class LoadDataServletRun {
     public static void main(String[] args) {
         try {
             final InputStream resourceAsStream = Thread.currentThread().getContextClassLoader()
-                .getResourceAsStream("ntriples.ntrips");
-                    //.getResourceAsStream("/ntriples.ntrips");
-                    //.getResourceAsStream("/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/RyaTriples_2/src/main/resources/ntriples.ntrips");
+                //.getResourceAsStream("ntriples.ntrips");
+            .getResourceAsStream("test_manual_mod.ttl")
             System.out.println("Got input");
             URL url = new URL("http://localhost:8080/web.rya/loadrdf" +
                     "?format=N-Triples" +

@@ -39,6 +39,8 @@ libraryDependencies += "org.apache.rya" % "accumulo.rya" % ryaVersion
 // https://mvnrepository.com/artifact/org.apache.rya/rya.sail
 libraryDependencies += "org.apache.rya" % "rya.sail" % ryaVersion
 
+libraryDependencies += "org.apache.rya" % "rya.indexing" % ryaVersion
+
 // https://mvnrepository.com/artifact/org.apache.any23/apache-any23-csvutils
 //libraryDependencies += "org.apache.any23" % "apache-any23-csvutils" % "2.3"
 

@@ -1,7 +1,9 @@
 MESOS_IP=mesos://192.168.1.5:7077
 DRIVER_IP=192.168.1.5
 #EXECUTOR_IMAGE=localhost:5000/spark_docker
-EXECUTOR_IMAGE=ubuntu_test
+#EXECUTOR_IMAGE=localhost:5000/ubuntu_test
+EXECUTOR_IMAGE=192.168.1.5:5000/ubuntu_test
+#EXECUTOR_IMAGE=ubuntu_test
 CORES=2
 RAM=2g
 
@@ -18,9 +20,10 @@ log=$log_dir/log.txt
 class=com.knoldus.training.MesosTest
 class=org.apache.spark.examples.SparkPi
 
-image=localhost:5000/spark_docker
+#image=localhost:5000/spark_docker
+#image=192.168.1.3:5000/ubuntu_test
 
-is_image=`docker image ls | grep $image`
+#is_image=`docker image ls | grep $image`
 
 
 #$spark_submit --class $class --master mesos://$ip:7077 --driver-memory 3G --executor-memory 3G --deploy-mode $mode --supervise --conf spark.master.rest.enabled=true --conf spark.mesos.executor.docker.image=$image --conf spark.mesos.executor.home=/opt/spark $jar 100 >& $log
@@ -30,12 +33,14 @@ docker run -it --rm --net=host $EXECUTOR_IMAGE bash $spark/bin/spark-submit \
     --class $class \
     --deploy-mode $mode \
     --supervise \
+    --conf spark.mesos.contaierizer=docker \
     --conf spark.master.rest.enabled=true \
     --conf spark.master=${MESOS_IP} \
     --conf spark.driver.host=${DRIVER_IP} \
     --conf spark.mesos.coarse=true \
     --conf spark.mesos.executor.docker.image=${EXECUTOR_IMAGE} \
-    --conf spark.mesos.executor.home=$spark \
+    --conf spark.mesos.executor.home=http://localhost/spark-2.4.0-bin-hadoop2.7.tgz \
+    --conf spark.executor.uri=http://localhost/spark-2.4.0-bin-hadoop2.7.tgz \
     --conf spark.task.maxFailures=10 \
     --conf spark.task.cpus=1 \
     --conf spark.executor.memory=${RAM} \

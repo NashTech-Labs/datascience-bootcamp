@@ -22,3 +22,8 @@ ENV MESOS_NATIVE_JAVA_LIBRARY /usr/local/lib/libmesos.so
 ENV SPARK_HOME spark-2.4.0-bin-hadoop2.7
 
 COPY spark_conf/* spark-2.4.0-bin-hadoop2.7/conf/
+COPY TestScript.sh TestScript.sh
+
+RUN ls
+
+ENTRYPOINT ["./TestScript.sh"]
