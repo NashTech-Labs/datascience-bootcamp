@@ -11,12 +11,13 @@ public class LoadDataServletRun {
         try {
             final InputStream resourceAsStream = Thread.currentThread().getContextClassLoader()
                 //.getResourceAsStream("ntriples.ntrips");
-            //.getResourceAsStream("test_manual_mod.ttl")
-            .getResourceAsStream("test_manual_mod_2.ttl")
+            //.getResourceAsStream("test_manual_mod.ttl");
+            .getResourceAsStream("test_manual_mod_2.ntrips");
             System.out.println("Got input");
             URL url = new URL("http://localhost:8080/web.rya/loadrdf" +
-                    //"?format=N-Triples" +
-                    "?format=ttl" +
+                    "?format=N-Triples" +
+                    //"?format=ttl" +
+                    //"?format=Turtle" +
                     "");
             URLConnection urlConnection = url.openConnection();
             System.out.println("After urlConnection");
