@@ -1,70 +1,67 @@
-2019-05-15 11:06:51,468 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /home/jouko/dev/software/zookeeper-3.4.14/bin/../conf/zoo.cfg
-2019-05-15 11:06:51,479 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
-2019-05-15 11:06:51,479 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
-2019-05-15 11:06:51,479 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
-2019-05-15 11:06:51,479 [myid:] - WARN  [main:QuorumPeerMain@116] - Either no config or no quorum defined in config, running  in standalone mode
-2019-05-15 11:06:51,502 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /home/jouko/dev/software/zookeeper-3.4.14/bin/../conf/zoo.cfg
-2019-05-15 11:06:51,503 [myid:] - INFO  [main:ZooKeeperServerMain@98] - Starting server
-2019-05-15 11:06:51,519 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf, built on 03/06/2019 16:18 GMT
-2019-05-15 11:06:51,520 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=jouko-Gazelle-Professional
-2019-05-15 11:06:51,520 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.8.0_201
-2019-05-15 11:06:51,520 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Oracle Corporation
-2019-05-15 11:06:51,520 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-8-oracle/jre
-2019-05-15 11:06:51,520 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/home/jouko/dev/software/zookeeper-3.4.14/bin/../zookeeper-server/target/classes:/home/jouko/dev/software/zookeeper-3.4.14/bin/../build/classes:/home/jouko/dev/software/zookeeper-3.4.14/bin/../zookeeper-server/target/lib/*.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../build/lib/*.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/slf4j-log4j12-1.7.25.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/slf4j-api-1.7.25.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/netty-3.10.6.Final.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/log4j-1.2.17.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/jline-0.9.94.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/audience-annotations-0.5.0.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../zookeeper-3.4.14.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../zookeeper-server/src/main/resources/lib/*.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../conf:
-2019-05-15 11:06:51,520 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/usr/local/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
-2019-05-15 11:06:51,520 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
-2019-05-15 11:06:51,520 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
-2019-05-15 11:06:51,521 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
-2019-05-15 11:06:51,521 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
-2019-05-15 11:06:51,521 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=4.15.0-48-generic
-2019-05-15 11:06:51,521 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=jouko
-2019-05-15 11:06:51,521 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/home/jouko
-2019-05-15 11:06:51,521 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/MesosTest
-2019-05-15 11:06:51,536 [myid:] - INFO  [main:ZooKeeperServer@836] - tickTime set to 2000
-2019-05-15 11:06:51,536 [myid:] - INFO  [main:ZooKeeperServer@845] - minSessionTimeout set to -1
-2019-05-15 11:06:51,536 [myid:] - INFO  [main:ZooKeeperServer@854] - maxSessionTimeout set to -1
-2019-05-15 11:06:51,542 [myid:] - INFO  [main:ServerCnxnFactory@117] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
-2019-05-15 11:06:51,545 [myid:] - INFO  [main:NIOServerCnxnFactory@89] - binding to port 0.0.0.0/0.0.0.0:2181
-2019-05-15 11:07:15,534 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@222] - Accepted socket connection from /127.0.0.1:39558
-2019-05-15 11:07:15,538 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@222] - Accepted socket connection from /127.0.0.1:39560
-2019-05-15 11:07:15,540 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@903] - Connection request from old client /127.0.0.1:39558; will be dropped if server is in r-o mode
-2019-05-15 11:07:15,541 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:39558
-2019-05-15 11:07:15,542 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@903] - Connection request from old client /127.0.0.1:39560; will be dropped if server is in r-o mode
-2019-05-15 11:07:15,542 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:39560
-2019-05-15 11:07:15,543 [myid:] - INFO  [SyncThread:0:FileTxnLog@216] - Creating new log file: log.1
-2019-05-15 11:07:15,616 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x1000058ec2f0000 with negotiated timeout 10000 for client /127.0.0.1:39558
-2019-05-15 11:07:15,616 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x1000058ec2f0001 with negotiated timeout 10000 for client /127.0.0.1:39560
-2019-05-15 11:07:15,624 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0000 type:create cxid:0x5cdc3937 zxid:0x4 txntype:-1 reqpath:n/a Error Path:/mesos Error:KeeperErrorCode = NodeExists for /mesos
-2019-05-15 11:08:06,196 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@222] - Accepted socket connection from /127.0.0.1:39564
-2019-05-15 11:08:06,197 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@903] - Connection request from old client /127.0.0.1:39564; will be dropped if server is in r-o mode
-2019-05-15 11:08:06,197 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:39564
-2019-05-15 11:08:06,216 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x1000058ec2f0002 with negotiated timeout 10000 for client /127.0.0.1:39564
-2019-05-15 11:08:56,629 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@222] - Accepted socket connection from /127.0.0.1:39578
-2019-05-15 11:08:56,632 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:39578
-2019-05-15 11:08:56,648 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x1000058ec2f0003 with negotiated timeout 10000 for client /127.0.0.1:39578
-2019-05-15 11:08:57,858 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@222] - Accepted socket connection from /127.0.0.1:39580
-2019-05-15 11:08:57,859 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:39580
-2019-05-15 11:08:57,865 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x1000058ec2f0004 with negotiated timeout 10000 for client /127.0.0.1:39580
-2019-05-15 11:08:59,431 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0004 type:create cxid:0x2 zxid:0xb txntype:-1 reqpath:n/a Error Path:/marathon/leader-curator Error:KeeperErrorCode = NoNode for /marathon/leader-curator
-2019-05-15 11:08:59,846 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:setData cxid:0x8 zxid:0xe txntype:-1 reqpath:n/a Error Path:/marathon/state/group/2/root Error:KeeperErrorCode = NoNode for /marathon/state/group/2/root
-2019-05-15 11:08:59,846 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:setData cxid:0x9 zxid:0xf txntype:-1 reqpath:n/a Error Path:/marathon/state/group/2/root/1970-01-01T00:00:00Z Error:KeeperErrorCode = NoNode for /marathon/state/group/2/root/1970-01-01T00:00:00Z
-2019-05-15 11:08:59,860 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:create cxid:0xa zxid:0x10 txntype:-1 reqpath:n/a Error Path:/marathon/state/group/2 Error:KeeperErrorCode = NoNode for /marathon/state/group/2
-2019-05-15 11:08:59,865 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:create cxid:0xb zxid:0x11 txntype:-1 reqpath:n/a Error Path:/marathon/state/group/2/root Error:KeeperErrorCode = NoNode for /marathon/state/group/2/root
-2019-05-15 11:09:00,404 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:setData cxid:0x1a zxid:0x16 txntype:-1 reqpath:n/a Error Path:/marathon/state/runtime-configuration/b/id Error:KeeperErrorCode = NoNode for /marathon/state/runtime-configuration/b/id
-2019-05-15 11:09:00,424 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:create cxid:0x1b zxid:0x17 txntype:-1 reqpath:n/a Error Path:/marathon/state/runtime-configuration/b Error:KeeperErrorCode = NoNode for /marathon/state/runtime-configuration/b
-2019-05-15 11:09:00,478 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:setData cxid:0x25 zxid:0x1c txntype:-1 reqpath:n/a Error Path:/marathon/state/internal:storage:version Error:KeeperErrorCode = NoNode for /marathon/state/internal:storage:version
-2019-05-15 11:09:00,910 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@222] - Accepted socket connection from /127.0.0.1:39582
-2019-05-15 11:09:00,911 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@903] - Connection request from old client /127.0.0.1:39582; will be dropped if server is in r-o mode
-2019-05-15 11:09:00,911 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:39582
-2019-05-15 11:09:00,923 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x1000058ec2f0005 with negotiated timeout 10000 for client /127.0.0.1:39582
-2019-05-15 11:09:00,985 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:setData cxid:0x2c zxid:0x20 txntype:-1 reqpath:n/a Error Path:/marathon/state/framework-id/b/id Error:KeeperErrorCode = NoNode for /marathon/state/framework-id/b/id
-2019-05-15 11:09:00,999 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:create cxid:0x2d zxid:0x21 txntype:-1 reqpath:n/a Error Path:/marathon/state/framework-id/b Error:KeeperErrorCode = NoNode for /marathon/state/framework-id/b
-2019-05-15 11:09:26,193 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:setData cxid:0x35 zxid:0x25 txntype:-1 reqpath:n/a Error Path:/marathon/state/apps/c/httpd Error:KeeperErrorCode = NoNode for /marathon/state/apps/c/httpd
-2019-05-15 11:09:26,194 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:setData cxid:0x36 zxid:0x26 txntype:-1 reqpath:n/a Error Path:/marathon/state/apps/c/httpd/2019-05-15T16:09:26.011Z Error:KeeperErrorCode = NoNode for /marathon/state/apps/c/httpd/2019-05-15T16:09:26.011Z
-2019-05-15 11:09:26,207 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:create cxid:0x37 zxid:0x27 txntype:-1 reqpath:n/a Error Path:/marathon/state/apps/c Error:KeeperErrorCode = NoNode for /marathon/state/apps/c
-2019-05-15 11:09:26,215 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:create cxid:0x38 zxid:0x28 txntype:-1 reqpath:n/a Error Path:/marathon/state/apps/c/httpd Error:KeeperErrorCode = NoNode for /marathon/state/apps/c/httpd
-2019-05-15 11:09:26,344 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:setData cxid:0x46 zxid:0x2d txntype:-1 reqpath:n/a Error Path:/marathon/state/group/2/root/2019-05-15T16:09:26.011Z Error:KeeperErrorCode = NoNode for /marathon/state/group/2/root/2019-05-15T16:09:26.011Z
-2019-05-15 11:09:26,366 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:setData cxid:0x48 zxid:0x2f txntype:-1 reqpath:n/a Error Path:/marathon/state/deployment/a/dedb0d7f-c69e-4769-9916-86b55e91fdba Error:KeeperErrorCode = NoNode for /marathon/state/deployment/a/dedb0d7f-c69e-4769-9916-86b55e91fdba
-2019-05-15 11:09:26,589 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:create cxid:0x49 zxid:0x30 txntype:-1 reqpath:n/a Error Path:/marathon/state/deployment/a Error:KeeperErrorCode = NoNode for /marathon/state/deployment/a
-2019-05-15 11:09:27,078 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:setData cxid:0x55 zxid:0x38 txntype:-1 reqpath:n/a Error Path:/marathon/state/instance/8/httpd.marathon-d0153304-772b-11e9-ab88-0242b3fbd98b Error:KeeperErrorCode = NoNode for /marathon/state/instance/8/httpd.marathon-d0153304-772b-11e9-ab88-0242b3fbd98b
-2019-05-15 11:09:27,098 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000058ec2f0003 type:create cxid:0x56 zxid:0x39 txntype:-1 reqpath:n/a Error Path:/marathon/state/instance/8 Error:KeeperErrorCode = NoNode for /marathon/state/instance/8
+2019-05-15 19:44:03,113 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /home/jouko/dev/software/zookeeper-3.4.14/bin/../conf/zoo.cfg
+2019-05-15 19:44:03,140 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2019-05-15 19:44:03,140 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2019-05-15 19:44:03,140 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2019-05-15 19:44:03,140 [myid:] - WARN  [main:QuorumPeerMain@116] - Either no config or no quorum defined in config, running  in standalone mode
+2019-05-15 19:44:03,172 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /home/jouko/dev/software/zookeeper-3.4.14/bin/../conf/zoo.cfg
+2019-05-15 19:44:03,173 [myid:] - INFO  [main:ZooKeeperServerMain@98] - Starting server
+2019-05-15 19:44:03,207 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf, built on 03/06/2019 16:18 GMT
+2019-05-15 19:44:03,207 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=jouko-Gazelle-Professional
+2019-05-15 19:44:03,207 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.8.0_201
+2019-05-15 19:44:03,207 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2019-05-15 19:44:03,207 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-8-oracle/jre
+2019-05-15 19:44:03,207 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/home/jouko/dev/software/zookeeper-3.4.14/bin/../zookeeper-server/target/classes:/home/jouko/dev/software/zookeeper-3.4.14/bin/../build/classes:/home/jouko/dev/software/zookeeper-3.4.14/bin/../zookeeper-server/target/lib/*.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../build/lib/*.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/slf4j-log4j12-1.7.25.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/slf4j-api-1.7.25.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/netty-3.10.6.Final.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/log4j-1.2.17.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/jline-0.9.94.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../lib/audience-annotations-0.5.0.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../zookeeper-3.4.14.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../zookeeper-server/src/main/resources/lib/*.jar:/home/jouko/dev/software/zookeeper-3.4.14/bin/../conf:
+2019-05-15 19:44:03,207 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/usr/local/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2019-05-15 19:44:03,207 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2019-05-15 19:44:03,208 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2019-05-15 19:44:03,208 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
+2019-05-15 19:44:03,209 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2019-05-15 19:44:03,209 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=4.15.0-48-generic
+2019-05-15 19:44:03,209 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=jouko
+2019-05-15 19:44:03,209 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/home/jouko
+2019-05-15 19:44:03,209 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/MesosTest
+2019-05-15 19:44:03,238 [myid:] - INFO  [main:ZooKeeperServer@836] - tickTime set to 2000
+2019-05-15 19:44:03,238 [myid:] - INFO  [main:ZooKeeperServer@845] - minSessionTimeout set to -1
+2019-05-15 19:44:03,238 [myid:] - INFO  [main:ZooKeeperServer@854] - maxSessionTimeout set to -1
+2019-05-15 19:44:03,253 [myid:] - INFO  [main:ServerCnxnFactory@117] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2019-05-15 19:44:03,288 [myid:] - INFO  [main:NIOServerCnxnFactory@89] - binding to port 0.0.0.0/0.0.0.0:2181
+2019-05-15 19:44:27,665 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@222] - Accepted socket connection from /192.168.1.5:42896
+2019-05-15 19:44:27,729 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@222] - Accepted socket connection from /192.168.1.5:42894
+2019-05-15 19:44:27,737 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@903] - Connection request from old client /192.168.1.5:42896; will be dropped if server is in r-o mode
+2019-05-15 19:44:27,737 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /192.168.1.5:42896
+2019-05-15 19:44:27,738 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@903] - Connection request from old client /192.168.1.5:42894; will be dropped if server is in r-o mode
+2019-05-15 19:44:27,738 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /192.168.1.5:42894
+2019-05-15 19:44:27,749 [myid:] - INFO  [SyncThread:0:FileTxnLog@216] - Creating new log file: log.1
+2019-05-15 19:44:27,874 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x100007ea1ae0000 with negotiated timeout 10000 for client /192.168.1.5:42896
+2019-05-15 19:44:27,875 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x100007ea1ae0001 with negotiated timeout 10000 for client /192.168.1.5:42894
+2019-05-15 19:44:27,923 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x100007ea1ae0001 type:create cxid:0x5cdcb26e zxid:0x4 txntype:-1 reqpath:n/a Error Path:/mesos Error:KeeperErrorCode = NodeExists for /mesos
+2019-05-15 19:44:56,299 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@222] - Accepted socket connection from /192.168.1.5:42900
+2019-05-15 19:44:56,300 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@903] - Connection request from old client /192.168.1.5:42900; will be dropped if server is in r-o mode
+2019-05-15 19:44:56,300 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /192.168.1.5:42900
+2019-05-15 19:44:56,500 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x100007ea1ae0002 with negotiated timeout 10000 for client /192.168.1.5:42900
+2019-05-15 19:45:33,147 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@222] - Accepted socket connection from /192.168.1.5:42906
+2019-05-15 19:45:33,149 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /192.168.1.5:42906
+2019-05-15 19:45:33,173 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x100007ea1ae0003 with negotiated timeout 40000 for client /192.168.1.5:42906
+2019-05-15 19:45:34,196 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x100007ea1ae0003 type:create cxid:0x2 zxid:0x8 txntype:-1 reqpath:n/a Error Path:/spark_mesos_dispatcher Error:KeeperErrorCode = NoNode for /spark_mesos_dispatcher
+2019-05-16 08:59:38,523 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x100007ea1ae0000, timeout of 10000ms exceeded
+2019-05-16 08:59:38,523 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x100007ea1ae0001, timeout of 10000ms exceeded
+2019-05-16 08:59:38,523 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x100007ea1ae0000
+2019-05-16 08:59:38,524 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x100007ea1ae0001
+2019-05-16 08:59:40,523 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x100007ea1ae0002, timeout of 10000ms exceeded
+2019-05-16 08:59:42,689 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x100007ea1ae0002
+2019-05-16 08:59:42,753 [myid:] - WARN  [SyncThread:0:FileTxnLog@341] - fsync-ing the write ahead log in SyncThread:0 took 4228ms which will adversely effect operation latency. See the ZooKeeper troubleshooting guide
+2019-05-16 08:59:42,754 [myid:] - INFO  [SyncThread:0:NIOServerCnxn@1056] - Closed socket connection for client /192.168.1.5:42896 which had sessionid 0x100007ea1ae0000
+2019-05-16 08:59:43,041 [myid:] - INFO  [SyncThread:0:NIOServerCnxn@1056] - Closed socket connection for client /192.168.1.5:42894 which had sessionid 0x100007ea1ae0001
+2019-05-16 08:59:43,041 [myid:] - INFO  [SyncThread:0:NIOServerCnxn@1056] - Closed socket connection for client /192.168.1.5:42900 which had sessionid 0x100007ea1ae0002
+2019-05-16 08:59:47,029 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@222] - Accepted socket connection from /192.168.1.5:43282
+2019-05-16 08:59:47,029 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@942] - Client attempting to renew session 0x100007ea1ae0003 at /192.168.1.5:43282
+2019-05-16 08:59:47,030 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /192.168.1.5:42906 which had sessionid 0x100007ea1ae0003
+2019-05-16 08:59:47,030 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@694] - Established session 0x100007ea1ae0003 with negotiated timeout 40000 for client /192.168.1.5:43282
+2019-05-16 08:59:47,431 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@222] - Accepted socket connection from /192.168.1.5:43284
+2019-05-16 08:59:47,431 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@903] - Connection request from old client /192.168.1.5:43284; will be dropped if server is in r-o mode
+2019-05-16 08:59:47,432 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /192.168.1.5:43284
+2019-05-16 08:59:47,453 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x100007ea1ae0004 with negotiated timeout 10000 for client /192.168.1.5:43284
+2019-05-16 08:59:59,284 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x100007ea1ae0004, likely client has closed socket
+2019-05-16 08:59:59,284 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /192.168.1.5:43284 which had sessionid 0x100007ea1ae0004
+2019-05-16 09:00:08,523 [myid:] - INFO  [SessionTracker:ZooKeeperServer@355] - Expiring session 0x100007ea1ae0004, timeout of 10000ms exceeded
+2019-05-16 09:00:08,523 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x100007ea1ae0004

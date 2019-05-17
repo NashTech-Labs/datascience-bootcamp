@@ -3,6 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="3e868d24-cb52-4fb1-8ac3-3ce8127a5cf5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../LendingClubMl" beforeDir="false" afterPath="$PROJECT_DIR$/../LendingClubMl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MesosTest/IpAddress.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/IpAddress.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MesosTest/MesosTest.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/MesosTest.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MesosTest/RunDocker" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/RunDocker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MesosTest/StartMesosDispatcher.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/StartMesosDispatcher.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MesosTest/docker.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/docker.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MesosTest/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/log/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MesosTest/log_master_14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/log_master_14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MesosTest/zookeeper.out" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/zookeeper.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoadDataServletRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoadDataServletRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/QueryDataServletRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueryDataServletRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/knoldus/training/ConvertFormats.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/knoldus/training/ConvertFormats.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zookeeper.out" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper.out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LoadDataServletRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/QueryDataServletRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+            <state relative-caret-position="345">
+              <caret line="23" column="87" selection-start-line="23" selection-start-column="87" selection-end-line="23" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/ConvertFormats.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="255">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="e#30#64#0" expanded="true" />
               </folding>
@@ -150,15 +161,15 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/knoldus/training/GetTriples.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/java/Rdf4jApi.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/knoldus/training/ConvertFormats.scala" />
         <option value="$PROJECT_DIR$/src/main/java/LoadDataServletRun.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/knoldus/training/ConvertFormats.scala" />
         <option value="$PROJECT_DIR$/src/main/java/QueryDataServletRun.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="152" />
-    <option name="y" value="124" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="158" />
+    <option name="y" value="179" />
     <option name="width" value="1456" />
     <option name="height" value="867" />
   </component>
@@ -168,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,11 +232,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557757682158" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558041776331" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -315,10 +326,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="152" y="124" width="1456" height="867" extended-state="0" />
+    <frame x="158" y="179" width="1456" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35531914" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3609929" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -420,8 +431,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/ConvertFormats.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="255">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="e#30#64#0" expanded="true" />
           </folding>
@@ -430,8 +441,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LoadDataServletRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -440,8 +451,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QueryDataServletRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+        <state relative-caret-position="345">
+          <caret line="23" column="87" selection-start-line="23" selection-start-column="87" selection-end-line="23" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

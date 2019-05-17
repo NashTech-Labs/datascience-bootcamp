@@ -9,8 +9,11 @@ object ConvertFormats {
   import java.io.InputStream
   def main(args: Array[String]): Unit = {
 
-    val filename = "test_manual_mod_2.ttl"
-    val outputFile = "test_manual_mod_2.ntrips"
+    //val filename = "test_manual_mod_2.ttl"
+    //val outputFile = "test_manual_mod_2.ntrips"
+
+    val filename = args(0)
+    val outputFile = args(1)
 
     val input: InputStream = getClass.getResourceAsStream("/" + filename)
 

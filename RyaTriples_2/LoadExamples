@@ -1,0 +1,7 @@
+bin=$HOME/dev/software/sbt/bin/sbt
+
+$bin "runMain LoadDataServletRun shop.ntrips N-triples"
+$bin "runMain LoadDataServletRun Shakespeare.ntrips N-triples"
+$bin "runMain LoadDataServletRun Shakespeare_2.ntrips N-triples"
+$bin "runMain LoadDataServletRun Shakespeare_2b.ntrips N-triples"
+$bin "runMain LoadDataServletRun brother.ntrips N-triples"

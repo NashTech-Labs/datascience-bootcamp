@@ -1,4 +1,4 @@
-ip=192.168.1.5
+ip=`cat IpAddress.txt`
 
 bin=$HOME/dev/software/spark-2.4.0-bin-hadoop2.7/sbin/start-mesos-dispatcher.sh
 

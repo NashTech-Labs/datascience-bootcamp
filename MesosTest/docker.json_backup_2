@@ -7,7 +7,7 @@
   "container": {
     "kind": "DOCKER",
     "docker": {
-      "image": "ubuntu_test"
+      "image": "libmesos/ubuntu"
     },
     "volumes": [
 	{
@@ -16,6 +16,7 @@
 		"mode": "RO" 
 	}
     ]
-  }
+  },
+  "cmd": "while sleep 3; do echo hello; done"
 }
 

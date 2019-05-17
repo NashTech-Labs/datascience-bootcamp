@@ -1,4 +1,5 @@
 ip=192.168.1.5
+ip=`cat IpAddress.txt`
 project_dir=$HOME/dev/projects/TrainingSprints/datascience-bootcamp/MesosTest
 log_dir=$project_dir/log
 
@@ -18,12 +19,12 @@ log=$log_dir/log.txt
 class=com.knoldus.training.MesosTest
 class=org.apache.spark.examples.SparkPi
 
-image=localhost:5000/spark_docker
-image=192.168.1.3:5000/ubuntu_test
-image=ubuntu_test
+#image=localhost:5000/spark_docker
+#image=192.168.1.3:5000/ubuntu_test
+image=$ip:5000/ubuntu_test
 
 port=5050
-port=7077
+#port=7077
 
 is_image=`docker image ls | grep $image`
 

@@ -1,6 +1,6 @@
-19/05/06 08:31:14 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-19/05/06 08:31:14 INFO RestSubmissionClient: Submitting a request to launch an application in mesos://192.168.1.5:7077.
-19/05/06 08:31:14 DEBUG RestSubmissionClient: Sending POST request to server at http://192.168.1.5:7077/v1/submissions/create:
+19/05/15 19:46:02 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/05/15 19:46:03 INFO RestSubmissionClient: Submitting a request to launch an application in mesos://192.168.1.5:7077.
+19/05/15 19:46:03 DEBUG RestSubmissionClient: Sending POST request to server at http://192.168.1.5:7077/v1/submissions/create:
 {
   "action" : "CreateSubmissionRequest",
   "appArgs" : [ ],
@@ -27,31 +27,31 @@
     "spark.executor.memory" : "3G"
   }
 }
-19/05/06 08:31:15 DEBUG RestSubmissionClient: Response from the server:
+19/05/15 19:46:04 DEBUG RestSubmissionClient: Response from the server:
 {
   "action" : "CreateSubmissionResponse",
   "serverSparkVersion" : "2.4.0",
-  "submissionId" : "driver-20190506083115-0001",
+  "submissionId" : "driver-20190515194603-0001",
   "success" : true
 }
-19/05/06 08:31:15 INFO RestSubmissionClient: Submission successfully created as driver-20190506083115-0001. Polling submission state...
-19/05/06 08:31:15 INFO RestSubmissionClient: Submitting a request for the status of submission driver-20190506083115-0001 in mesos://192.168.1.5:7077.
-19/05/06 08:31:15 DEBUG RestSubmissionClient: Sending GET request to server at http://192.168.1.5:7077/v1/submissions/status/driver-20190506083115-0001.
-19/05/06 08:31:15 DEBUG RestSubmissionClient: Response from the server:
+19/05/15 19:46:04 INFO RestSubmissionClient: Submission successfully created as driver-20190515194603-0001. Polling submission state...
+19/05/15 19:46:04 INFO RestSubmissionClient: Submitting a request for the status of submission driver-20190515194603-0001 in mesos://192.168.1.5:7077.
+19/05/15 19:46:04 DEBUG RestSubmissionClient: Sending GET request to server at http://192.168.1.5:7077/v1/submissions/status/driver-20190515194603-0001.
+19/05/15 19:46:04 DEBUG RestSubmissionClient: Response from the server:
 {
   "action" : "SubmissionStatusResponse",
   "driverState" : "RUNNING",
   "serverSparkVersion" : "2.4.0",
-  "submissionId" : "driver-20190506083115-0001",
+  "submissionId" : "driver-20190515194603-0001",
   "success" : true
 }
-19/05/06 08:31:15 INFO RestSubmissionClient: State of driver driver-20190506083115-0001 is now RUNNING.
-19/05/06 08:31:15 INFO RestSubmissionClient: Server responded with CreateSubmissionResponse:
+19/05/15 19:46:04 INFO RestSubmissionClient: State of driver driver-20190515194603-0001 is now RUNNING.
+19/05/15 19:46:04 INFO RestSubmissionClient: Server responded with CreateSubmissionResponse:
 {
   "action" : "CreateSubmissionResponse",
   "serverSparkVersion" : "2.4.0",
-  "submissionId" : "driver-20190506083115-0001",
+  "submissionId" : "driver-20190515194603-0001",
   "success" : true
 }
-19/05/06 08:31:15 INFO ShutdownHookManager: Shutdown hook called
-19/05/06 08:31:15 INFO ShutdownHookManager: Deleting directory /tmp/spark-ab0495e9-acad-455c-96a0-d77299ab42e4
+19/05/15 19:46:04 INFO ShutdownHookManager: Shutdown hook called
+19/05/15 19:46:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-b95bbe26-1c58-46e1-95d8-f74080137b67

@@ -1,8 +1,10 @@
-MESOS_IP=mesos://192.168.1.5:7077
-DRIVER_IP=192.168.1.5
+ip=`cat IpAddress.txt`
+
+MESOS_IP=mesos://$ip:7077
+DRIVER_IP=$ip
 #EXECUTOR_IMAGE=localhost:5000/spark_docker
 #EXECUTOR_IMAGE=localhost:5000/ubuntu_test
-EXECUTOR_IMAGE=192.168.1.5:5000/ubuntu_test
+EXECUTOR_IMAGE=$ip:5000/ubuntu_test
 #EXECUTOR_IMAGE=ubuntu_test
 CORES=2
 RAM=2g

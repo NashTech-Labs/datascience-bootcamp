@@ -1,2 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0m/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/RyaTriples_2/src/main/java/LoadDataServletRun.java:14:1: ';' expected[0m
-[0m[[0m[31merror[0m] [0m[0m            .getResourceAsStream("test_manual_mod.ttl")[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/RyaTriples_2/src/main/java/LoadDataServletRun.java:15:1: ';' expected[0m
+[0m[[0m[31merror[0m] [0m[0m            System.out.println("format= " + format)[0m

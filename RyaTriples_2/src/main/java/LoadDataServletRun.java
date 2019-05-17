@@ -9,13 +9,18 @@ public class LoadDataServletRun {
 
     public static void main(String[] args) {
         try {
+            String inputFile=args[0];
+            String format=args[1];
+            System.out.println("inputFile= " + inputFile);
+            System.out.println("format= " + format);
             final InputStream resourceAsStream = Thread.currentThread().getContextClassLoader()
                 //.getResourceAsStream("ntriples.ntrips");
             //.getResourceAsStream("test_manual_mod.ttl");
-            .getResourceAsStream("test_manual_mod_2.ntrips");
+            //.getResourceAsStream("test_manual_mod_2.ntrips");
+            .getResourceAsStream(inputFile);
             System.out.println("Got input");
             URL url = new URL("http://localhost:8080/web.rya/loadrdf" +
-                    "?format=N-Triples" +
+                    "?format=" + format +
                     //"?format=ttl" +
                     //"?format=Turtle" +
                     "");
