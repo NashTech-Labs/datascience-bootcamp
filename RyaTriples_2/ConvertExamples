@@ -1,5 +1,6 @@
 bin=$HOME/dev/software/sbt/bin/sbt
 
+#$bin "runMain com.knoldus.training.ConvertFormats test_manual_mod_2.ttl src/main/resources/test_manual_mod_2.ntrips"
 $bin "runMain com.knoldus.training.ConvertFormats shop.ttl src/main/resources/shop.ntrips"
 $bin "runMain com.knoldus.training.ConvertFormats Shakespeare.ttl src/main/resources/Shakespeare.ntrips"
 $bin "runMain com.knoldus.training.ConvertFormats Shakespeare_2.ttl src/main/resources/Shakespeare_2.ntrips"

@@ -263,6 +263,5 @@ kn:PO17116 a kn:purchase_order ;
 	kn:vendor kn:vendor_hon_company ;
 	kn:TOTAL_ITEMS "10"^^xsd:integer ;
 	kn:PO_BALANCE "4310.08"^^xsd:float ;
-	kn:item kn:item_1 ;
-	kn:item kn:item_2 .
+	kn:item (kn:item_1 kn:item_2) .
 
