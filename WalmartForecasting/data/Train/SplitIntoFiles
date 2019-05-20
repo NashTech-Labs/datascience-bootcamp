@@ -1,0 +1,17 @@
+rm store*.csv
+
+for line in `cat train.csv`
+do
+  store=`echo $line | awk -F "," '{print $1}'`
+  dept=`echo $line | awk -F "," '{print $2}'`
+  out_file=store_${store}_dept_${dept}_train.csv
+  echo $line >> $out_file
+done
+
+head -1 train.csv > header.txt
+
+for file in `ls store*.csv`
+do
+  cat header.txt $file > ${file}_temp
+  mv ${file}_temp $file
+done

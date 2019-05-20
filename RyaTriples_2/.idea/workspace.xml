@@ -3,23 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3e868d24-cb52-4fb1-8ac3-3ce8127a5cf5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../LendingClubMl" beforeDir="false" afterPath="$PROJECT_DIR$/../LendingClubMl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConvertExamples" beforeDir="false" afterPath="$PROJECT_DIR$/ConvertExamples" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoadExamples" beforeDir="false" afterPath="$PROJECT_DIR$/LoadExamples" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoadDataServletRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoadDataServletRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/QueryDataServletRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueryDataServletRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/knoldus/training/ConvertFormats.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/knoldus/training/ConvertFormats.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/LoadDataServletRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/LoadDataServletRun.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/QueryDataServletRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/QueryDataServletRun.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/knoldus/training/ConvertFormats$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/knoldus/training/ConvertFormats$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/knoldus/training/ConvertFormats.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/knoldus/training/ConvertFormats.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/ryatriples_2.11-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/ryatriples_2.11-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/LUBM_Queries/.Query14.txt.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/.univ-bench_mod.ntrips.swp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/zookeeper.out" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper.out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LoadDataServletRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="195">
               <caret line="18" column="68" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -170,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="408" />
     <option name="y" value="512" />
     <option name="width" value="1446" />
@@ -182,6 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,11 +223,10 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558309376811" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558314416208" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -329,10 +315,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="408" y="512" width="1446" height="867" extended-state="1" />
-    <editor active="true" />
+    <frame x="408" y="512" width="1446" height="867" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.385" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3907143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -394,6 +379,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LoadDataServletRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QueryDataServletRun.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -439,16 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LoadDataServletRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="68" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
