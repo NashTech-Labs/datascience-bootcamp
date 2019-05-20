@@ -1,2 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/RyaTriples_2/src/main/java/LoadDataServletRun.java:15:1: ';' expected[0m
-[0m[[0m[31merror[0m] [0m[0m            System.out.println("format= " + format)[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/RyaTriples_2/src/main/java/LoadDataServletRun.java:18:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable System[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class java.lang.ClassLoader[0m
+[0m[[0m[31merror[0m] [0m[0m            .[0m

@@ -3,17 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="3e868d24-cb52-4fb1-8ac3-3ce8127a5cf5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../LendingClubMl" beforeDir="false" afterPath="$PROJECT_DIR$/../LendingClubMl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MesosTest/IpAddress.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/IpAddress.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MesosTest/MesosTest.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/MesosTest.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MesosTest/RunDocker" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/RunDocker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MesosTest/StartMesosDispatcher.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/StartMesosDispatcher.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MesosTest/docker.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/docker.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MesosTest/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/log/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MesosTest/log_master_14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/log_master_14.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MesosTest/zookeeper.out" beforeDir="false" afterPath="$PROJECT_DIR$/../MesosTest/zookeeper.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConvertExamples" beforeDir="false" afterPath="$PROJECT_DIR$/ConvertExamples" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadExamples" beforeDir="false" afterPath="$PROJECT_DIR$/LoadExamples" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LoadDataServletRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoadDataServletRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/QueryDataServletRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueryDataServletRun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/knoldus/training/ConvertFormats.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/knoldus/training/ConvertFormats.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/LoadDataServletRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/LoadDataServletRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/QueryDataServletRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/QueryDataServletRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/knoldus/training/ConvertFormats$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/knoldus/training/ConvertFormats$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/knoldus/training/ConvertFormats.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/knoldus/training/ConvertFormats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/ryatriples_2.11-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/ryatriples_2.11-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zookeeper.out" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper.out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,20 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LoadDataServletRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/QueryDataServletRun.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="87" selection-start-line="23" selection-start-column="87" selection-end-line="23" selection-end-column="87" />
+            <state relative-caret-position="270">
+              <caret line="18" column="68" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,13 +75,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/QueryDataServletRun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/ConvertFormats.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-              <folding>
-                <element signature="e#30#64#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -161,16 +164,16 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/knoldus/training/GetTriples.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/java/Rdf4jApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueryDataServletRun.java" />
         <option value="$PROJECT_DIR$/src/main/java/LoadDataServletRun.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/knoldus/training/ConvertFormats.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/QueryDataServletRun.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="158" />
-    <option name="y" value="179" />
-    <option name="width" value="1456" />
+    <option name="x" value="408" />
+    <option name="y" value="512" />
+    <option name="width" value="1446" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -237,7 +240,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558041776331" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558309376811" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -326,10 +329,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="179" width="1456" height="867" extended-state="0" />
+    <frame x="408" y="512" width="1446" height="867" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3609929" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.385" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -391,6 +394,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueryDataServletRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/LoadRdf.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -429,33 +442,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/ConvertFormats.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="e#30#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LoadDataServletRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="270">
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueryDataServletRun.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/ConvertFormats.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="87" selection-start-line="23" selection-start-column="87" selection-end-line="23" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
         </state>
       </provider>
     </entry>
