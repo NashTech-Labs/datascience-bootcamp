@@ -40,9 +40,19 @@ object Forecasting2 {
     ???
   }
 
+  def fillInMissingData(data: DataFrame): DataFrame = {
+    ???
+  }
+
   def getDifferences(data: DataFrame): DataFrame = {
     ???
   }
 
+  def doJoins(data: DataFrame): DataFrame = {
+    ???
+  }
 
+  def doLinearRegression(data: DataFrame): DataFrame = {
+    ???
+  }
 }

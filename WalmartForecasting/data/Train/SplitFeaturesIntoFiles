@@ -1,0 +1,14 @@
+rm store*_features.csv
+
+for line in `cat features.csv`
+do
+  store=`echo $line | awk -F "," '{print $1}'`
+  out_file=store_${store}_features.csv
+  echo $line >> $out_file
+done
+
+for file in `ls store_*features.csv`
+do
+  echo $PWD/$file >> FeaturesList.txt
+done
+
