@@ -1,17 +1,41 @@
 rm store*.csv
 
-for line in `cat train.csv`
+for line in `cat test.csv`
 do
   store=`echo $line | awk -F "," '{print $1}'`
   dept=`echo $line | awk -F "," '{print $2}'`
-  out_file=store_${store}_dept_${dept}_train.csv
+  out_file=store_${store}_dept_${dept}_test.csv
   echo $line >> $out_file
 done
 
-head -1 train.csv > header.txt
+#for line in `cat train.csv`
+#do
+#  store=`echo $line | awk -F "," '{print $1}'`
+#  dept=`echo $line | awk -F "," '{print $2}'`
+#  out_file=store_${store}_dept_${dept}_train.csv
+#  echo $line >> $out_file
+#done
 
-for file in `ls store*.csv`
+rm store_Store_dept_Dept_train.csv
+rm store_Store_dept_Dept_test.csv
+rm list.txt
+
+#for file in `ls store*_train.csv`
+#do
+  #cat header.txt $file > ${file}_temp
+  #mv ${file}_temp $file
+#  store=`echo $file | awk -F "_" '{print $2}'`
+#  dept=`echo $file | awk -F "_" '{print $4}'`
+#  out_file=store_${store}_dept_${dept}_test.csv
+#  grep ^$store,$dept, test.csv > $out_file
+#  echo $PWD/$file $PWD/$out_file >> list.txt
+#done
+
+for file in `ls store*_test.csv`
 do
-  cat header.txt $file > ${file}_temp
-  mv ${file}_temp $file
+  store=`echo $file | awk -F "_" '{print $2}'`
+  dept=`echo $file | awk -F "_" '{print $4}'`
+  out_file=store_${store}_dept_${dept}_train.csv
+  grep ^$store,$dept, train.csv > $out_file
+  echo $PWD/$out_file $PWD/$file >> list.txt
 done

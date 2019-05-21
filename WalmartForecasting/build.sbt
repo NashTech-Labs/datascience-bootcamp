@@ -15,3 +15,5 @@ libraryDependencies += "log4j" % "log4j" % "1.2.17"
 libraryDependencies += "org.apache.spark" %% "spark-sql" % sparkVersion % "provided"
 
 libraryDependencies += "org.apache.spark" %% "spark-mllib" % sparkVersion % "provided"
+
+libraryDependencies += "com.cloudera.sparkts" % "sparkts" % "0.4.1"

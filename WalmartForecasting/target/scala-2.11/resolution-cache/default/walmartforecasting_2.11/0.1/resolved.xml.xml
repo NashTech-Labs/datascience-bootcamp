@@ -4,7 +4,7 @@
 		module="walmartforecasting_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20190520120617"
+		publication="20190520233555"
 	>
 		<description>
 		WalmartForecasting
@@ -38,5 +38,6 @@
 		<dependency org="log4j" name="log4j" rev="1.2.17" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="2.4.0" conf="provided->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-mllib_2.11" rev="2.4.0" conf="provided->default(compile)"/>
+		<dependency org="com.cloudera.sparkts" name="sparkts" rev="0.4.1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
