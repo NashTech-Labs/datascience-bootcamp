@@ -1,0 +1,42 @@
+@prefix scm: <http://www.scm.com/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+scm:Person a owl:class .
+scm:Employee rdfs:subClassOf Person .
+scm:Employee scm:hasProperty LocationRep .
+
+scm:Customer a owl:class .
+scm:hasCustomerType a owl:ObjectTypeProperty ;
+	rdfs:domain scm:Customer ;
+	rdfs:range xsd:string ;
+	owl:oneOf ( scm:OneTime scm:Strategic )
+
+scm:hasCustomerValidityStatus a owl:DataTypeProperty ;
+	rdfs:domain scm:Customer ;
+	rdfs:range xsd:string .
+
+scm:BusinessUnit a owl:ObjectTypeProperty ;
+	rdfs:domain scm:Customer
+
+scm:hasBusinessUnit a owl:ObjectTypeProperty ;
+	rdfs:domain scm:Customer ;
+	rdfs:range scm:BusinessUnit .
+
+scm:hasShipping a owl:ObjectTypeProperty ;
+	rdfs:domain scm:Location ;
+	rdfs:range scm:Shipping .
+
+scm:shippingValidityStatus a owl:DataTypeProperty ;
+	rdfs:domain scm:Shipping ;
+	rdfs:range xsd:string .
+
+scm:hasBilling a owl:ObjectTypeProperty ;
+	rdfs:domain scm:Location ;
+	rdfs:range scm:Billing;
+
+scm:billingValidityStatus a owl:DataTypeProperty ;
+	rdfs:domain scm:Billing ;
+	rdfs:range xsd:string

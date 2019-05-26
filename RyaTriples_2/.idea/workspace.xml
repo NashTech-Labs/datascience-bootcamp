@@ -2,11 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e868d24-cb52-4fb1-8ac3-3ce8127a5cf5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../WalmartForecasting/src/main/scala/com/knoldus/common/Constants.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartForecasting/src/main/scala/com/knoldus/training/Difference.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartForecasting/src/main/scala/com/knoldus/training/Forecasting3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WalmartForecasting/src/main/scala/com/knoldus/training/GenFakeData.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LendingClubMl" beforeDir="false" afterPath="$PROJECT_DIR$/../LendingClubMl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LendingClubMl_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LendingClubMl_2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/LUBM_Queries/.Query14.txt.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/.univ-bench_mod.ntrips.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zookeeper.out" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/data/.~lock.features.csv#" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/data/.~lock.features.csv#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/data/.~lock.sampleSubmission.csv#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/data/.~lock.stores.csv#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/data/.~lock.train.csv#" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/data/.~lock.train.csv#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/data/Train/SplitIntoFiles" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/data/Train/SplitIntoFiles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/run" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/src/main/scala/com/knoldus/training/Forecasting.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/src/main/scala/com/knoldus/training/Forecasting.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/src/main/scala/com/knoldus/training/Forecasting2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/src/main/scala/com/knoldus/training/Forecasting2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/src/test/scala/sample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/src/test/scala/sample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$$anonfun$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$$anonfun$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$$anonfun$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$$anonfun$readTestFile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$$anonfun$readTestFile$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$$anonfun$readTestFile$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$$anonfun$readTrainingFile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$$anonfun$readTrainingFile$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$$anonfun$readTrainingFile$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$$anonfun$writeOutputCsv$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$$anonfun$writeOutputCsv$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$Forecast$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$Forecast$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$Forecast.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$Forecast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$ForecastDate$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$ForecastDate$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$ForecastDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$ForecastDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$Sales$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$Sales$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$Sales.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting$Sales.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting2$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/classes/com/knoldus/training/Forecasting2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/default/walmartforecasting_2.11/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/default/walmartforecasting_2.11/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/default/walmartforecasting_2.11/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/default/walmartforecasting_2.11/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-scoveragePlugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-scoveragePlugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/resolution-cache/reports/default-walmartforecasting_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/walmartforecasting_2.11-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/scala-2.11/walmartforecasting_2.11-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/streams/compile/packageBin/$global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WalmartForecasting/target/streams/compile/packageBin/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../WalmartForecasting/target/streams/compile/packageBin/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -24,18 +79,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/Sample.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="45" selection-end-column="68" />
-              <folding>
-                <element signature="e#30#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Rdf4jApi.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,11 +115,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/ConvertFormats.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/GetTriples.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="596">
+              <caret line="347" lean-forward="true" selection-start-line="347" selection-end-line="347" />
+              <folding>
+                <element signature="e#30#76#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,9 +211,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="408" />
-    <option name="y" value="512" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="215" />
+    <option name="y" value="483" />
     <option name="width" value="1446" />
     <option name="height" value="867" />
   </component>
@@ -169,6 +224,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,7 +278,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,9 +370,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="408" y="512" width="1446" height="867" extended-state="0" />
+    <frame x="215" y="483" width="1446" height="867" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3907143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39642859" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -349,16 +405,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/GetTriples.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
-          <folding>
-            <element signature="e#30#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/Sample.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -441,6 +487,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/knoldus/training/GetTriples.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="347" lean-forward="true" selection-start-line="347" selection-end-line="347" />
+          <folding>
+            <element signature="e#30#76#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -39,3 +39,15 @@ do
   grep ^$store,$dept, train.csv > $out_file
   echo $PWD/$out_file $PWD/$file >> list.txt
 done
+
+rm TestList.txt
+for file in `ls store*_test.csv`
+do
+  echo $PWD/$file >> TestList.txt
+done
+
+rm TrainList.txt
+for file in `ls store*_train.csv`
+do
+  echo $PWD/$file >> TrainList.txt
+done

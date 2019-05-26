@@ -53,28 +53,43 @@ object Forecasting {
 
   }
 
+  def strToSales(str: String): Sales = {
+    val parts = str.split(",")
+
+    val store = parts(0).toInt
+    val dept = parts(1).toInt
+    val date = toDate(parts(2))
+    val sales = parts(3).toDouble
+    val isHoliday = boolToInt(parts(4))
+
+    new Sales(store, dept, date, sales, isHoliday)
+  }
+
+  def strToForecast(str: String): Forecast = {
+    val parts = str.split(",")
+
+    val store = parts(0).toInt
+    val dept = parts(1).toInt
+    val date = toDate(parts(2))
+    val isHoliday = boolToInt(parts(3))
+
+    new Forecast(store, dept, date, isHoliday)
+  }
+
   def readTrainingFile(file: String): Array[Sales] = {
     val lines=scala.io.Source.fromFile(file).getLines()
-    println(lines)
-    lines.map( line => line.split(",") )
-      //.map( x => (x(0).toInt, x(1).toInt, dateToInt(x(2)), x(3).toDouble, boolToInt(x(4)) ) ).toArray
-      .map( x => new Sales(x(0).toInt, x(1).toInt, toDate(x(2)), x(3).toDouble, boolToInt(x(4)))).toArray
+    lines.map( line => strToSales(line) ).toArray
   }
 
   def readTestFile(file: String): Array[Forecast] = {
     val lines=scala.io.Source.fromFile(file).getLines()
-    lines.map( line => line.split(",") )
-      .map( x => new Forecast(x(0).toInt, x(1).toInt, toDate(x(2)), boolToInt(x(3)))).toArray
+    lines.map( line => strToForecast(line) ).toArray
   }
 
   def readTrainingAndTestFiles(line: String): (Array[Sales], Array[Forecast]) = {
     val parts=line.split(" ")
     (readTrainingFile(parts(0)), readTestFile(parts(1)))
   }
-
-  case class Forecast(store: Int, dept: Int, date: ForecastDate, isHoliday: Int)
-  case class Sales(store: Int, dept: Int, date: ForecastDate, sales: Double, isHoliday: Int)
-  case class ForecastDate(year: Int, month: Int, day: Int)
 
   def toDate(str: String): ForecastDate = {
     val parts=str.split("-")
@@ -112,16 +127,6 @@ object Forecasting {
     }
   }
 
-  def calcLinearRegressionModel(data: RDD[Array[(Int, Double, Int)]]): Array[LinearRegressionModel] = {
-    ???
-  }
-
-  def applyLinearRegression(data: RDD[Array[(Int, Double, Int)]], models: Array[LinearRegressionModel]):
-  Array[(Int, Double)] =
-  {
-    ???
-  }
-
   def pad(i: Int): String = {
     if (i<10) { "0" + i }
     else { i.toString }
@@ -145,5 +150,7 @@ object Forecasting {
     pw.close()
   }
 
-  //case class Sales(store: Int, dept: Int, year: Int, month: Int, day: Int, sales: Double, isHoliday: Int)
+  case class Forecast(store: Int, dept: Int, date: ForecastDate, isHoliday: Int)
+  case class Sales(store: Int, dept: Int, date: ForecastDate, sales: Double, isHoliday: Int)
+  case class ForecastDate(year: Int, month: Int, day: Int)
 }
