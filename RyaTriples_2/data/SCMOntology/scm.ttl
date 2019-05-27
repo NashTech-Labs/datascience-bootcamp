@@ -6,9 +6,16 @@
 
 scm:Person a owl:class .
 scm:Employee rdfs:subClassOf scm:Person .
-scm:Employee scm:hasProperty scm:LocationRep .
-
+scm:LocationRep a owl:class .
+scm:Employee owl:onProperty scm:hasLocationRep .
 scm:Customer a owl:class .
+scm:CustomerType a owl:class .
+scm:BusinessUnit a owl:class .
+scm:Location a owl:class ;
+	owl:onProperty scm:hasLocationRep .
+scm:Shipping a owl:class .
+scm:Billing a owl:class .
+
 scm:hasCustomerType a owl:ObjectTypeProperty ;
 	rdfs:domain scm:Customer ;
 	rdfs:range xsd:string ;
@@ -24,6 +31,10 @@ scm:BusinessUnit a owl:ObjectTypeProperty ;
 scm:hasBusinessUnit a owl:ObjectTypeProperty ;
 	rdfs:domain scm:Customer ;
 	rdfs:range scm:BusinessUnit .
+
+scm:hasLocation a owl:ObjectTypeProperty ;
+	rdfs:domain scm:BusinessUnit ;
+	rdfs:rand scm:Location .
 
 scm:hasShipping a owl:ObjectTypeProperty ;
 	rdfs:domain scm:Location ;

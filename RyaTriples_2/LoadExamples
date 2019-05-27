@@ -1,6 +1,6 @@
 bin=$HOME/dev/software/sbt/bin/sbt
 
-$bin "runMain LoadDataServletRun scm_documents.ntrips N-triples"
+$bin "runMain LoadDataServletRun scm_document.ntrips N-triples"
 $bin "runMain LoadDataServletRun scm_instances.ntrips N-triples"
 $bin "runMain LoadDataServletRun scm_po_instances.ntrips N-triples"
 $bin "runMain LoadDataServletRun scm.ntrips N-triples"

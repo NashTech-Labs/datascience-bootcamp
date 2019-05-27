@@ -7,52 +7,52 @@
 		revision="0.1"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
-		date="20190506133220"/>
+		date="20190527090037"/>
 	<dependencies>
 		<module organisation="org.apache.rya" name="rya.indexing">
-			<revision name="3.2.12-incubating" status="release" pubdate="20180219203505" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="329">
+			<revision name="3.2.12-incubating" status="release" pubdate="20180219203505" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="329">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="8823" time="152" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.indexing/ivy-3.2.12-incubating.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/org.apache.rya/rya.indexing/ivy-3.2.12-incubating.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/rya/rya.indexing/3.2.12-incubating/rya.indexing-3.2.12-incubating.pom"/>
+				<metadata-artifact status="no" details="" size="31800" time="0" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.indexing/ivy-3.2.12-incubating.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/rya/rya.indexing/3.2.12-incubating/rya.indexing-3.2.12-incubating.pom"/>
 				<caller organisation="ryatriples" name="ryatriples_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.2.12-incubating" rev-constraint-default="3.2.12-incubating" rev-constraint-dynamic="3.2.12-incubating" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="rya.indexing" type="jar" ext="jar" status="successful" details="" size="668227" time="296" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.indexing/jars/rya.indexing-3.2.12-incubating.jar">
+					<artifact name="rya.indexing" type="jar" ext="jar" status="no" details="" size="668227" time="0" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.indexing/jars/rya.indexing-3.2.12-incubating.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/rya/rya.indexing/3.2.12-incubating/rya.indexing-3.2.12-incubating.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.rya" name="rya.pcj.fluo.api">
-			<revision name="3.2.12-incubating" status="release" pubdate="20180219203353" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="341">
+			<revision name="3.2.12-incubating" status="release" pubdate="20180219203353" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="341">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2078" time="90" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.pcj.fluo.api/ivy-3.2.12-incubating.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/org.apache.rya/rya.pcj.fluo.api/ivy-3.2.12-incubating.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/rya/rya.pcj.fluo.api/3.2.12-incubating/rya.pcj.fluo.api-3.2.12-incubating.pom"/>
+				<metadata-artifact status="no" details="" size="31957" time="0" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.pcj.fluo.api/ivy-3.2.12-incubating.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/rya/rya.pcj.fluo.api/3.2.12-incubating/rya.pcj.fluo.api-3.2.12-incubating.pom"/>
 				<caller organisation="org.apache.rya" name="rya.indexing" conf="default, compile, runtime, master" rev="3.2.12-incubating" rev-constraint-default="3.2.12-incubating" rev-constraint-dynamic="3.2.12-incubating" callerrev="3.2.12-incubating"/>
 				<artifacts>
-					<artifact name="rya.pcj.fluo.api" type="jar" ext="jar" status="successful" details="" size="45228" time="846" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.pcj.fluo.api/jars/rya.pcj.fluo.api-3.2.12-incubating.jar">
+					<artifact name="rya.pcj.fluo.api" type="jar" ext="jar" status="no" details="" size="45228" time="0" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.pcj.fluo.api/jars/rya.pcj.fluo.api-3.2.12-incubating.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/rya/rya.pcj.fluo.api/3.2.12-incubating/rya.pcj.fluo.api-3.2.12-incubating.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.rya" name="rya.periodic.notification.api">
-			<revision name="3.2.12-incubating" status="release" pubdate="20180219203228" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="349">
+			<revision name="3.2.12-incubating" status="release" pubdate="20180219203228" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="349">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2395" time="85" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.periodic.notification.api/ivy-3.2.12-incubating.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/org.apache.rya/rya.periodic.notification.api/ivy-3.2.12-incubating.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/rya/rya.periodic.notification.api/3.2.12-incubating/rya.periodic.notification.api-3.2.12-incubating.pom"/>
+				<metadata-artifact status="no" details="" size="32021" time="0" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.periodic.notification.api/ivy-3.2.12-incubating.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/rya/rya.periodic.notification.api/3.2.12-incubating/rya.periodic.notification.api-3.2.12-incubating.pom"/>
 				<caller organisation="org.apache.rya" name="rya.pcj.fluo.api" conf="compile, runtime" rev="3.2.12-incubating" rev-constraint-default="3.2.12-incubating" rev-constraint-dynamic="3.2.12-incubating" callerrev="3.2.12-incubating"/>
 				<caller organisation="org.apache.rya" name="rya.indexing" conf="default, compile, runtime, master" rev="3.2.12-incubating" rev-constraint-default="3.2.12-incubating" rev-constraint-dynamic="3.2.12-incubating" callerrev="3.2.12-incubating"/>
 				<artifacts>
-					<artifact name="rya.periodic.notification.api" type="jar" ext="jar" status="successful" details="" size="34272" time="1057" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.periodic.notification.api/jars/rya.periodic.notification.api-3.2.12-incubating.jar">
+					<artifact name="rya.periodic.notification.api" type="jar" ext="jar" status="no" details="" size="34272" time="0" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.periodic.notification.api/jars/rya.periodic.notification.api-3.2.12-incubating.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/rya/rya.periodic.notification.api/3.2.12-incubating/rya.periodic.notification.api-3.2.12-incubating.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.rya" name="rya.pcj.fluo.app">
-			<revision name="3.2.12-incubating" status="release" pubdate="20180219203313" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="342">
+			<revision name="3.2.12-incubating" status="release" pubdate="20180219203313" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="342">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="4672" time="153" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.pcj.fluo.app/ivy-3.2.12-incubating.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/org.apache.rya/rya.pcj.fluo.app/ivy-3.2.12-incubating.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/rya/rya.pcj.fluo.app/3.2.12-incubating/rya.pcj.fluo.app-3.2.12-incubating.pom"/>
+				<metadata-artifact status="no" details="" size="33354" time="0" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.pcj.fluo.app/ivy-3.2.12-incubating.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/rya/rya.pcj.fluo.app/3.2.12-incubating/rya.pcj.fluo.app-3.2.12-incubating.pom"/>
 				<caller organisation="org.apache.rya" name="rya.pcj.fluo.api" conf="compile, runtime" rev="3.2.12-incubating" rev-constraint-default="3.2.12-incubating" rev-constraint-dynamic="3.2.12-incubating" callerrev="3.2.12-incubating"/>
 				<artifacts>
-					<artifact name="rya.pcj.fluo.app" type="jar" ext="jar" status="successful" details="" size="267109" time="1372" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.pcj.fluo.app/jars/rya.pcj.fluo.app-3.2.12-incubating.jar">
+					<artifact name="rya.pcj.fluo.app" type="jar" ext="jar" status="no" details="" size="267109" time="0" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.pcj.fluo.app/jars/rya.pcj.fluo.app-3.2.12-incubating.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/rya/rya.pcj.fluo.app/3.2.12-incubating/rya.pcj.fluo.app-3.2.12-incubating.jar"/>
 					</artifact>
 				</artifacts>
@@ -72,155 +72,155 @@
 			</revision>
 		</module>
 		<module organisation="org.openrdf.sesame" name="sesame-queryrender">
-			<revision name="2.7.6" status="release" pubdate="20130902202348" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="346">
+			<revision name="2.7.6" status="release" pubdate="20130902202348" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="346">
 				<license name="Aduna BSD license" url="http://repo.aduna-software.org/legal/aduna-bsd.txt"/>
-				<metadata-artifact status="successful" details="" size="1146" time="156" location="/home/jouko/.ivy2/cache/org.openrdf.sesame/sesame-queryrender/ivy-2.7.6.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/org.openrdf.sesame/sesame-queryrender/ivy-2.7.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openrdf/sesame/sesame-queryrender/2.7.6/sesame-queryrender-2.7.6.pom"/>
+				<metadata-artifact status="no" details="" size="11245" time="0" location="/home/jouko/.ivy2/cache/org.openrdf.sesame/sesame-queryrender/ivy-2.7.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openrdf/sesame/sesame-queryrender/2.7.6/sesame-queryrender-2.7.6.pom"/>
 				<caller organisation="org.apache.rya" name="rya.pcj.fluo.app" conf="compile, runtime" rev="2.7.6" rev-constraint-default="2.7.6" rev-constraint-dynamic="2.7.6" callerrev="3.2.12-incubating"/>
 				<artifacts>
-					<artifact name="sesame-queryrender" type="jar" ext="jar" status="successful" details="" size="46676" time="1146" location="/home/jouko/.ivy2/cache/org.openrdf.sesame/sesame-queryrender/jars/sesame-queryrender-2.7.6.jar">
+					<artifact name="sesame-queryrender" type="jar" ext="jar" status="no" details="" size="46676" time="0" location="/home/jouko/.ivy2/cache/org.openrdf.sesame/sesame-queryrender/jars/sesame-queryrender-2.7.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openrdf/sesame/sesame-queryrender/2.7.6/sesame-queryrender-2.7.6.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.fluo" name="fluo-recipes-accumulo">
-			<revision name="1.0.0-incubating" status="release" pubdate="20161020171725" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="345">
+			<revision name="1.0.0-incubating" status="release" pubdate="20161020171725" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="345">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2475" time="117" location="/home/jouko/.ivy2/cache/org.apache.fluo/fluo-recipes-accumulo/ivy-1.0.0-incubating.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/org.apache.fluo/fluo-recipes-accumulo/ivy-1.0.0-incubating.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/fluo/fluo-recipes-accumulo/1.0.0-incubating/fluo-recipes-accumulo-1.0.0-incubating.pom"/>
+				<metadata-artifact status="no" details="" size="13178" time="0" location="/home/jouko/.ivy2/cache/org.apache.fluo/fluo-recipes-accumulo/ivy-1.0.0-incubating.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/fluo/fluo-recipes-accumulo/1.0.0-incubating/fluo-recipes-accumulo-1.0.0-incubating.pom"/>
 				<caller organisation="org.apache.rya" name="rya.pcj.fluo.app" conf="compile, runtime" rev="1.0.0-incubating" rev-constraint-default="1.0.0-incubating" rev-constraint-dynamic="1.0.0-incubating" callerrev="3.2.12-incubating"/>
 				<artifacts>
-					<artifact name="fluo-recipes-accumulo" type="jar" ext="jar" status="successful" details="" size="29124" time="940" location="/home/jouko/.ivy2/cache/org.apache.fluo/fluo-recipes-accumulo/jars/fluo-recipes-accumulo-1.0.0-incubating.jar">
+					<artifact name="fluo-recipes-accumulo" type="jar" ext="jar" status="no" details="" size="29124" time="0" location="/home/jouko/.ivy2/cache/org.apache.fluo/fluo-recipes-accumulo/jars/fluo-recipes-accumulo-1.0.0-incubating.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/fluo/fluo-recipes-accumulo/1.0.0-incubating/fluo-recipes-accumulo-1.0.0-incubating.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.fluo" name="fluo-recipes-core">
-			<revision name="1.0.0-incubating" status="release" pubdate="20161020171717" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="344">
+			<revision name="1.0.0-incubating" status="release" pubdate="20161020171717" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="344">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2740" time="95" location="/home/jouko/.ivy2/cache/org.apache.fluo/fluo-recipes-core/ivy-1.0.0-incubating.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/org.apache.fluo/fluo-recipes-core/ivy-1.0.0-incubating.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/fluo/fluo-recipes-core/1.0.0-incubating/fluo-recipes-core-1.0.0-incubating.pom"/>
+				<metadata-artifact status="no" details="" size="13338" time="0" location="/home/jouko/.ivy2/cache/org.apache.fluo/fluo-recipes-core/ivy-1.0.0-incubating.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/fluo/fluo-recipes-core/1.0.0-incubating/fluo-recipes-core-1.0.0-incubating.pom"/>
 				<caller organisation="org.apache.rya" name="rya.pcj.fluo.app" conf="compile, runtime" rev="1.0.0-incubating" rev-constraint-default="1.0.0-incubating" rev-constraint-dynamic="1.0.0-incubating" callerrev="3.2.12-incubating"/>
 				<caller organisation="org.apache.fluo" name="fluo-recipes-accumulo" conf="compile, runtime" rev="1.0.0-incubating" rev-constraint-default="1.0.0-incubating" rev-constraint-dynamic="1.0.0-incubating" callerrev="1.0.0-incubating"/>
 				<artifacts>
-					<artifact name="fluo-recipes-core" type="jar" ext="jar" status="successful" details="" size="105683" time="1158" location="/home/jouko/.ivy2/cache/org.apache.fluo/fluo-recipes-core/jars/fluo-recipes-core-1.0.0-incubating.jar">
+					<artifact name="fluo-recipes-core" type="jar" ext="jar" status="no" details="" size="105683" time="0" location="/home/jouko/.ivy2/cache/org.apache.fluo/fluo-recipes-core/jars/fluo-recipes-core-1.0.0-incubating.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/fluo/fluo-recipes-core/1.0.0-incubating/fluo-recipes-core-1.0.0-incubating.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.rya" name="rya.api.evaluation">
-			<revision name="3.2.12-incubating" status="release" pubdate="20180219202919" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="343">
+			<revision name="3.2.12-incubating" status="release" pubdate="20180219202919" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="343">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2402" time="117" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.api.evaluation/ivy-3.2.12-incubating.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/org.apache.rya/rya.api.evaluation/ivy-3.2.12-incubating.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/rya/rya.api.evaluation/3.2.12-incubating/rya.api.evaluation-3.2.12-incubating.pom"/>
+				<metadata-artifact status="no" details="" size="29618" time="0" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.api.evaluation/ivy-3.2.12-incubating.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/rya/rya.api.evaluation/3.2.12-incubating/rya.api.evaluation-3.2.12-incubating.pom"/>
 				<caller organisation="org.apache.rya" name="rya.pcj.fluo.app" conf="compile, runtime" rev="3.2.12-incubating" rev-constraint-default="3.2.12-incubating" rev-constraint-dynamic="3.2.12-incubating" callerrev="3.2.12-incubating"/>
 				<artifacts>
-					<artifact name="rya.api.evaluation" type="jar" ext="jar" status="successful" details="" size="50492" time="1019" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.api.evaluation/jars/rya.api.evaluation-3.2.12-incubating.jar">
+					<artifact name="rya.api.evaluation" type="jar" ext="jar" status="no" details="" size="50492" time="0" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.api.evaluation/jars/rya.api.evaluation-3.2.12-incubating.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/rya/rya.api.evaluation/3.2.12-incubating/rya.api.evaluation-3.2.12-incubating.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.rya" name="rya.indexing.pcj">
-			<revision name="3.2.12-incubating" status="release" pubdate="20180219203207" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="338">
+			<revision name="3.2.12-incubating" status="release" pubdate="20180219203207" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="338">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="3716" time="359" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.indexing.pcj/ivy-3.2.12-incubating.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/org.apache.rya/rya.indexing.pcj/ivy-3.2.12-incubating.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/rya/rya.indexing.pcj/3.2.12-incubating/rya.indexing.pcj-3.2.12-incubating.pom"/>
+				<metadata-artifact status="no" details="" size="30877" time="0" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.indexing.pcj/ivy-3.2.12-incubating.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/rya/rya.indexing.pcj/3.2.12-incubating/rya.indexing.pcj-3.2.12-incubating.pom"/>
 				<caller organisation="org.apache.rya" name="rya.periodic.notification.api" conf="compile, runtime" rev="3.2.12-incubating" rev-constraint-default="3.2.12-incubating" rev-constraint-dynamic="3.2.12-incubating" callerrev="3.2.12-incubating"/>
 				<caller organisation="org.apache.rya" name="rya.pcj.fluo.app" conf="compile, runtime" rev="3.2.12-incubating" rev-constraint-default="3.2.12-incubating" rev-constraint-dynamic="3.2.12-incubating" callerrev="3.2.12-incubating"/>
 				<caller organisation="org.apache.rya" name="rya.indexing" conf="default, compile, runtime, master" rev="3.2.12-incubating" rev-constraint-default="3.2.12-incubating" rev-constraint-dynamic="3.2.12-incubating" callerrev="3.2.12-incubating"/>
 				<artifacts>
-					<artifact name="rya.indexing.pcj" type="jar" ext="jar" status="successful" details="" size="70854" time="1104" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.indexing.pcj/jars/rya.indexing.pcj-3.2.12-incubating.jar">
+					<artifact name="rya.indexing.pcj" type="jar" ext="jar" status="no" details="" size="70854" time="0" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.indexing.pcj/jars/rya.indexing.pcj-3.2.12-incubating.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/rya/rya.indexing.pcj/3.2.12-incubating/rya.indexing.pcj-3.2.12-incubating.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.fluo" name="fluo-api">
-			<revision name="1.0.0-incubating" status="release" pubdate="20160927153503" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="340">
+			<revision name="1.0.0-incubating" status="release" pubdate="20160927153503" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="340">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2982" time="61" location="/home/jouko/.ivy2/cache/org.apache.fluo/fluo-api/ivy-1.0.0-incubating.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/org.apache.fluo/fluo-api/ivy-1.0.0-incubating.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/fluo/fluo-api/1.0.0-incubating/fluo-api-1.0.0-incubating.pom"/>
+				<metadata-artifact status="no" details="" size="13749" time="0" location="/home/jouko/.ivy2/cache/org.apache.fluo/fluo-api/ivy-1.0.0-incubating.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/fluo/fluo-api/1.0.0-incubating/fluo-api-1.0.0-incubating.pom"/>
 				<caller organisation="org.apache.rya" name="rya.pcj.fluo.app" conf="compile, runtime" rev="1.0.0-incubating" rev-constraint-default="1.0.0-incubating" rev-constraint-dynamic="1.0.0-incubating" callerrev="3.2.12-incubating"/>
 				<caller organisation="org.apache.rya" name="rya.indexing.pcj" conf="compile, runtime" rev="1.0.0-incubating" rev-constraint-default="1.0.0-incubating" rev-constraint-dynamic="1.0.0-incubating" callerrev="3.2.12-incubating"/>
 				<caller organisation="org.apache.fluo" name="fluo-recipes-accumulo" conf="compile, runtime" rev="1.0.0-incubating" rev-constraint-default="1.0.0-incubating" rev-constraint-dynamic="1.0.0-incubating" callerrev="1.0.0-incubating"/>
 				<caller organisation="org.apache.fluo" name="fluo-recipes-core" conf="compile, runtime" rev="1.0.0-incubating" rev-constraint-default="1.0.0-incubating" rev-constraint-dynamic="1.0.0-incubating" callerrev="1.0.0-incubating"/>
 				<artifacts>
-					<artifact name="fluo-api" type="jar" ext="jar" status="successful" details="" size="66159" time="1158" location="/home/jouko/.ivy2/cache/org.apache.fluo/fluo-api/jars/fluo-api-1.0.0-incubating.jar">
+					<artifact name="fluo-api" type="jar" ext="jar" status="no" details="" size="66159" time="0" location="/home/jouko/.ivy2/cache/org.apache.fluo/fluo-api/jars/fluo-api-1.0.0-incubating.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/fluo/fluo-api/1.0.0-incubating/fluo-api-1.0.0-incubating.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.rya" name="rya.api.model">
-			<revision name="3.2.12-incubating" status="release" pubdate="20180219202901" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="339">
+			<revision name="3.2.12-incubating" status="release" pubdate="20180219202901" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="339">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2088" time="88" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.api.model/ivy-3.2.12-incubating.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/org.apache.rya/rya.api.model/ivy-3.2.12-incubating.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/rya/rya.api.model/3.2.12-incubating/rya.api.model-3.2.12-incubating.pom"/>
+				<metadata-artifact status="no" details="" size="29419" time="0" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.api.model/ivy-3.2.12-incubating.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/rya/rya.api.model/3.2.12-incubating/rya.api.model-3.2.12-incubating.pom"/>
 				<caller organisation="org.apache.rya" name="rya.indexing.pcj" conf="compile, runtime" rev="3.2.12-incubating" rev-constraint-default="3.2.12-incubating" rev-constraint-dynamic="3.2.12-incubating" callerrev="3.2.12-incubating"/>
 				<caller organisation="org.apache.rya" name="rya.api.evaluation" conf="compile, runtime" rev="3.2.12-incubating" rev-constraint-default="3.2.12-incubating" rev-constraint-dynamic="3.2.12-incubating" callerrev="3.2.12-incubating"/>
 				<artifacts>
-					<artifact name="rya.api.model" type="jar" ext="jar" status="successful" details="" size="35130" time="921" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.api.model/jars/rya.api.model-3.2.12-incubating.jar">
+					<artifact name="rya.api.model" type="jar" ext="jar" status="no" details="" size="35130" time="0" location="/home/jouko/.ivy2/cache/org.apache.rya/rya.api.model/jars/rya.api.model-3.2.12-incubating.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/rya/rya.api.model/3.2.12-incubating/rya.api.model-3.2.12-incubating.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.lucene" name="lucene-analyzers">
-			<revision name="3.6.2" status="release" pubdate="20121224095758" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="337">
+			<revision name="3.6.2" status="release" pubdate="20121224095758" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="337">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="4145" time="78" location="/home/jouko/.ivy2/cache/org.apache.lucene/lucene-analyzers/ivy-3.6.2.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/org.apache.lucene/lucene-analyzers/ivy-3.6.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers/3.6.2/lucene-analyzers-3.6.2.pom"/>
+				<metadata-artifact status="no" details="" size="15167" time="0" location="/home/jouko/.ivy2/cache/org.apache.lucene/lucene-analyzers/ivy-3.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers/3.6.2/lucene-analyzers-3.6.2.pom"/>
 				<caller organisation="org.apache.rya" name="rya.indexing" conf="default, compile, runtime, master" rev="3.6.2" rev-constraint-default="3.6.2" rev-constraint-dynamic="3.6.2" callerrev="3.2.12-incubating"/>
 				<artifacts>
-					<artifact name="lucene-analyzers" type="jar" ext="jar" status="successful" details="" size="1173785" time="1709" location="/home/jouko/.ivy2/cache/org.apache.lucene/lucene-analyzers/jars/lucene-analyzers-3.6.2.jar">
+					<artifact name="lucene-analyzers" type="jar" ext="jar" status="no" details="" size="1173785" time="0" location="/home/jouko/.ivy2/cache/org.apache.lucene/lucene-analyzers/jars/lucene-analyzers-3.6.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers/3.6.2/lucene-analyzers-3.6.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.rya" name="mongodb.rya">
-			<revision name="3.2.12-incubating" status="release" pubdate="20180219203032" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="330">
+			<revision name="3.2.12-incubating" status="release" pubdate="20180219203032" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="330">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="3634" time="86" location="/home/jouko/.ivy2/cache/org.apache.rya/mongodb.rya/ivy-3.2.12-incubating.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/org.apache.rya/mongodb.rya/ivy-3.2.12-incubating.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/rya/mongodb.rya/3.2.12-incubating/mongodb.rya-3.2.12-incubating.pom"/>
+				<metadata-artifact status="no" details="" size="29624" time="0" location="/home/jouko/.ivy2/cache/org.apache.rya/mongodb.rya/ivy-3.2.12-incubating.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/rya/mongodb.rya/3.2.12-incubating/mongodb.rya-3.2.12-incubating.pom"/>
 				<caller organisation="org.apache.rya" name="rya.indexing.pcj" conf="compile, runtime" rev="3.2.12-incubating" rev-constraint-default="3.2.12-incubating" rev-constraint-dynamic="3.2.12-incubating" callerrev="3.2.12-incubating"/>
 				<caller organisation="org.apache.rya" name="rya.indexing" conf="default, compile, runtime, master" rev="3.2.12-incubating" rev-constraint-default="3.2.12-incubating" rev-constraint-dynamic="3.2.12-incubating" callerrev="3.2.12-incubating"/>
 				<artifacts>
-					<artifact name="mongodb.rya" type="jar" ext="jar" status="successful" details="" size="107642" time="1098" location="/home/jouko/.ivy2/cache/org.apache.rya/mongodb.rya/jars/mongodb.rya-3.2.12-incubating.jar">
+					<artifact name="mongodb.rya" type="jar" ext="jar" status="no" details="" size="107642" time="0" location="/home/jouko/.ivy2/cache/org.apache.rya/mongodb.rya/jars/mongodb.rya-3.2.12-incubating.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/rya/mongodb.rya/3.2.12-incubating/mongodb.rya-3.2.12-incubating.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="de.flapdoodle.embed" name="de.flapdoodle.embed.mongo">
-			<revision name="1.50.5" status="release" pubdate="20160516012842" resolver="public" artresolver="public" homepage="http://github.com/flapdoodle-oss/embedmongo.flapdoodle.de" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="332">
+			<revision name="1.50.5" status="release" pubdate="20160516012842" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/flapdoodle-oss/embedmongo.flapdoodle.de" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="332">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="10390" time="65" location="/home/jouko/.ivy2/cache/de.flapdoodle.embed/de.flapdoodle.embed.mongo/ivy-1.50.5.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/de.flapdoodle.embed/de.flapdoodle.embed.mongo/ivy-1.50.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/de/flapdoodle/embed/de.flapdoodle.embed.mongo/1.50.5/de.flapdoodle.embed.mongo-1.50.5.pom"/>
+				<metadata-artifact status="no" details="" size="5646" time="0" location="/home/jouko/.ivy2/cache/de.flapdoodle.embed/de.flapdoodle.embed.mongo/ivy-1.50.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/de/flapdoodle/embed/de.flapdoodle.embed.mongo/1.50.5/de.flapdoodle.embed.mongo-1.50.5.pom"/>
 				<caller organisation="org.apache.rya" name="mongodb.rya" conf="compile, runtime" rev="1.50.5" rev-constraint-default="1.50.5" rev-constraint-dynamic="1.50.5" callerrev="3.2.12-incubating"/>
 				<artifacts>
-					<artifact name="de.flapdoodle.embed.mongo" type="bundle" ext="jar" status="successful" details="" size="112541" time="1150" location="/home/jouko/.ivy2/cache/de.flapdoodle.embed/de.flapdoodle.embed.mongo/bundles/de.flapdoodle.embed.mongo-1.50.5.jar">
+					<artifact name="de.flapdoodle.embed.mongo" type="bundle" ext="jar" status="no" details="" size="112541" time="0" location="/home/jouko/.ivy2/cache/de.flapdoodle.embed/de.flapdoodle.embed.mongo/bundles/de.flapdoodle.embed.mongo-1.50.5.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/de/flapdoodle/embed/de.flapdoodle.embed.mongo/1.50.5/de.flapdoodle.embed.mongo-1.50.5.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="de.flapdoodle.embed" name="de.flapdoodle.embed.process">
-			<revision name="1.50.2" status="release" pubdate="20160414230856" resolver="public" artresolver="public" homepage="http://github.com/flapdoodle-oss/de.flapdoodle.embed.process" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="333">
+			<revision name="1.50.2" status="release" pubdate="20160414230856" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/flapdoodle-oss/de.flapdoodle.embed.process" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="333">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="13092" time="70" location="/home/jouko/.ivy2/cache/de.flapdoodle.embed/de.flapdoodle.embed.process/ivy-1.50.2.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/de.flapdoodle.embed/de.flapdoodle.embed.process/ivy-1.50.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/de/flapdoodle/embed/de.flapdoodle.embed.process/1.50.2/de.flapdoodle.embed.process-1.50.2.pom"/>
+				<metadata-artifact status="no" details="" size="6506" time="0" location="/home/jouko/.ivy2/cache/de.flapdoodle.embed/de.flapdoodle.embed.process/ivy-1.50.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/de/flapdoodle/embed/de.flapdoodle.embed.process/1.50.2/de.flapdoodle.embed.process-1.50.2.pom"/>
 				<caller organisation="de.flapdoodle.embed" name="de.flapdoodle.embed.mongo" conf="compile, runtime" rev="1.50.2" rev-constraint-default="1.50.2" rev-constraint-dynamic="1.50.2" callerrev="1.50.5"/>
 				<artifacts>
-					<artifact name="de.flapdoodle.embed.process" type="bundle" ext="jar" status="successful" details="" size="157829" time="1199" location="/home/jouko/.ivy2/cache/de.flapdoodle.embed/de.flapdoodle.embed.process/bundles/de.flapdoodle.embed.process-1.50.2.jar">
+					<artifact name="de.flapdoodle.embed.process" type="bundle" ext="jar" status="no" details="" size="157829" time="0" location="/home/jouko/.ivy2/cache/de.flapdoodle.embed/de.flapdoodle.embed.process/bundles/de.flapdoodle.embed.process-1.50.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/de/flapdoodle/embed/de.flapdoodle.embed.process/1.50.2/de.flapdoodle.embed.process-1.50.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.commons" name="commons-compress">
-			<revision name="1.10" status="release" pubdate="20150815105356" resolver="public" artresolver="public" homepage="http://commons.apache.org/proper/commons-compress/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="336">
+			<revision name="1.10" status="release" pubdate="20150815105356" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-compress/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="336">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="12562" time="59" location="/home/jouko/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.10.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.10.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.10/commons-compress-1.10.pom"/>
+				<metadata-artifact status="no" details="" size="11339" time="0" location="/home/jouko/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.10/commons-compress-1.10.pom"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="compile, runtime" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="2.6.5"/>
 				<caller organisation="de.flapdoodle.embed" name="de.flapdoodle.embed.process" conf="compile, runtime" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="1.50.2"/>
 				<caller organisation="org.apache.avro" name="avro" conf="compile, runtime" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="1.8.2"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-yarn-common" conf="compile, runtime" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="2.6.5"/>
 				<artifacts>
-					<artifact name="commons-compress" type="jar" ext="jar" status="successful" details="" size="409475" time="1160" location="/home/jouko/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.10.jar">
+					<artifact name="commons-compress" type="jar" ext="jar" status="no" details="" size="409475" time="0" location="/home/jouko/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.10.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.10/commons-compress-1.10.jar"/>
 					</artifact>
 				</artifacts>
@@ -244,39 +244,39 @@
 			</revision>
 		</module>
 		<module organisation="net.java.dev.jna" name="jna-platform">
-			<revision name="4.0.0" status="release" pubdate="20130704112723" resolver="public" artresolver="public" homepage="https://github.com/twall/jna" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="335">
+			<revision name="4.0.0" status="release" pubdate="20130704112723" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twall/jna" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="335">
 				<license name="LGPL, version 2.1" url="http://www.gnu.org/licenses/licenses.html"/>
 				<license name="ASL, version 2" url="http://www.apache.org/licenses/"/>
-				<metadata-artifact status="successful" details="" size="1497" time="71" location="/home/jouko/.ivy2/cache/net.java.dev.jna/jna-platform/ivy-4.0.0.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/net.java.dev.jna/jna-platform/ivy-4.0.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.0.0/jna-platform-4.0.0.pom"/>
+				<metadata-artifact status="no" details="" size="2732" time="0" location="/home/jouko/.ivy2/cache/net.java.dev.jna/jna-platform/ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.0.0/jna-platform-4.0.0.pom"/>
 				<caller organisation="de.flapdoodle.embed" name="de.flapdoodle.embed.process" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="1.50.2"/>
 				<artifacts>
-					<artifact name="jna-platform" type="jar" ext="jar" status="successful" details="" size="1218171" time="2009" location="/home/jouko/.ivy2/cache/net.java.dev.jna/jna-platform/jars/jna-platform-4.0.0.jar">
+					<artifact name="jna-platform" type="jar" ext="jar" status="no" details="" size="1218171" time="0" location="/home/jouko/.ivy2/cache/net.java.dev.jna/jna-platform/jars/jna-platform-4.0.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.0.0/jna-platform-4.0.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="net.java.dev.jna" name="jna">
-			<revision name="4.0.0" status="release" pubdate="20130704112535" resolver="public" artresolver="public" homepage="https://github.com/twall/jna" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="334">
+			<revision name="4.0.0" status="release" pubdate="20130704112535" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twall/jna" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="334">
 				<license name="LGPL, version 2.1" url="http://www.gnu.org/licenses/licenses.html"/>
 				<license name="ASL, version 2" url="http://www.apache.org/licenses/"/>
-				<metadata-artifact status="successful" details="" size="1276" time="72" location="/home/jouko/.ivy2/cache/net.java.dev.jna/jna/ivy-4.0.0.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/net.java.dev.jna/jna/ivy-4.0.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.0.0/jna-4.0.0.pom"/>
+				<metadata-artifact status="no" details="" size="2534" time="0" location="/home/jouko/.ivy2/cache/net.java.dev.jna/jna/ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.0.0/jna-4.0.0.pom"/>
 				<caller organisation="net.java.dev.jna" name="jna-platform" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="4.0.0"/>
 				<caller organisation="de.flapdoodle.embed" name="de.flapdoodle.embed.process" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="1.50.2"/>
 				<artifacts>
-					<artifact name="jna" type="jar" ext="jar" status="successful" details="" size="914639" time="1800" location="/home/jouko/.ivy2/cache/net.java.dev.jna/jna/jars/jna-4.0.0.jar">
+					<artifact name="jna" type="jar" ext="jar" status="no" details="" size="914639" time="0" location="/home/jouko/.ivy2/cache/net.java.dev.jna/jna/jars/jna-4.0.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.0.0/jna-4.0.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.mongodb" name="mongo-java-driver">
-			<revision name="3.3.0" status="release" pubdate="20160718095314" resolver="public" artresolver="public" homepage="http://www.mongodb.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="331">
+			<revision name="3.3.0" status="release" pubdate="20160718095314" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.mongodb.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="331">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2084" time="73" location="/home/jouko/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-3.3.0.xml" searched="true" original-local-location="/home/jouko/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-3.3.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.3.0/mongo-java-driver-3.3.0.pom"/>
+				<metadata-artifact status="no" details="" size="3118" time="0" location="/home/jouko/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-3.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.3.0/mongo-java-driver-3.3.0.pom"/>
 				<caller organisation="org.apache.rya" name="mongodb.rya" conf="compile, runtime" rev="3.3.0" rev-constraint-default="3.3.0" rev-constraint-dynamic="3.3.0" callerrev="3.2.12-incubating"/>
 				<artifacts>
-					<artifact name="mongo-java-driver" type="jar" ext="jar" status="successful" details="" size="1540617" time="1948" location="/home/jouko/.ivy2/cache/org.mongodb/mongo-java-driver/jars/mongo-java-driver-3.3.0.jar">
+					<artifact name="mongo-java-driver" type="jar" ext="jar" status="no" details="" size="1540617" time="0" location="/home/jouko/.ivy2/cache/org.mongodb/mongo-java-driver/jars/mongo-java-driver-3.3.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.3.0/mongo-java-driver-3.3.0.jar"/>
 					</artifact>
 				</artifacts>

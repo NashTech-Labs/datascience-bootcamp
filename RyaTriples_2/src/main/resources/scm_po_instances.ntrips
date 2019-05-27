@@ -9,15 +9,15 @@
 <http://www.scm.com/LineItem0> <http://www.scm.com/hasQuantity> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.scm.com/LineItem0> <http://www.scm.com/hasPrice> "3.47"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://www.scm.com/LineItem0> <http://www.scm.com/hasInstructions> "blah blah blah" .
-<http://www.scm.com/LineItem0> <http://www.scm.com/hasDateCreated> "04-14-1983"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://www.scm.com/LineItem0> <http://www.scm.com/hasActualDeliveryDate> "04-15-1932"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://www.scm.com/LineItem0> <http://www.scm.com/hasDateOfPromise> "05-27-2019"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.scm.com/LineItem0> <http://www.scm.com/hasDateCreated> "1983-04-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.scm.com/LineItem0> <http://www.scm.com/hasActualDeliveryDate> "1983-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.scm.com/LineItem0> <http://www.scm.com/hasDateOfPromise> "2019-05-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://www.scm.com/LineItem1> <http://www.scm.com/hasCustomer> <http://www.scm.com/Customer0> .
 <http://www.scm.com/LineItem1> <http://www.scm.com/hasProduct> <http://www.scm.com/Product1> .
 <http://www.scm.com/LineItem1> <http://www.scm.com/hasUnitOfMeasure> "Feet" .
 <http://www.scm.com/LineItem1> <http://www.scm.com/hasQuantity> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <http://www.scm.com/LineItem1> <http://www.scm.com/hasPrice> "90.54"^^<http://www.w3.org/2001/XMLSchema#float> .
 <http://www.scm.com/LineItem1> <http://www.scm.com/hasInstructions> "blah blah" .
-<http://www.scm.com/LineItem1> <http://www.scm.com/hasDateCreated> "05-25-2019"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://www.scm.com/LineItem1> <http://www.scm.com/hasActualDeliveryDate> "05-25-2019"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://www.scm.com/LineItem1> <http://www.scm.com/hasDateOfPromise> "05-28-2019"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.scm.com/LineItem1> <http://www.scm.com/hasDateCreated> "2019-05-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.scm.com/LineItem1> <http://www.scm.com/hasActualDeliveryDate> "2019-05-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.scm.com/LineItem1> <http://www.scm.com/hasDateOfPromise> "2019-05-28"^^<http://www.w3.org/2001/XMLSchema#date> .

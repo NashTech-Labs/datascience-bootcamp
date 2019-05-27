@@ -8,16 +8,29 @@ scm:Customer0 a scm:Customer .
 scm:Customer0 scm:hasCustomerType scm:Strategic .
 scm:Customer0 scm:hasCustomerValidityStatus "true" .
 scm:Customer0 scm:hasBusinessUnit scm:BusinessUnit0 .
-scm:Customer0 scm:hasShipping scm:Address0 .
-scm:Customer0 scm:shippingValidityStatus "true" .
-scm:Customer0 scm:hasBilling scm:Address0 .
-scm:Customer0 scm:billingValidityStatus "true" .
+scm:BusinessUnit0 scm:hasLocation scm:Location0 .
+scm:Location0 scm:hasShipping scm:Address0 .
+scm:Address0 scm:hasShippingValidityStatus "true" .
+scm:Location0 scm:hasBilling scm:Address0 .
+scm:Location0 scm:hasLocationRep scm:LocationRep0 .
+
+scm:LocationRep0 a scm:LocationRep .
+
+scm:Employee0 a scm:Employee .
+scm:Employee0 scm:hasLocationRep scm:LocationRep0 .
 
 scm:Customer1 a scm:Customer .
-scm:Customer1 scm:hasCustomerType scm:OneTime .
+scm:Customer1 scm:hasCustomerType scm:Strategic .
 scm:Customer1 scm:hasCustomerValidityStatus "true" .
 scm:Customer1 scm:hasBusinessUnit scm:BusinessUnit1 .
-scm:Customer1 scm:hasShipping scm:Address1 .
-scm:Customer1 scm:shippingValidityStatus "false" .
-scm:Customer1 scm:hasBilling scm:Address1 .
-scm:Customer1 scm:billingValidityStatus "false" .
+scm:BusinessUnit1 scm:hasLocation scm:Location1 .
+scm:Location1 scm:hasShipping scm:Address1 .
+scm:Address1 scm:hasShippingValidityStatus "false" .
+scm:Location1 scm:hasBilling scm:Address1 .
+scm:Location1 scm:hasLocationRep scm:LocationRep1 .
+
+scm:LocationRep1 a scm:LocationRep .
+
+scm:Employee1 a scm:Employee .
+scm:Employee1 scm:hasLocationRep scm:LocationRep1 .
+

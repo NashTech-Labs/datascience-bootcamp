@@ -5,6 +5,17 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 scm:Document a owl:class .
+scm:Order a owl:class .
+scm:SalesOrder a owl:class .
+scm:LineItems a owl:class .
+scm:Product a owl:class .
+scm:UnitOfMeasure a owl:class .
+scm:Qunatity a owl:class .
+scm:Price a owl:class .
+scm:Instructions a owl:class .
+scm:DateCreated a owl:class .
+scm:ActualDeliveryDate a owl:class .
+scm:DateOfPromise a owl:class .
 
 scm:hasOrder a owl:ObjectTypeProperty ;
 	rdfs:range scm:Document ;
