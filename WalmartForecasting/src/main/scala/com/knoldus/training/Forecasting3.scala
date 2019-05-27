@@ -20,13 +20,16 @@ object Forecasting3 {
   def main(args: Array[String]): Unit = {
     val LOGGER: Logger = KLogger.getLogger(this.getClass)
 
+    val master="mesos://192.168.1.5:5050"
+
+    val sparkUri="http://localhost/spark-2.4.0-bin-hadoop2.7.tgz"
 
     // Spark Demo
     val spark = SparkSession
       .builder()
       .appName("Forecasting")
-      .config("spark.some.config.option", "some-value")
-      .master("local[*]")
+      .config("spark.executor.uri", sparkUri)
+      .master(master)
       .getOrCreate()
 
     AppConfig.setSparkSession(spark)
@@ -67,7 +70,7 @@ object Forecasting3 {
     val test = readTestFile(testFile)
 
     val files = spark.sparkContext.textFile(featureFiles)
-    val features = files.map( file => readFeaturesFile(file))
+    val features = files.map( file => readFeaturesFile(file) )
     features.persist
     val paths = spark.sparkContext.textFile(trainingFile)
     val data = paths.map( x => Forecasting.readTrainingFile(x) )
@@ -287,7 +290,12 @@ object Forecasting3 {
       .setWithStd(true)
       .setWithMean(true)
 
-    val lr = new LinearRegression().setElasticNetParam(params.elasticNetParam).setRegParam(params.regParam)
+    val lr = if (params.elasticNetParam==1.0) {
+      new LinearRegression().setElasticNetParam(params.elasticNetParam).setRegParam(params.regParam)
+    }
+    else {
+      new LinearRegression().setRegParam(params.regParam)
+    }
 
     val pipeline = new Pipeline().setStages(Array(scaler, lr))
     usePipeline(pipeline, df, dfAll, aveSale, info, modelDir)

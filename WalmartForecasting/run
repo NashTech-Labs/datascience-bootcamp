@@ -31,16 +31,16 @@ test_file=$dir/data/test_NoHeader.csv
 #done
 
 model_type=LinearRegression
-elastic_net_param=2.0
-model_output_dir=$dir/data/LinearRegression
+elastic_net_param=0.0
 
-for reg_param in 0.01 0.05 0.1 0.2 0.5
+for reg_param in 0.2 0.3 0.4 0.5
 do
 
 rm -r $model_output_dir
 
 out_file=$dir/data/predictions_AveWeek_$reg_param.csv
+model_output_dir=$dir/data/LinearRegression_$reg_param
 
-$spark_submit --class com.knoldus.training.Forecasting3 --packages $typesafe --master spark://$ip:7077 --deploy-mode=$mode --driver-memory 5G --executor-memory 5G --jars $sparkts $jar $feature_file $train_file $test_file $model_type $elastic_net_param $reg_param $model_output_dir $out_file
+$spark_submit --class com.knoldus.training.Forecasting3 --packages $typesafe --master spark://$ip:7077 --deploy-mode=$mode --driver-memory 8G --executor-memory 2G --jars $sparkts $jar $feature_file $train_file $test_file $model_type $elastic_net_param $reg_param $model_output_dir $out_file
 
 done

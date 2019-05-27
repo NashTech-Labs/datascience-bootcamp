@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.Pipeline","timestamp":1558942400059,"sparkVersion":"2.4.0","uid":"pipeline_14932809934d","paramMap":{"stageUids":["stdScal_86aecf066974","linReg_3b0bd3f7c4a2"]},"defaultParamMap":{}}

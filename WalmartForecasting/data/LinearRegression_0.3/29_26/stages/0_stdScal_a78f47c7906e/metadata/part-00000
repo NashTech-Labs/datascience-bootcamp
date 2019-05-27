@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StandardScaler","timestamp":1558930708274,"sparkVersion":"2.4.0","uid":"stdScal_a78f47c7906e","paramMap":{"outputCol":"features","inputCol":"unscaledFeatures","withMean":true,"withStd":true},"defaultParamMap":{"outputCol":"stdScal_a78f47c7906e__output","withMean":false,"withStd":true}}

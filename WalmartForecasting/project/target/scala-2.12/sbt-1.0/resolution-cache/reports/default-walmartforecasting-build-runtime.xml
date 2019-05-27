@@ -9,7 +9,7 @@
 		extra-sbtVersion="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190520101933"/>
+		date="20190526212827"/>
 	<dependencies>
 		<module organisation="org.scalastyle" name="scalastyle-sbt-plugin">
 			<revision name="1.0.0" status="release" pubdate="20170820152757" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalastyle.org" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
