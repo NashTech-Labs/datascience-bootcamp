@@ -1,6 +1,12 @@
 bin=$HOME/dev/software/sbt/bin/sbt
 
-$bin "runMain LoadDataServletRun univ-bench.ntrips N-triples"
+$bin "runMain LoadDataServletRun scm_documents.ntrips N-triples"
+$bin "runMain LoadDataServletRun scm_instances.ntrips N-triples"
+$bin "runMain LoadDataServletRun scm_po_instances.ntrips N-triples"
+$bin "runMain LoadDataServletRun scm.ntrips N-triples"
+
+
+#$bin "runMain LoadDataServletRun univ-bench.ntrips N-triples"
 #$bin "runMain LoadDataServletRun univ-bench.ntrips N-triples"
 #$bin "runMain LoadDataServletRun University0_0_mod.nt N-triples"
 #$bin "runMain LoadDataServletRun test_manual_mod_2.ntrips N-triples"

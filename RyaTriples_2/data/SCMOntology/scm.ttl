@@ -5,21 +5,21 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 scm:Person a owl:class .
-scm:Employee rdfs:subClassOf Person .
-scm:Employee scm:hasProperty LocationRep .
+scm:Employee rdfs:subClassOf scm:Person .
+scm:Employee scm:hasProperty scm:LocationRep .
 
 scm:Customer a owl:class .
 scm:hasCustomerType a owl:ObjectTypeProperty ;
 	rdfs:domain scm:Customer ;
 	rdfs:range xsd:string ;
-	owl:oneOf ( scm:OneTime scm:Strategic )
+	owl:oneOf ( scm:OneTime scm:Strategic ) .
 
 scm:hasCustomerValidityStatus a owl:DataTypeProperty ;
 	rdfs:domain scm:Customer ;
 	rdfs:range xsd:string .
 
 scm:BusinessUnit a owl:ObjectTypeProperty ;
-	rdfs:domain scm:Customer
+	rdfs:domain scm:Customer .
 
 scm:hasBusinessUnit a owl:ObjectTypeProperty ;
 	rdfs:domain scm:Customer ;
@@ -35,8 +35,8 @@ scm:shippingValidityStatus a owl:DataTypeProperty ;
 
 scm:hasBilling a owl:ObjectTypeProperty ;
 	rdfs:domain scm:Location ;
-	rdfs:range scm:Billing;
+	rdfs:range scm:Billing .
 
 scm:billingValidityStatus a owl:DataTypeProperty ;
 	rdfs:domain scm:Billing ;
-	rdfs:range xsd:string
+	rdfs:range xsd:string .

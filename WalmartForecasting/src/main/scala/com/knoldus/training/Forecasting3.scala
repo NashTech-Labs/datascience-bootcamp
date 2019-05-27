@@ -12,7 +12,8 @@ import org.apache.spark.ml.Pipeline
 import org.apache.spark.ml.feature.StandardScaler
 import org.apache.spark.ml.linalg.Vector
 import org.apache.spark.ml.linalg.Vectors
-import org.apache.spark.ml.regression.LinearRegression
+import org.apache.spark.ml.regression.{DecisionTreeRegressor, LinearRegression}
+import org.apache.spark.mllib.regression.LassoWithSGD
 import org.apache.spark.sql.{DataFrame, SQLContext, SparkSession}
 
 object Forecasting3 {
@@ -32,18 +33,37 @@ object Forecasting3 {
     import spark.implicits._
     import com.knoldus.spark.UDFs.containsTulipsUDF
 
+    if (args.length!=8) {
+      val errorMessage = "USAGE: featureFiles trainingFile testFile modelType elasticNetParam regParam modelOutputDir" +
+      " outputPath"
+      LOGGER.error(errorMessage)
+    }
+
     val featureFiles = args(0)
     val trainingFile = args(1)
     val testFile = args(2)
-    val regParam = args(3).toDouble
-    val outputPath = args(4)
+    val modelType = args(3)
+    val elasticNetParam = args(4).toDouble
+    val regParam = args(5).toDouble
+    val modelOutputDir = args(6)
+    val outputPath = args(7)
 
-    makeForecast(featureFiles, trainingFile, testFile, regParam, outputPath, spark)
+    val params = new Params(modelType, elasticNetParam, regParam)
+
+    val startTime = System.currentTimeMillis()
+
+    makeForecast(featureFiles, trainingFile, testFile, params, modelOutputDir, outputPath, spark)
+
+    val endTime = System.currentTimeMillis()
+
+    LOGGER.info("Total run time: " + (endTime-startTime)/1000.0)
 
     spark.stop()
   }
 
-  def makeForecast(featureFiles: String, trainingFile: String, testFile: String, regParam: Double, outputPath: String, spark: SparkSession): Unit = {
+  def makeForecast(featureFiles: String, trainingFile: String, testFile: String, params: Params,
+                   modelOutputDir: String, outputPath: String, spark: SparkSession): Unit = {
+
     val test = readTestFile(testFile)
 
     val files = spark.sparkContext.textFile(featureFiles)
@@ -60,7 +80,12 @@ object Forecasting3 {
 
     val sqlContext = new org.apache.spark.sql.SQLContext(spark.sparkContext)
 
-    val modeled = collected.map( x => doLinearRegression(x, regParam, sqlContext) )
+    val modeled = if (params.modelType=="LinearRegression") {
+      collected.map( x => doLinearRegression(x, params, modelOutputDir, sqlContext) )
+    }
+    else {
+      collected.map(x => doDecisionTree(x, params, modelOutputDir, sqlContext))
+    }
 
     val reasonable = makeReasonable(modeled)
 
@@ -94,8 +119,6 @@ object Forecasting3 {
   }
 
   def fillMissingMarkDowns(info: Array[Info]): Array[Info] = {
-    //val zero: Array[Double] = Array(0, 0, 0, 0, 0)
-    //info.map(x => if (x.markDowns(0)==UNKNOWN_DOUBLE) { x.copy(markDowns = zero) } else x)
     val ave = for { i <- 0 until 5 } yield {
       val notNull = info.map( x => x.markDowns(i) ).filter( x => x!=UNKNOWN_DOUBLE )
       notNull.sum/notNull.length.toDouble
@@ -132,16 +155,17 @@ object Forecasting3 {
     ((date.month-1)*31 + date.day)/7
   }
 
-  def infoToDataPoint(info: Array[Info], weeklyAve: Array[Double], weeklyAveTemp: Array[Double], n: Int):
-  (Double, Vector) = {
+  def infoToDataPoint(info: Array[Info], aveSale: Double, weeklyAve: Array[Double],
+                      weeklyAveTemp: Array[Double], n: Int): (Double, Vector) = {
     val week = getWeekOfYear(info(n).date)
     val ave = if (week<weeklyAve.length) { weeklyAve(week) } else 0
     val aveTemp = if (week<weeklyAveTemp.length) { weeklyAveTemp(week)-info(n).temperature } else 0
-    (info(n).sales, Vectors.dense(info(n).temperature, info(n).isHoliday, getWeek(info(n).date), info(n).fuelPrice,
+    (info(n).sales/aveSale,
+      Vectors.dense(info(n).temperature, info(n).isHoliday, getWeek(info(n).date), info(n).fuelPrice,
       ave,
-      aveTemp
-      //info(n).markDowns(0), info(n).markDowns(1), info(n).markDowns(2), info(n).markDowns(3), info(n).markDowns(4),
-      //info(n).cpi, info(n).unemployment
+      aveTemp,
+      info(n).markDowns(0), info(n).markDowns(1), info(n).markDowns(2), info(n).markDowns(3), info(n).markDowns(4),
+      info(n).cpi, info(n).unemployment
     ) )
   }
 
@@ -153,15 +177,20 @@ object Forecasting3 {
     (info(n).sales/aveSale, Vectors.dense(weekVector))
   }
 
+  def infoToDataPointDecisionTree(info: Array[Info], n: Int): (Double, Vector) = {
+    val week = getWeekOfYear(info(n).date)
+    val features = Array(week, info(n).temperature, info(n).isHoliday, info(n).fuelPrice, info(n).cpi) ++
+    Array(info(n).unemployment) ++ info(n).markDowns
+    (info(n).sales, Vectors.dense(features) )
+  }
+
   def getWeeklyAverage(info: Array[Info]): Array[Double] = {
     val filtered = info.filter( x => x.sales>0 )
     val indexed = filtered.map( x => ( getWeekOfYear(x.date), x.sales ) )
     val grouped = indexed.groupBy( x => x._1 )
     val averaged = grouped.map( x => (x._1, x._2.map( y => y._2 ).sum/x._2.length ) )
     val result = averaged.toArray.sortBy( x => x._1 ).map( x => x._2 )
-    //for { i <- result.indices } {
-    //  println("store= " + info(0).store + " dept= " + info(0).dept + " i= " + i + " " + result(i) )
-    //}
+
     result
   }
 
@@ -171,14 +200,13 @@ object Forecasting3 {
     val grouped = indexed.groupBy( x => x._1 )
     val averaged = grouped.map( x => (x._1, x._2.map( y => y._2 ).sum/x._2.length ) )
     val result = averaged.toArray.sortBy( x => x._1 ).map( x => x._2 )
-    //for { i <- result.indices } {
-    //  println("store= " + info(0).store + " dept= " + info(0).dept + " i= " + i + " " + result(i) )
-    //}
+
     result
   }
 
   def writeComparison(info: Array[Info], newInfo: Array[Info]): Unit = {
-    val outDirectory = "data/comparison/"
+    val projectDir = "/home/jouko/dev/projects/TrainingSprints/datascience-bootcamp/WalmartForecasting"
+    val outDirectory = projectDir + "/data/comparison/"
     val outFile = outDirectory + info(0).store + "_" + info(0).dept + ".csv"
     val pw = new PrintWriter(new File(outFile))
     for { i <- info.indices } {
@@ -196,7 +224,48 @@ object Forecasting3 {
     predicted.toArray
   }
 
-  def doLinearRegression(info: Array[Info], regParam: Double, sqlContext: SQLContext): Array[Info] = {
+  def saveModel(pipeline: Pipeline, modelDir: String, store: Int, dept: Int): Unit = {
+    val modelFile = modelDir + "/" + store + "_" + dept
+    pipeline.write.overwrite().save(modelFile)
+  }
+
+  def usePipeline(pipeline: Pipeline, df: DataFrame, dfAll: DataFrame, aveSale: Double, info: Array[Info],
+                  modelDir: String): Array[Info] = {
+    if (df.count>10) {
+      val model = pipeline.fit(df)
+      val prediction = model.transform(dfAll)
+      val newInfo = copyPredictionToInfo(prediction, aveSale, info)
+
+      saveModel(pipeline, modelDir, info(0).store, info(0).dept)
+
+      //writeComparison(info, newInfo)
+
+      newInfo
+    }
+    else { info }
+  }
+
+  def doDecisionTree(info: Array[Info], params: Params, modelDir: String, sqlContext: SQLContext): Array[Info] = {
+    val xy = for { i <- info.indices } yield {
+      infoToDataPointDecisionTree(info, i)
+    }
+
+    import sqlContext.implicits._
+
+    val df=xy.filter( x => x._1>0 && !x._1.isNaN && !containsNan(x._2) ).toDF("label", "features")
+    val dfAll=xy.toDF("label", "features")
+
+    df.persist
+    dfAll.persist
+
+    val dt = new DecisionTreeRegressor()
+
+    val pipeline = new Pipeline().setStages(Array(dt))
+
+    usePipeline(pipeline, df, dfAll, 1.0, info, modelDir)
+  }
+
+  def doLinearRegression(info: Array[Info], params: Params, modelDir: String, sqlContext: SQLContext): Array[Info] = {
 
     val weeklyAve = getWeeklyAverage(info)
     val weeklyAveTemp = getWeeklyAverageTemperature(info)
@@ -204,18 +273,11 @@ object Forecasting3 {
     val filteredSales = info.map( x => x.sales ).filter( x => x>UNKNOWN_DOUBLE )
     val aveSale = filteredSales.sum/filteredSales.length.toDouble
     val xy = for { i <- info.indices } yield {
-      //infoToDataPoint(info, weeklyAve, weeklyAveTemp, i)
-      //println("store= " + info(i).store + " dept= " + info(i).dept + " cpi " + info(i).cpi + " " + info(i).unemployment)
-      infoToDataPoint(info, aveSale, i)
+      infoToDataPoint(info, aveSale, weeklyAve, weeklyAveTemp, i)
     }
-
-    //for { i <- xy.indices } {
-    //  println("store= " + info(i).store + " dept= " + info(i).dept + " " + xy(i)._1 + " " + xy(i)._2.toArray.mkString(" "))
-    //}
 
     import sqlContext.implicits._
 
-    //val df=xy.filter( x => x._1>UNKNOWN_DOUBLE && !x._1.isNaN && !containsNan(x._2) ).toDF("label", "unscaledFeatures")
     val df=xy.filter( x => x._1>0 && !x._1.isNaN && !containsNan(x._2) ).toDF("label", "unscaledFeatures")
     val dfAll=xy.toDF("label", "unscaledFeatures")
 
@@ -225,17 +287,12 @@ object Forecasting3 {
       .setWithStd(true)
       .setWithMean(true)
 
-    val lr = new LinearRegression().setRegParam(regParam)
+    val lr = new LinearRegression().setElasticNetParam(params.elasticNetParam).setRegParam(params.regParam)
 
     val pipeline = new Pipeline().setStages(Array(scaler, lr))
-    val model = pipeline.fit(df)
-    val prediction = model.transform(dfAll)
-    val newInfo = copyPredictionToInfo(prediction, aveSale, info)
-
-
-    writeComparison(info, newInfo)
-
-    newInfo
+    usePipeline(pipeline, df, dfAll, aveSale, info, modelDir)
   }
+
+  case class Params(modelType: String, elasticNetParam: Double, regParam: Double)
 
 }

@@ -11,7 +11,7 @@ scm:Customer0 scm:hasBusinessUnit scm:BusinessUnit0 .
 scm:Customer0 scm:hasShipping scm:Address0 .
 scm:Customer0 scm:shippingValidityStatus "true" .
 scm:Customer0 scm:hasBilling scm:Address0 .
-scm:Customer0 scm:billingValidityStatus "true"
+scm:Customer0 scm:billingValidityStatus "true" .
 
 scm:Customer1 a scm:Customer .
 scm:Customer1 scm:hasCustomerType scm:OneTime .
@@ -20,4 +20,4 @@ scm:Customer1 scm:hasBusinessUnit scm:BusinessUnit1 .
 scm:Customer1 scm:hasShipping scm:Address1 .
 scm:Customer1 scm:shippingValidityStatus "false" .
 scm:Customer1 scm:hasBilling scm:Address1 .
-scm:Customer1 scm:billingValidityStatus "false"
+scm:Customer1 scm:billingValidityStatus "false" .

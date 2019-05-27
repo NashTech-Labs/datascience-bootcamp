@@ -45,8 +45,7 @@ object Forecasting {
 
     val data=paths.map( x => readTrainingAndTestFiles(x) )
     val rawPredictions=data.map( x => doArima(x) )
-    //val models=calcLinearRegressionModel(rawPredictions)
-    //val predictions=applyLinearRegression(rawPredictions, models)
+
     writeOutputCsv(rawPredictions, outputPath)
 
     spark.stop()
@@ -107,13 +106,10 @@ object Forecasting {
 
   def doArima(data: (Array[Sales], Array[Forecast])): Array[Sales] = {
     val values=data._1.map( x => x.sales )
-    println("nvalue= " + values.length)
     if (values.length>10) {
       val ts = Vectors.dense(values)
       val model = ARIMA.autoFit(ts)
       val forecast = model.forecast(ts, data._2.length).toArray
-      println(forecast)
-      //forecast.map( x => (data(0)._1, data(0)._2, x) )
       val result = for {i <- 0 until data._2.length} yield {
         new Sales(data._2(i).store, data._2(i).dept, data._2(i).date, forecast(i), data._2(i).isHoliday)
       }
@@ -146,7 +142,6 @@ object Forecasting {
     pw.write("Id,Weekly_Sales\n")
     val results=prediction.collect.flatten
     results.foreach( x => writeLine(x, pw) )
-    //println(results)
     pw.close()
   }
 

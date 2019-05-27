@@ -16,7 +16,7 @@ scm:hasStatus a owl:DataTypeProperty ;
 
 scm:hasSalesOrder a owl:ObjectTypeProperty ;
 	rdfs:range scm:Order ;
-	rdfs:domain scm:SalesOrder
+	rdfs:domain scm:SalesOrder .
 
 scm:hasPurchaseOrder a owl:DataTypeProperty ;
 	rdfs:range scm:Order ;

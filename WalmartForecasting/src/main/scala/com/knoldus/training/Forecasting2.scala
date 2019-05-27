@@ -3,20 +3,14 @@ package com.knoldus.training
 import java.io.{File, PrintWriter}
 
 import breeze.linalg.{max, min}
-import breeze.numerics.{abs, exp, log, pow}
 import com.knoldus.common.{AppConfig, KLogger}
 import com.knoldus.common.Constants._
 import com.knoldus.spark.Transformers
 import org.apache.log4j.Logger
 import org.apache.spark.sql.{DataFrame, SparkSession}
-import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.ml.Model
 import org.apache.spark.ml.linalg.{Vector, Vectors}
-import org.apache.spark.ml.stat.ChiSquareTest
 import org.apache.spark.ml.regression.{LinearRegression, LinearRegressionModel}
 import org.apache.spark.rdd.RDD
-import com.cloudera.sparkts._
-import com.cloudera.sparkts.models.{ARIMA, ARIMAModel}
 import com.knoldus.training.Forecasting._
 import com.knoldus.training.Difference._
 
